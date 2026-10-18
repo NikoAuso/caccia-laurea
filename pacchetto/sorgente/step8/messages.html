@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Commissione da remoto — GR-2026</title>
+<style>
+  :root{
+    --paper:#DDE3E6;
+    --ink:#10222B;
+    --muted:#5E727C;
+    --uv:#5B3FD1;
+    --card:#F6F8F9;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; background:var(--ink); color:#fff;
+    font-family:var(--sans); line-height:1.5;
+    height:100vh; overflow:hidden;
+  }
+  .wrap{display:flex; flex-direction:column; height:100vh}
+
+  header{padding:10px 20px 8px; flex:none; text-align:center}
+  .facility{font-size:11px; color:#8FA3AC; margin:0 0 2px; letter-spacing:.05em}
+  h1{font-family:var(--serif); font-weight:400; font-size:clamp(15px,2.2vw,22px); line-height:1.1; margin:0; color:#fff}
+
+  .stage{
+    position:relative; background:#0C1A21; flex:1; min-height:0; overflow:hidden;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .slide{position:absolute; inset:0; display:none; align-items:center; justify-content:center}
+  .slide.on{display:flex}
+
+  /* barra di progresso in cima: quanto manca al passaggio automatico */
+  .progress{position:absolute; top:0; left:0; right:0; height:4px; z-index:15; background:rgba(255,255,255,.16)}
+  .progress .fill{height:100%; width:0; background:var(--uv)}
+
+  /* overlay iniziale: un click sblocca l'audio (i browser non lasciano partire
+     da soli i video con sonoro) e avvia il montaggio */
+  .startover{
+    position:absolute; inset:0; z-index:20; cursor:pointer;
+    background:rgba(12,26,33,.66);
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px;
+    color:#fff;
+  }
+  .startover .play{
+    width:78px; height:78px; border-radius:50%; background:var(--uv);
+    display:flex; align-items:center; justify-content:center; font-size:30px; padding-left:6px;
+  }
+  .startover .lbl{font-family:var(--serif); font-size:18px; letter-spacing:.02em}
+
+  .slide video, .slide img{width:100%; height:100%; object-fit:contain; display:block; background:#0C1A21}
+
+  .broken{
+    color:#8FA3AC; font-size:13px; text-align:center; padding:20px;
+    border:2px dashed #3A5461; margin:24px;
+  }
+
+  .wordslide{background:var(--ink); flex-direction:column; text-align:center; padding:24px}
+  .wordslide .w{
+    font-family:var(--serif); color:#fff; letter-spacing:.1em;
+    font-size:clamp(38px,9vw,86px); line-height:1; margin:0;
+  }
+  .wordslide .sub{color:#7E939D; font-size:12px; letter-spacing:.12em; margin:16px 0 0}
+
+  .caption{
+    position:absolute; left:0; right:0; bottom:0; padding:14px 18px;
+    background:linear-gradient(transparent, rgba(8,18,23,.92));
+    color:#fff; font-family:var(--serif); font-size:clamp(15px,2vw,19px);
+    pointer-events:none;
+  }
+  .caption small{display:block; font-family:var(--sans); font-size:12px; color:#A9BDC6; margin-top:3px}
+
+  .bar{
+    flex:none; display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+    padding:12px 20px; background:var(--ink);
+  }
+  button{
+    font-family:var(--sans); font-size:15px; font-weight:500;
+    padding:11px 24px; border:0; border-radius:999px; cursor:pointer;
+    transition:background .15s, color .15s, border-color .15s, transform .06s, opacity .15s;
+  }
+  button:active{transform:translateY(1px)}
+  button[disabled]{opacity:.4; cursor:default}
+  /* Avanti / Fine: azione principale */
+  #next{background:var(--uv); color:#fff}
+  #next:hover{background:#6f54e0}
+  #next::after{content:'\00a0\203a'; font-weight:700}
+  /* Indietro: secondaria, discreta */
+  .ghost{background:transparent; color:#9fb2ba; border:1px solid #35505b; padding:10px 20px}
+  .ghost:hover{color:#fff; border-color:var(--uv); background:rgba(91,63,209,.14)}
+  .ghost::before{content:'\2039\00a0'; font-weight:700}
+  .ghost[disabled]:hover{color:#9fb2ba; border-color:#35505b; background:transparent}
+  .dots{display:flex; gap:6px; margin-left:auto; flex-wrap:wrap}
+  .dot{width:9px; height:9px; border-radius:50%; background:#47606C}
+  .dot.seen{background:var(--uv)}
+  .dot.now{background:#fff; transform:scale(1.35)}
+
+  .final{position:fixed; inset:0; z-index:30; display:none; flex-direction:column;
+         align-items:center; justify-content:center; text-align:center;
+         padding:26px; background:#0C1A21; color:#fff}
+  .final.show{display:flex}
+  .final .close{
+    position:absolute; top:16px; right:20px; width:42px; height:42px; padding:0;
+    border:1px solid #35505b; border-radius:50%; background:transparent;
+    color:#9fb2ba; font-size:20px; line-height:1;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .final .close:hover{color:#fff; border-color:var(--uv); background:rgba(91,63,209,.14)}
+  .final p{margin:0 0 12px; font-size:14px; color:#B6C6CE}
+  .final .line{font-family:var(--serif); font-size:clamp(24px,4.6vw,40px); letter-spacing:.06em; margin:0; color:#fff}
+  .final .after{margin:18px 0 0; font-size:14px; color:#B6C6CE}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="facility">Università degli Studi · Laurea magistrale in Bioinformatica · Pratica GR-2026 · partecipazione da remoto</p>
+  <h1 id="title">Non potevano essere qui</h1>
+</header>
+
+<div class="stage" id="stage"></div>
+
+<div class="bar">
+  <button class="ghost" id="prev">Indietro</button>
+  <button id="next">Avanti</button>
+  <div class="dots" id="dots"></div>
+</div>
+
+<div class="final" id="final">
+  <button class="close" id="final-close" aria-label="chiudi">✕</button>
+  <p class="line" id="line"></p>
+  <p class="after">Torna al terminale: unzip step9.zip</p>
+</div>
+
+</div>
+
+<script>
+/* ===========================================================
+   IL MONTAGGIO
+
+   Una riga per ogni cosa che chi gioca deve vedere, nell'ordine.
+   Tre tipi di riga:
+
+     { type:"video", src:"media/nome.mp4",
+       who:"Nome", note:"da dove parla" }
+
+     { type:"image", src:"media/foto.jpg",
+       caption:"didascalia", note:"riga piccola sotto" }
+
+     { type:"word", text:"PASS" }
+
+   NESSUNO deve pronunciare parole nei video: registrano quello
+   che vogliono e basta. Le parole le mettiamo noi qui, e
+   compaiono a schermo pieno fra un video e l'altro.
+
+   Le righe "word", nell'ordine in cui stanno qui sotto e
+   attaccate senza spazi, formano la password dell'ultimo
+   archivio. Deve essere identica alla riga KEY9 in cima a
+   build.sh, MAIUSCOLA.
+
+   Aggiungi, togli e rimescola liberamente: la pagina si
+   adatta da sola.
+   =========================================================== */
+
+var SEQUENCE = [
+  { type:"video", src:"media/msg1.mp4", who:"La nonna" },
+  { type:"word",  text:"PASS" },
+
+  { type:"video", src:"media/msg2.mp4", who:"Gli zii" },
+  { type:"word",  text:"WORD" },
+
+  { type:"video", src:"media/msg3.mp4", who:"I compagni di corso" },
+  { type:"word",  text:"-" },
+
+  { type:"video", src:"media/msg4.mp4", who:"Gli amici di sempre" },
+  { type:"word",  text:"8" }
+];
+
+/* =========================================================== */
+
+/* quanto resta a schermo ogni cosa che NON e' un video, prima di passare da sola
+   alla successiva. I video invece durano quanto durano. In millisecondi. */
+var WORD_MS = 4200;
+var IMAGE_MS = 7000;
+
+var stage = document.getElementById('stage');
+var dotsBox = document.getElementById('dots');
+var nextBtn = document.getElementById('next');
+var prevBtn = document.getElementById('prev');
+var slides = [];
+var dots = [];
+var i = 0;
+var timer = null;
+
+var progress = document.createElement('div');
+progress.className = 'progress';
+var fill = document.createElement('div');
+fill.className = 'fill';
+progress.appendChild(fill);
+stage.appendChild(progress);
+
+SEQUENCE.forEach(function(item, idx){
+  var el = document.createElement('div');
+  el.className = 'slide';
+
+  if (item.type === 'word') {
+    el.classList.add('wordslide');
+    var w = document.createElement('p');
+    w.className = 'w';
+    w.textContent = item.text;
+    var sub = document.createElement('p');
+    sub.className = 'sub';
+    sub.textContent = 'TIENI A MENTE QUESTA PAROLA';
+    el.appendChild(w);
+    el.appendChild(sub);
+
+  } else if (item.type === 'image') {
+    var img = document.createElement('img');
+    img.src = item.src;
+    img.alt = '';
+    img.addEventListener('error', function(){ broken(el, item.src); });
+    el.appendChild(img);
+    if (item.caption) el.appendChild(caption(item.caption, item.note));
+
+  } else {
+    var v = document.createElement('video');
+    v.src = item.src;
+    v.controls = false;
+    v.preload = 'metadata';
+    v.playsInline = true;
+    v.addEventListener('ended', function(){ go(idx + 1); });
+    v.addEventListener('timeupdate', function(){
+      if (i === idx && v.duration) fill.style.width = (v.currentTime / v.duration * 100) + '%';
+    });
+    v.addEventListener('error', function(){ broken(el, item.src); }, true);
+    el.appendChild(v);
+    if (item.who) el.appendChild(caption(item.who, item.note));
+  }
+
+  stage.appendChild(el);
+  slides.push(el);
+
+  var d = document.createElement('span');
+  d.className = 'dot';
+  dotsBox.appendChild(d);
+  dots.push(d);
+});
+
+function caption(main, small){
+  var c = document.createElement('div');
+  c.className = 'caption';
+  c.textContent = main;
+  if (small) {
+    var s = document.createElement('small');
+    s.textContent = small;
+    c.appendChild(s);
+  }
+  return c;
+}
+
+function broken(el, src){
+  var v = el.querySelector('video, img');
+  if (v) v.style.display = 'none';
+  if (el.querySelector('.broken')) return;
+  var b = document.createElement('div');
+  b.className = 'broken';
+  b.innerHTML = 'manca<br>' + src + '<br><br>premi Avanti';
+  el.appendChild(b);
+}
+
+function go(n){
+  clearTimeout(timer); timer = null;
+  if (n >= SEQUENCE.length) { finish(); return; }
+  if (n < 0) n = 0;
+
+  var old = slides[i].querySelector('video');
+  if (old) old.pause();
+
+  i = n;
+  slides.forEach(function(s, k){ s.classList.toggle('on', k === i); });
+  dots.forEach(function(d, k){
+    d.classList.toggle('now', k === i);
+    d.classList.toggle('seen', k < i);
+  });
+  prevBtn.disabled = (i === 0);
+  nextBtn.textContent = (i === SEQUENCE.length - 1) ? 'Fine' : 'Avanti';
+
+  // barra di progresso: riparte da zero
+  fill.style.transition = 'none';
+  fill.style.width = '0';
+
+  var v = slides[i].querySelector('video');
+  if (v) {
+    // video: la barra segue il video, a fine video si passa da soli
+    var p = v.play(); if (p && p.catch) p.catch(function(){});
+  } else {
+    // parola o foto: resta un tempo fisso, poi avanza da sola
+    var dur = (SEQUENCE[i].type === 'image') ? IMAGE_MS : WORD_MS;
+    void fill.offsetWidth;
+    fill.style.transition = 'width ' + dur + 'ms linear';
+    fill.style.width = '100%';
+    timer = setTimeout(function(){ go(i + 1); }, dur);
+  }
+}
+
+function finish(){
+  var words = SEQUENCE.filter(function(x){ return x.type === 'word' && x.text; })
+                      .map(function(x){ return x.text.trim(); });
+  document.getElementById('line').textContent = words.join(' ');
+  var box = document.getElementById('final');
+  box.classList.add('show');
+  nextBtn.disabled = true;
+  box.scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+nextBtn.addEventListener('click', function(){ go(i + 1); });
+prevBtn.addEventListener('click', function(){ go(i - 1); });
+
+function closeFinal(){
+  var fb = document.getElementById('final');
+  if (!fb.classList.contains('show')) return;
+  fb.classList.remove('show');
+  nextBtn.disabled = false;
+}
+document.getElementById('final-close').addEventListener('click', closeFinal);
+
+document.addEventListener('keydown', function(e){
+  if (e.key === 'Escape') { closeFinal(); return; }
+  if (e.key === 'ArrowRight') go(i + 1);
+  if (e.key === 'ArrowLeft') go(i - 1);
+});
+
+go(0);
+
+// i video con audio non partono da soli solo quando il browser BLOCCA l'autoplay.
+// provo a far partire il primo: se ci riesce niente overlay (altrimenti coprirebbe
+// il video); se e' bloccato mostro un Play che cattura il primo click.
+if (SEQUENCE[0] && SEQUENCE[0].type === 'video') {
+  var v0 = slides[0].querySelector('video');
+  var pr = v0 ? v0.play() : null;
+  if (pr && pr.catch) { pr.catch(showStart); }
+  else if (!v0) { /* niente da fare */ }
+  else { showStart(); }
+}
+
+function showStart(){
+  if (document.querySelector('.startover')) return;
+  var startover = document.createElement('div');
+  startover.className = 'startover';
+  startover.innerHTML = '<div class="play">▶</div><div class="lbl">Play</div>';
+  stage.appendChild(startover);
+  var drop = function(){ if (startover) { startover.remove(); startover = null; } };
+  startover.addEventListener('click', function(){
+    drop();
+    var v = slides[i].querySelector('video');
+    if (v) { var p = v.play(); if (p && p.catch) p.catch(function(){}); }
+  });
+  nextBtn.addEventListener('click', drop, true);
+  prevBtn.addEventListener('click', drop, true);
+  document.addEventListener('keydown', drop, true);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+========================================================================
+               PROTOCOLLO 001 - RECUPERO CHIAVE D'ACCESSO
+========================================================================
+
+Bene. L'hai trovato.
+
+In un laboratorio niente di importante è mai in bella vista.
+
+La chiave della prima sezione sigillata è:
+
+                            +--------------+
+                            |  PASSWORD-1  |
+                            +--------------+
+
+Ora aprila:
+
+    unzip step2.zip
+
+Ti chiederà una password. Scrivi PASSWORD-1 e premi Invio. Le lettere
+non compaiono mentre digiti. Scrivile lo stesso.
+
+Poi:
+
+    cd step2
+    ls

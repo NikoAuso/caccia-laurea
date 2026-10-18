@@ -1,0 +1,15 @@
+CAMPIONE E
+----------
+Raccolto:  oggi
+Operatore: tu
+Esito:     VALIDO
+
+Serve un reagente, e non è in laboratorio: è al bancone. Vai al bar e
+chiedi:
+
+    "UN REAGENTE BIANCO"
+
+Il barista dietro al bancone ti aspetta.
+
+Non sprecare neanche una goccia.
+Il barista se ne accorge.

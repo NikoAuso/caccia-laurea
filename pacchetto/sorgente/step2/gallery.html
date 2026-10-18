@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Referto fotografico — GR-2026</title>
+<style>
+  :root{
+    --paper:#DDE3E6;
+    --ink:#10222B;
+    --muted:#5E727C;
+    --uv:#5B3FD1;
+    --ok:#0E7A5F;
+    --bad:#A8402F;
+    --mount:#F6F8F9;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0 20px 80px;
+    background:var(--paper);
+    background-image:
+      linear-gradient(rgba(16,34,43,.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(16,34,43,.035) 1px, transparent 1px);
+    background-size:26px 26px;
+    color:var(--ink); font-family:var(--sans); line-height:1.5;
+  }
+  header{max-width:1000px; margin:0 auto; padding:40px 0 22px; border-bottom:2px solid var(--ink)}
+  .facility{font-size:13px; letter-spacing:.06em; color:var(--muted); margin:0 0 10px}
+  h1{font-family:var(--serif); font-weight:400; font-size:clamp(26px,4.6vw,42px); line-height:1.1; margin:0 0 14px}
+  .lede{font-family:var(--serif); font-size:17px; max-width:64ch; margin:0}
+
+  /* striscia della chiave */
+  .keybar{
+    position:sticky; top:0; z-index:30; max-width:1000px; margin:0 auto;
+    background:var(--ink); color:#fff; padding:16px 20px;
+    display:flex; align-items:center; gap:18px; flex-wrap:wrap;
+  }
+  .keybar .lbl{font-size:12px; letter-spacing:.1em; color:#8FA3AC}
+  .slots{display:flex; gap:8px; flex-wrap:wrap}
+  .slot{
+    width:44px; height:52px; border:1px dashed #47606C; display:flex;
+    align-items:center; justify-content:center;
+    font-family:var(--serif); font-size:28px; color:#fff;
+  }
+  .slot.filled{border:1px solid var(--ok); background:var(--ok)}
+  .verdict{font-family:var(--serif); font-size:15px; margin-left:auto; color:#8FA3AC}
+  .verdict.good{color:#7BE3B8}
+
+  /* griglia */
+  .plate{max-width:1000px; margin:30px auto 0; display:grid; grid-template-columns:repeat(3,1fr); grid-auto-rows:1fr; gap:22px}
+  figure{
+    margin:0; cursor:pointer; position:relative; perspective:1000px;
+  }
+
+  /* la card ha due facce e ruota davvero: al primo click si gira e non torna piu' */
+  .inner{position:relative; height:100%; transition:transform .6s ease; transform-style:preserve-3d}
+  figure.revealed .inner{transform:rotateY(180deg)}
+  .front, .back{backface-visibility:hidden; -webkit-backface-visibility:hidden}
+  /* la faccia girata via non deve piu' intercettare i click (altrimenti copre il +) */
+  figure.revealed .back{pointer-events:none}
+  /* finita la rotazione la card torna "piatta": senza il 3D i controlli interni
+     (il +) tornano cliccabili singolarmente */
+  figure.flat .inner{transform:none; transition:none; transform-style:flat}
+  figure.flat .front{transform:none}
+  figure.flat .back{display:none}
+
+  .front{
+    position:relative; height:100%; display:flex; flex-direction:column;
+    background:var(--mount); border:1px solid #C3CDD2;
+    padding:12px 12px 14px; transform:rotateY(180deg);
+    transition:border-color .12s, box-shadow .12s;
+  }
+  figure:hover .front{border-color:var(--ok)}
+  figure.picked .front{border-color:var(--ok); box-shadow:0 0 0 3px rgba(14,122,95,.25)}
+
+  .back{
+    position:absolute; inset:0;
+    background:var(--ink); color:#fff;
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px;
+  }
+  .back::before{content:''; position:absolute; inset:8px; border:1px dashed #47606C}
+  .back .n{position:relative; font-family:var(--serif); font-size:32px}
+  .back .hint{position:relative; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:#8FA3AC}
+  .frame{position:relative; aspect-ratio:4/3; overflow:hidden; background:#C8D2D7; flex-shrink:0}
+  .frame img{width:100%; height:100%; object-fit:cover; display:block}
+  .frame .missing{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    text-align:center; font-size:12px; color:#6B7D85; border:2px dashed #A9B8BF; padding:10px;
+  }
+  .zoom{
+    position:absolute; top:8px; right:8px; width:34px; height:34px; border:0;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(8,18,23,.72); color:#fff; font-size:30px; cursor:pointer; line-height:1;
+  }
+  .zoom:hover{background:var(--ok)}
+  .badge{
+    position:absolute; right:10px; bottom:10px; width:44px; height:44px;
+    display:none; align-items:center; justify-content:center;
+    font-family:var(--serif); font-size:26px; color:#fff; background:var(--ok);
+    box-shadow:0 0 0 3px rgba(255,255,255,.9);
+  }
+  figure.picked .badge{display:flex}
+  .tick{
+    position:absolute; left:20px; top:20px; width:26px; height:26px; border-radius:50%;
+    background:rgba(255,255,255,.9); border:1px solid #A9B8BF; display:flex;
+    align-items:center; justify-content:center; font-size:14px; color:transparent;
+  }
+  figure.picked .tick{background:var(--ok); border-color:var(--ok); color:#fff}
+
+  /* campione fuori corso: la card si tinge di rosso, mostra la X e trema */
+  figure.wrong .front{border-color:var(--bad); box-shadow:0 0 0 3px rgba(168,64,47,.25)}
+  figure.wrong:hover .front{border-color:var(--bad)}
+  figure.wrong .tick{background:var(--bad); border-color:var(--bad); color:#fff}
+  .xmark{
+    position:absolute; inset:0; z-index:5; display:none;
+    align-items:center; justify-content:center; pointer-events:none;
+    font-family:var(--serif); font-size:130px; font-weight:700; line-height:1;
+    color:rgba(168,64,47,.78);
+    text-shadow:0 0 8px rgba(255,255,255,.9), 0 0 3px rgba(255,255,255,.9);
+  }
+  figure.wrong .xmark{display:flex}
+  @keyframes shake{
+    0%,100%{transform:translateX(0)}
+    20%{transform:translateX(-6px)} 40%{transform:translateX(6px)}
+    60%{transform:translateX(-5px)} 80%{transform:translateX(5px)}
+  }
+  figure.shake{animation:shake .4s ease}
+  figcaption{padding-top:11px; flex:1; display:flex; flex-direction:column}
+  .fig{font-family:var(--serif); font-size:15px; margin:0 0 4px}
+  .desc{font-size:13px; color:var(--muted); margin:0 0 8px; min-height:2.6em}
+  .meta{font-size:12px; color:var(--ink); margin:auto 0 0; letter-spacing:.02em}
+  .meta b{font-weight:600}
+
+  /* ingrandimento */
+  .lightbox{
+    position:fixed; inset:0; background:rgba(8,18,23,.93); z-index:100;
+    display:none; align-items:center; justify-content:center; padding:30px; cursor:zoom-out;
+  }
+  .lightbox.on{display:flex}
+  .lightbox img{max-width:100%; max-height:82vh; object-fit:contain}
+  .lightbox .cap{
+    position:absolute; bottom:22px; left:0; right:0; text-align:center;
+    color:#fff; font-family:var(--serif); font-size:17px; padding:0 20px;
+  }
+  .lightbox .cap small{display:block; font-family:var(--sans); font-size:13px; color:#A9BDC6; margin-top:4px}
+  .lightbox video{display:none; max-width:100%; max-height:82vh; background:#000; cursor:auto}
+  .lightbox .play{
+    position:absolute; top:60px; left:50%; transform:translateX(-50%); z-index:1;
+    display:none; padding:14px 22px; border:0; cursor:pointer;
+    background:var(--ok); color:#fff; box-shadow:0 6px 20px rgba(8,18,23,.45);
+    font-family:var(--sans); font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+  }
+  .lightbox .play:hover{background:#0B634D}
+  .lightbox.has-video .play{display:block}
+  .lightbox.playing img, .lightbox.playing .play{display:none}
+  .lightbox.playing video{display:block}
+
+  footer{max-width:1000px; margin:38px auto 0; padding-top:20px; border-top:1px solid #B9C4C9;
+         font-size:14px; color:var(--muted); font-family:var(--serif)}
+
+  /* avviso "bevi un sorso" quando segna un campione fuori corso: schermo
+     oscurato come un modal, col cartello al centro. mentre e' su intercetta
+     i click (niente altre foto selezionabili); si chiude col click o da solo
+     dopo pochi secondi, quindi non inchioda mai la caccia */
+  .toast{
+    position:fixed; inset:0; z-index:200;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(8,18,23,.72);
+    opacity:0; pointer-events:none; transition:opacity .2s ease;
+  }
+  .toast.on{opacity:1; pointer-events:auto; cursor:pointer}
+  .toast .box{
+    background:var(--bad); color:#fff; text-align:center;
+    padding:36px 52px; max-width:90vw;
+    box-shadow:0 24px 70px rgba(8,18,23,.5);
+    transform:scale(.85); transition:transform .2s ease;
+  }
+  .toast.on .box{transform:scale(1)}
+  .toast .small{
+    font-family:var(--sans); font-size:14px; letter-spacing:.18em;
+    text-transform:uppercase; color:rgba(255,255,255,.85); margin:0 0 12px;
+  }
+  .toast .big{
+    font-family:var(--serif); font-weight:700; line-height:1; margin:0;
+    font-size:clamp(36px,8vw,64px);
+  }
+  @media (max-width:760px){ .plate{grid-template-columns:1fr 1fr} }
+  @media (max-width:480px){ .plate{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="facility">Università degli Studi · Laurea magistrale in Bioinformatica · Pratica GR-2026 · registro imaging</p>
+  <h1>Referto fotografico dei campioni</h1>
+  <p class="lede">I campioni dell'archivio sono qui, ma solo quelli raccolti
+  <b>durante il corso</b> — da ottobre 2024 in poi — hanno superato il controllo qualità.
+  Gli altri sono materiale più vecchio, finito qui per sbaglio.<br><br>
+  Clicca una scheda per girarla e rivelare il campione. Clicca un campione rivelato
+  per segnarlo — la scelta è definitiva, non si torna indietro — o il + per guardarlo
+  da vicino. Le lettere di quelli che segni si compongono in cima alla pagina, in
+  ordine di figura.</p>
+</header>
+
+<div class="keybar">
+  <span class="lbl">CHIAVE</span>
+  <div class="slots" id="slots"></div>
+  <span class="verdict" id="verdict">nessun campione selezionato</span>
+</div>
+
+<main class="plate" id="plate"></main>
+
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" alt="">
+  <video id="lightbox-video" controls playsinline></video>
+  <button class="play" id="lightbox-play">&#9654; guarda il video</button>
+  <div class="cap" id="lightbox-cap"></div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ===========================================================
+   LE FOTO
+
+   Una riga per foto, nell'ordine in cui compaiono. Puoi
+   aggiungerne o toglierne quante vuoi.
+
+     fig      il numero della figura
+     date     la data di raccolta, che e' il vero indizio
+     title    il titolo in stile referto
+     desc     la didascalia
+     file     il file dentro img/
+     video    (facoltativo) un video dentro img/: nella foto
+              ingrandita compare il pulsante per guardarlo.
+              Va in H.264, non HEVC (vedi CLAUDE.md)
+
+   COME NASCE LA CHIAVE
+   Sono valide SOLO le foto con data dal CUTOFF in poi. Le
+   lettere della parola CHIAVE si distribuiscono da sole sulle
+   foto valide, in ordine di figura: la prima valida prende la
+   prima lettera, e cosi' via. Le lettere NON si scrivono a
+   mano. I decoy sono le foto con data precedente al CUTOFF.
+
+   UNICO VINCOLO: il numero di foto valide deve essere uguale
+   alla lunghezza di CHIAVE (PASSWORD-2 -> 10 foto valide). Se non
+   torna, la console del browser te lo segnala. CHIAVE deve
+   restare uguale a KEY3 in build.sh.
+   =========================================================== */
+
+var CHIAVE = "PASSWORD-2";
+var CUTOFF = "2024-10-01";
+
+var PHOTOS = [
+  { fig:1, date:"2024-11-04", title:"Fig. 1 — Primo turno in laboratorio", desc:"Camice nuovo, entusiasmo intatto, pipetta impugnata al contrario", file:"img/fig1.jpg" }, // corretta
+  { fig:2, date:"2025-02-11", title:"Fig. 2 — Il primo script che gira", desc:"Duecento righe di Python, un solo commento: «non toccare»", file:"img/fig2.jpg" }, // corretta
+  { fig:3, date:"2019-10-07", title:"Fig. 3 — Matricola", desc:"Il primo giorno, con lo zaino più grande di me", file:"img/fig3.jpg" },
+  { fig:4, date:"2025-10-08", title:"Fig. 4 — Primo congresso", desc:"Poster arrotolato sotto il braccio, ansia in tasca", file:"img/fig4.jpg" }, // corretta
+  { fig:5, date:"2022-12-21", title:"Fig. 5 — Cena di Natale del corso", desc:"Prima di scoprire cosa fosse un western blot", file:"img/fig5.jpg" },
+  { fig:6, date:"2025-05-27", title:"Fig. 6 — Il gel perfetto", desc:"Bande nitide, marker dritto: non è mai più successo", file:"img/fig6.jpg" }, // corretta
+  { fig:7, date:"2026-05-22", title:"Fig. 7 — Scrittura della tesi", desc:"Giorno 47: il caffè ha smesso di funzionare", file:"img/fig7.jpg" }, // corretta
+  { fig:8, date:"2019-03-14", title:"Fig. 8 — Gita di quinta superiore", desc:"Prima di sapere cosa fosse un'università", file:"img/fig8.jpg" },
+  { fig:9, date:"2025-04-08", title:"Fig. 9 — Journal club", desc:"Quaranta slide su un articolo di sei pagine", file:"img/fig9.jpg" }, // corretta
+  { fig:10, date:"2025-12-23", title:"Fig. 10 — Natale in laboratorio", desc:"Le colture non vanno in vacanza, e quindi neanche io", file:"img/fig10.jpg" }, // corretta
+  { fig:11, date:"2024-03-20", title:"Fig. 11 — Laurea triennale", desc:"Prima corona d'alloro, prima di tante bozze", file:"img/fig11.jpg" },
+  { fig:12, date:"2026-04-14", title:"Fig. 12 — Riunione di gruppo", desc:"Slide finite alle 8:59, riunione alle 9:00", file:"img/fig12.jpg" }, // corretta
+  { fig:13, date:"2026-06-10", title:"Fig. 13 — Consegna della tesi", desc:"Caricata sul portale alle 23:58. Scadenza: 23:59", file:"img/fig13.jpg" }, // corretta
+  { fig:14, date:"2019-07-03", title:"Fig. 14 — Esame di maturità", desc:"Tesina sul DNA: il destino era già scritto", file:"img/fig14.jpg" },
+  { fig:15, date:"2026-07-12", title:"Fig. 15 — Prova generale della discussione", desc:"Davanti allo specchio, con il gatto come commissione", file:"img/fig15.jpg" } // corretta
+];
+
+/* =========================================================== */
+
+var plate = document.getElementById('plate');
+var slots = document.getElementById('slots');
+var verdict = document.getElementById('verdict');
+var lb = document.getElementById('lightbox');
+var lbImg = document.getElementById('lightbox-img');
+var lbCap = document.getElementById('lightbox-cap');
+var lbVideo = document.getElementById('lightbox-video');
+var lbPlay = document.getElementById('lightbox-play');
+var lbVideoSrc = '';
+var toast = document.getElementById('toast');
+var toastTimer;
+var cards = [];
+
+var VALID = PHOTOS.filter(function(p){ return p.date >= CUTOFF; });
+
+// le lettere della parola si spalmano sulle valide, in ordine di figura
+VALID.forEach(function(p, i){ p.letter = CHIAVE.charAt(i); });
+if (VALID.length !== CHIAVE.length){
+  console.warn('Gallery: ' + VALID.length + ' foto valide, ma la chiave "'
+    + CHIAVE + '" ne richiede ' + CHIAVE.length + '. Controlla le date.');
+}
+
+PHOTOS.forEach(function(p){
+  var fg = document.createElement('figure');
+
+  var frame = document.createElement('div');
+  frame.className = 'frame';
+
+  var img = document.createElement('img');
+  img.src = p.file;
+  img.alt = '';
+  var miss = document.createElement('div');
+  miss.className = 'missing';
+  miss.innerHTML = 'foto segnaposto<br>' + p.file;
+  miss.style.display = 'none';
+  img.addEventListener('error', function(){
+    img.style.display = 'none';
+    miss.style.display = 'flex';
+    zoom.style.display = 'none';
+  });
+
+  var zoom = document.createElement('button');
+  zoom.className = 'zoom';
+  zoom.textContent = '+';
+  zoom.title = 'ingrandisci';
+  zoom.addEventListener('click', function(e){
+    e.stopPropagation();
+    lbImg.src = p.file;
+    lbCap.innerHTML = p.title + '<small>raccolto il ' + p.date + '</small>';
+    lbVideoSrc = p.video || '';
+    lb.classList.toggle('has-video', !!p.video);
+    lb.classList.add('on');
+  });
+
+  var badge = document.createElement('div');
+  badge.className = 'badge';
+  badge.textContent = p.letter || '';
+
+  var tick = document.createElement('div');
+  tick.className = 'tick';
+  tick.textContent = '\u2713';
+
+  frame.appendChild(img);
+  frame.appendChild(miss);
+  frame.appendChild(zoom);
+  frame.appendChild(badge);
+
+  var cap = document.createElement('figcaption');
+  cap.innerHTML =
+    '<p class="fig">' + p.title + '</p>' +
+    '<p class="desc">' + p.desc + '</p>' +
+    '<p class="meta">raccolto il <b>' + p.date + '</b></p>';
+
+  var xmark = document.createElement('div');
+  xmark.className = 'xmark';
+  xmark.textContent = '✗';
+
+  var front = document.createElement('div');
+  front.className = 'front';
+  front.appendChild(frame);
+  front.appendChild(tick);
+  front.appendChild(cap);
+  front.appendChild(xmark);
+
+  var back = document.createElement('div');
+  back.className = 'back';
+  back.innerHTML = '<span class="n">Fig. ' + p.fig + '</span>' +
+                   '<span class="hint">clicca per girare</span>';
+
+  var inner = document.createElement('div');
+  inner.className = 'inner';
+  inner.appendChild(front);
+  inner.appendChild(back);
+
+  fg.appendChild(inner);
+
+  fg.addEventListener('click', function(){
+    if (!fg.classList.contains('revealed')) {
+      fg.classList.add('revealed');
+      // a rotazione finita la card torna piatta, cosi' il + resta cliccabile
+      setTimeout(function(){ fg.classList.add('flat'); }, 650);
+      return;
+    }
+    // una volta segnata, la scheda resta segnata: la scelta e' definitiva
+    if (p.date >= CUTOFF) {
+      if (!fg.classList.contains('picked')) {
+        fg.classList.add('picked');
+        update();
+      }
+      return;
+    }
+    // campione fuori corso: la card diventa rossa, trema e chiede di bere
+    if (!fg.classList.contains('wrong')) {
+      fg.classList.add('wrong');
+      tick.textContent = '✗';
+      shake(fg);
+      sip();
+    }
+  });
+
+  plate.appendChild(fg);
+  cards.push({ el: fg, data: p });
+});
+
+function shake(el){
+  el.classList.add('shake');
+  el.addEventListener('animationend', function(){ el.classList.remove('shake'); }, { once:true });
+}
+
+function sip(){
+  toast.innerHTML = '<div class="box"><p class="small">Campione fuori corso</p><p class="big">Bevi un sorso</p></div>';
+  toast.classList.add('on');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ toast.classList.remove('on'); }, 2400);
+}
+
+function update(){
+  var picked = cards.filter(function(c){ return c.el.classList.contains('picked'); });
+
+  slots.innerHTML = '';
+  for (var k = 0; k < VALID.length; k++){
+    var s = document.createElement('span');
+    s.className = 'slot';
+    if (picked[k]) { s.textContent = picked[k].data.letter; s.classList.add('filled'); }
+    slots.appendChild(s);
+  }
+
+  if (picked.length === 0){
+    verdict.className = 'verdict';
+    verdict.textContent = 'nessun campione selezionato';
+  } else if (picked.length === VALID.length){
+    verdict.className = 'verdict good';
+    verdict.textContent = 'controllo qualità superato — questa è la tua chiave';
+  } else {
+    verdict.className = 'verdict';
+    verdict.textContent = picked.length + ' di ' + VALID.length + ' campioni segnati';
+  }
+}
+
+lbPlay.addEventListener('click', function(e){
+  e.stopPropagation();
+  lbVideo.src = lbVideoSrc;
+  lb.classList.add('playing');
+  lbVideo.play();
+});
+// i controlli del video non devono chiudere l'ingrandimento
+lbVideo.addEventListener('click', function(e){ e.stopPropagation(); });
+// se il video non parte si torna alla foto, senza pulsante
+lbVideo.addEventListener('error', function(){ lb.classList.remove('playing', 'has-video'); });
+
+function closeLightbox(){
+  lbVideo.pause();
+  lbVideo.removeAttribute('src');
+  lbVideo.load();
+  lb.classList.remove('on', 'playing');
+}
+lb.addEventListener('click', closeLightbox);
+
+// il modal blocca i click sulle schede; lo si chiude col click o con Esc
+function closeToast(){ clearTimeout(toastTimer); toast.classList.remove('on'); }
+toast.addEventListener('click', closeToast);
+document.addEventListener('keydown', function(e){
+  if (e.key === 'Escape') { closeLightbox(); closeToast(); }
+});
+
+update();
+</script>
+</body>
+</html>

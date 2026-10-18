@@ -1,0 +1,2002 @@
+campione_id,patient_code,collected_on,assay,status,notes
+CMP-0001,P52445,2024-07-21,qPCR,processed,low yield
+CMP-0002,P57931,2023-09-07,qPCR,processed,contaminated, discard
+CMP-0003,P64810,2023-04-03,CRISPR screen,processed,low yield
+CMP-0004,P39260,2023-10-19,CRISPR screen,processed,operator: n/a
+CMP-0005,P16105,2024-05-14,ELISA,re-run required,low yield
+CMP-0006,P84830,2025-09-27,ELISA,processed,operator: n/a
+CMP-0007,P58810,2023-09-23,Western blot,re-run required,within reference range
+CMP-0008,P91134,2024-08-22,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-0009,P86750,2026-06-10,RNA-seq,archived,operator: n/a
+CMP-0010,P20728,2025-09-16,Sanger seq,discarded,repeat in duplicate
+CMP-0011,P89817,2023-02-17,CRISPR screen,archived,stored at -80
+CMP-0012,P29920,2026-07-02,Western blot,re-run required,stored at -80
+CMP-0013,P54580,2025-10-16,Mass spec,processed,low yield
+CMP-0014,P45381,2026-12-22,Western blot,processed,repeat in duplicate
+CMP-0015,P94820,2026-05-23,CRISPR screen,pending,within reference range
+CMP-0016,P70515,2025-03-20,Western blot,discarded,within reference range
+CMP-0017,P38600,2025-03-24,RNA-seq,discarded,contaminated, discard
+CMP-0018,P75078,2023-03-15,CRISPR screen,re-run required,repeat in duplicate
+CMP-0019,P27947,2026-09-09,CRISPR screen,pending,contaminated, discard
+CMP-0020,P40245,2024-02-06,ELISA,archived,operator: n/a
+CMP-0021,P11581,2026-10-06,Flow cytometry,pending,within reference range
+CMP-0022,P29094,2026-09-12,Sanger seq,archived,within reference range
+CMP-0023,P69853,2026-07-13,CRISPR screen,processed,awaiting supervisor sign-off
+CMP-0024,P93137,2026-01-07,Western blot,archived,awaiting supervisor sign-off
+CMP-0025,P31273,2023-06-20,qPCR,processed,within reference range
+CMP-0026,P84289,2024-09-04,Sanger seq,re-run required,within reference range
+CMP-0027,P19216,2024-10-13,ELISA,pending,stored at -80
+CMP-0028,P88941,2025-08-04,Western blot,discarded,awaiting supervisor sign-off
+CMP-0029,P72966,2026-05-03,ELISA,processed,stored at -80
+CMP-0030,P44702,2026-12-06,qPCR,archived,stored at -80
+CMP-0031,P29215,2023-09-10,Western blot,pending,stored at -80
+CMP-0032,P31894,2025-04-18,Sanger seq,archived,operator: n/a
+CMP-0033,P41377,2026-12-26,RNA-seq,archived,awaiting supervisor sign-off
+CMP-0034,P56604,2023-01-26,Flow cytometry,discarded,repeat in duplicate
+CMP-0035,P35381,2025-08-26,Sanger seq,pending,low yield
+CMP-0036,P38896,2023-04-16,RNA-seq,pending,operator: n/a
+CMP-0037,P73262,2023-08-21,Sanger seq,processed,low yield
+CMP-0038,P60926,2024-08-06,CRISPR screen,pending,low yield
+CMP-0039,P61883,2026-07-24,Western blot,archived,degraded, discard
+CMP-0040,P26651,2023-03-19,Mass spec,archived,awaiting supervisor sign-off
+CMP-0041,P96149,2025-03-18,ELISA,processed,within reference range
+CMP-0042,P95154,2023-09-24,ELISA,discarded,operator: n/a
+CMP-0043,P37661,2023-05-07,Flow cytometry,re-run required,operator: n/a
+CMP-0044,P86865,2025-05-18,CRISPR screen,archived,within reference range
+CMP-0045,P56371,2026-11-19,CRISPR screen,re-run required,degraded, discard
+CMP-0046,P79707,2024-09-17,qPCR,discarded,degraded, discard
+CMP-0047,P89764,2023-03-06,ELISA,discarded,low yield
+CMP-0048,P82938,2023-06-22,Mass spec,processed,within reference range
+CMP-0049,P42570,2024-05-02,Western blot,re-run required,awaiting supervisor sign-off
+CMP-0050,P83626,2023-02-15,Sanger seq,re-run required,operator: n/a
+CMP-0051,P46331,2026-09-18,Mass spec,re-run required,operator: n/a
+CMP-0052,P78578,2025-09-07,Mass spec,archived,contaminated, discard
+CMP-0053,P25941,2026-08-11,Western blot,archived,contaminated, discard
+CMP-0054,P19584,2024-11-10,Western blot,archived,stored at -80
+CMP-0055,P28740,2025-03-15,RNA-seq,processed,contaminated, discard
+CMP-0056,P73866,2024-11-27,RNA-seq,archived,contaminated, discard
+CMP-0057,P77581,2026-06-14,RNA-seq,pending,stored at -80
+CMP-0058,P22084,2025-01-11,Mass spec,discarded,within reference range
+CMP-0059,P60376,2025-09-20,Flow cytometry,re-run required,low yield
+CMP-0060,P24791,2024-02-03,Flow cytometry,pending,within reference range
+CMP-0061,P33796,2025-03-27,CRISPR screen,pending,contaminated, discard
+CMP-0062,P29577,2026-12-11,Western blot,pending,within reference range
+CMP-0063,P34031,2026-02-09,qPCR,processed,repeat in duplicate
+CMP-0064,P20976,2024-02-09,Western blot,discarded,within reference range
+CMP-0065,P54453,2026-05-20,ELISA,processed,operator: n/a
+CMP-0066,P24346,2024-05-02,ELISA,archived,repeat in duplicate
+CMP-0067,P92401,2025-09-25,RNA-seq,pending,awaiting supervisor sign-off
+CMP-0068,P75547,2024-05-12,qPCR,pending,within reference range
+CMP-0069,P12011,2023-12-17,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-0070,P42201,2026-02-22,CRISPR screen,discarded,contaminated, discard
+CMP-0071,P76412,2025-12-07,RNA-seq,pending,operator: n/a
+CMP-0072,P93358,2024-07-12,qPCR,archived,within reference range
+CMP-0073,P19269,2025-07-06,qPCR,processed,contaminated, discard
+CMP-0074,P76314,2025-10-08,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-0075,P34294,2024-05-15,qPCR,pending,stored at -80
+CMP-0076,P53113,2025-04-02,Flow cytometry,archived,stored at -80
+CMP-0077,P33980,2023-06-13,Western blot,discarded,repeat in duplicate
+CMP-0078,P75898,2024-04-17,qPCR,processed,repeat in duplicate
+CMP-0079,P21764,2024-07-19,qPCR,discarded,within reference range
+CMP-0080,P49275,2025-11-08,Western blot,re-run required,degraded, discard
+CMP-0081,P96185,2026-06-24,Mass spec,archived,repeat in duplicate
+CMP-0082,P91095,2024-01-27,CRISPR screen,re-run required,degraded, discard
+CMP-0083,P78649,2023-11-19,RNA-seq,processed,within reference range
+CMP-0084,P15486,2024-11-12,Western blot,discarded,awaiting supervisor sign-off
+CMP-0085,P83207,2023-11-01,RNA-seq,discarded,repeat in duplicate
+CMP-0086,P10434,2026-02-24,Western blot,re-run required,low yield
+CMP-0087,P72109,2025-02-28,Flow cytometry,archived,operator: n/a
+CMP-0088,P40243,2026-08-28,CRISPR screen,processed,awaiting supervisor sign-off
+CMP-0089,P99613,2025-01-20,RNA-seq,processed,degraded, discard
+CMP-0090,P53486,2025-11-24,Flow cytometry,re-run required,degraded, discard
+CMP-0091,P11634,2026-01-16,Flow cytometry,processed,operator: n/a
+CMP-0092,P98566,2026-05-23,Flow cytometry,discarded,awaiting supervisor sign-off
+CMP-0093,P71124,2023-09-07,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-0094,P12294,2025-08-03,Mass spec,pending,contaminated, discard
+CMP-0095,P37503,2024-02-19,Western blot,archived,repeat in duplicate
+CMP-0096,P57127,2024-10-27,Flow cytometry,processed,stored at -80
+CMP-0097,P40327,2026-08-13,qPCR,archived,within reference range
+CMP-0098,P74447,2026-07-10,ELISA,discarded,stored at -80
+CMP-0099,P59296,2025-02-27,Sanger seq,processed,stored at -80
+CMP-0100,P54338,2026-02-07,qPCR,pending,repeat in duplicate
+CMP-0101,P58787,2023-07-13,Western blot,pending,contaminated, discard
+CMP-0102,P46065,2023-05-04,qPCR,pending,degraded, discard
+CMP-0103,P42679,2025-07-17,Sanger seq,archived,stored at -80
+CMP-0104,P66065,2023-11-13,RNA-seq,processed,within reference range
+CMP-0105,P63855,2026-10-25,ELISA,pending,awaiting supervisor sign-off
+CMP-0106,P16419,2024-03-16,CRISPR screen,pending,repeat in duplicate
+CMP-0107,P49029,2025-12-24,Flow cytometry,discarded,operator: n/a
+CMP-0108,P49431,2026-09-22,CRISPR screen,processed,degraded, discard
+CMP-0109,P94306,2024-02-07,Mass spec,re-run required,operator: n/a
+CMP-0110,P69373,2025-08-14,ELISA,re-run required,operator: n/a
+CMP-0111,P41992,2023-03-11,Western blot,pending,operator: n/a
+CMP-0112,P58274,2025-10-07,qPCR,discarded,contaminated, discard
+CMP-0113,P64248,2024-07-09,Sanger seq,processed,awaiting supervisor sign-off
+CMP-0114,P46374,2025-03-22,RNA-seq,processed,repeat in duplicate
+CMP-0115,P42565,2026-07-21,Mass spec,discarded,repeat in duplicate
+CMP-0116,P12858,2024-01-14,Mass spec,re-run required,awaiting supervisor sign-off
+CMP-0117,P10023,2023-07-27,Mass spec,discarded,operator: n/a
+CMP-0118,P24292,2024-03-05,Western blot,discarded,low yield
+CMP-0119,P82286,2023-01-26,ELISA,archived,within reference range
+CMP-0120,P94607,2025-03-21,Flow cytometry,re-run required,contaminated, discard
+CMP-0121,P24697,2023-02-10,RNA-seq,discarded,repeat in duplicate
+CMP-0122,P39305,2023-01-18,Flow cytometry,discarded,repeat in duplicate
+CMP-0123,P51465,2024-08-17,RNA-seq,re-run required,operator: n/a
+CMP-0124,P13837,2026-12-21,Flow cytometry,processed,within reference range
+CMP-0125,P35443,2026-11-21,CRISPR screen,processed,repeat in duplicate
+CMP-0126,P39863,2026-06-08,Mass spec,processed,stored at -80
+CMP-0127,P65123,2025-11-13,RNA-seq,processed,repeat in duplicate
+CMP-0128,P76175,2023-04-16,RNA-seq,pending,operator: n/a
+CMP-0129,P40252,2026-04-09,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-0130,P89966,2024-04-16,CRISPR screen,processed,degraded, discard
+CMP-0131,P61571,2023-04-01,ELISA,discarded,within reference range
+CMP-0132,P17882,2024-07-15,Sanger seq,processed,low yield
+CMP-0133,P31709,2025-04-06,Mass spec,processed,repeat in duplicate
+CMP-0134,P97088,2026-06-11,Mass spec,archived,low yield
+CMP-0135,P10376,2023-05-03,Sanger seq,discarded,low yield
+CMP-0136,P83548,2024-07-12,Flow cytometry,discarded,low yield
+CMP-0137,P16456,2026-04-12,Mass spec,archived,stored at -80
+CMP-0138,P57742,2026-01-21,CRISPR screen,archived,contaminated, discard
+CMP-0139,P15328,2026-01-15,Western blot,processed,repeat in duplicate
+CMP-0140,P35551,2023-10-11,Sanger seq,pending,stored at -80
+CMP-0141,P90868,2023-05-24,Sanger seq,pending,repeat in duplicate
+CMP-0142,P10494,2023-01-27,RNA-seq,processed,awaiting supervisor sign-off
+CMP-0143,P71045,2026-05-14,Mass spec,archived,awaiting supervisor sign-off
+CMP-0144,P33978,2023-12-10,ELISA,re-run required,operator: n/a
+CMP-0145,P52965,2025-08-12,Western blot,re-run required,operator: n/a
+CMP-0146,P61338,2024-04-14,Western blot,processed,awaiting supervisor sign-off
+CMP-0147,P82429,2025-03-14,Western blot,processed,repeat in duplicate
+CMP-0148,P91867,2023-04-04,CRISPR screen,discarded,awaiting supervisor sign-off
+CMP-0149,P32700,2024-03-14,Mass spec,re-run required,operator: n/a
+CMP-0150,P80590,2023-05-10,Flow cytometry,re-run required,repeat in duplicate
+CMP-0151,P58886,2025-12-09,RNA-seq,discarded,operator: n/a
+CMP-0152,P34344,2024-04-05,Flow cytometry,re-run required,operator: n/a
+CMP-0153,P52773,2023-07-09,RNA-seq,re-run required,operator: n/a
+CMP-0154,P95149,2023-11-15,qPCR,processed,within reference range
+CMP-0155,P72228,2024-08-12,qPCR,pending,operator: n/a
+CMP-0156,P25625,2023-04-20,RNA-seq,processed,stored at -80
+CMP-0157,P77196,2024-08-20,Flow cytometry,processed,low yield
+CMP-0158,P93552,2025-04-02,Sanger seq,pending,degraded, discard
+CMP-0159,P15788,2024-05-02,RNA-seq,processed,stored at -80
+CMP-0160,P63607,2025-03-20,Flow cytometry,processed,operator: n/a
+CMP-0161,P14124,2026-09-16,Western blot,discarded,low yield
+CMP-0162,P61812,2024-11-18,Western blot,archived,contaminated, discard
+CMP-0163,P45542,2026-05-22,Flow cytometry,discarded,within reference range
+CMP-0164,P50941,2025-07-14,qPCR,pending,operator: n/a
+CMP-0165,P61213,2026-04-01,CRISPR screen,archived,contaminated, discard
+CMP-0166,P24881,2023-07-19,Sanger seq,discarded,degraded, discard
+CMP-0167,P27036,2023-01-18,ELISA,discarded,low yield
+CMP-0168,P85086,2025-12-17,ELISA,archived,stored at -80
+CMP-0169,P47132,2024-09-06,Western blot,processed,contaminated, discard
+CMP-0170,P74292,2024-05-05,qPCR,discarded,stored at -80
+CMP-0171,P16995,2026-02-23,ELISA,archived,contaminated, discard
+CMP-0172,P90573,2024-08-06,RNA-seq,processed,contaminated, discard
+CMP-0173,P77881,2024-07-12,Western blot,archived,operator: n/a
+CMP-0174,P35243,2023-09-27,qPCR,pending,low yield
+CMP-0175,P61096,2026-09-28,Flow cytometry,discarded,repeat in duplicate
+CMP-0176,P86365,2024-07-13,Sanger seq,discarded,awaiting supervisor sign-off
+CMP-0177,P33430,2023-01-20,Mass spec,discarded,operator: n/a
+CMP-0178,P68565,2026-03-26,Mass spec,discarded,low yield
+CMP-0179,P18797,2024-06-14,Sanger seq,processed,awaiting supervisor sign-off
+CMP-0180,P76105,2023-01-21,ELISA,processed,stored at -80
+CMP-0181,P77040,2023-01-25,CRISPR screen,archived,within reference range
+CMP-0182,P18700,2023-04-05,Mass spec,pending,degraded, discard
+CMP-0183,P99932,2024-02-27,Sanger seq,re-run required,repeat in duplicate
+CMP-0184,P30809,2025-10-09,Mass spec,archived,repeat in duplicate
+CMP-0185,P75826,2026-04-19,Flow cytometry,re-run required,operator: n/a
+CMP-0186,P51822,2025-01-07,ELISA,discarded,degraded, discard
+CMP-0187,P93436,2025-11-11,CRISPR screen,archived,repeat in duplicate
+CMP-0188,P25083,2023-11-28,Sanger seq,discarded,low yield
+CMP-0189,P43034,2026-12-26,Sanger seq,pending,contaminated, discard
+CMP-0190,P58358,2024-06-11,Western blot,discarded,operator: n/a
+CMP-0191,P33167,2023-05-27,Flow cytometry,pending,stored at -80
+CMP-0192,P10234,2023-04-05,Flow cytometry,re-run required,contaminated, discard
+CMP-0193,P64747,2025-01-05,Mass spec,archived,within reference range
+CMP-0194,P12921,2023-01-19,Sanger seq,pending,low yield
+CMP-0195,P78562,2025-09-08,CRISPR screen,re-run required,repeat in duplicate
+CMP-0196,P87213,2024-04-12,Mass spec,archived,degraded, discard
+CMP-0197,P11849,2024-12-05,Mass spec,processed,low yield
+CMP-0198,P93651,2024-11-26,Flow cytometry,discarded,repeat in duplicate
+CMP-0199,P11506,2023-11-27,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-0200,P88889,2026-04-06,qPCR,processed,within reference range
+CMP-0201,P79668,2023-07-06,RNA-seq,archived,within reference range
+CMP-0202,P23751,2023-10-18,RNA-seq,archived,contaminated, discard
+CMP-0203,P36151,2026-10-06,Flow cytometry,processed,repeat in duplicate
+CMP-0204,P92046,2023-12-26,Mass spec,re-run required,within reference range
+CMP-0205,P59172,2026-12-15,Western blot,discarded,degraded, discard
+CMP-0206,P39615,2023-05-08,qPCR,processed,stored at -80
+CMP-0207,P44511,2023-05-21,CRISPR screen,re-run required,repeat in duplicate
+CMP-0208,P48747,2024-02-17,qPCR,archived,repeat in duplicate
+CMP-0209,P40947,2024-03-24,Sanger seq,archived,contaminated, discard
+CMP-0210,P53064,2024-07-28,Mass spec,discarded,within reference range
+CMP-0211,P13475,2026-12-08,Flow cytometry,archived,contaminated, discard
+CMP-0212,P91608,2023-10-06,ELISA,processed,within reference range
+CMP-0213,P24666,2023-10-06,Sanger seq,archived,within reference range
+CMP-0214,P14046,2023-03-23,qPCR,processed,within reference range
+CMP-0215,P18619,2025-04-27,Western blot,discarded,low yield
+CMP-0216,P42319,2024-04-04,qPCR,processed,low yield
+CMP-0217,P92776,2025-08-04,ELISA,processed,operator: n/a
+CMP-0218,P48595,2025-06-14,Flow cytometry,processed,stored at -80
+CMP-0219,P43646,2025-01-23,Sanger seq,pending,awaiting supervisor sign-off
+CMP-0220,P47702,2023-07-01,CRISPR screen,re-run required,low yield
+CMP-0221,P55453,2026-12-02,RNA-seq,processed,repeat in duplicate
+CMP-0222,P32330,2026-01-17,RNA-seq,pending,within reference range
+CMP-0223,P10571,2025-08-04,Mass spec,archived,awaiting supervisor sign-off
+CMP-0224,P87667,2025-09-09,ELISA,pending,operator: n/a
+CMP-0225,P40346,2026-03-04,Western blot,discarded,low yield
+CMP-0226,P92304,2025-06-04,CRISPR screen,discarded,low yield
+CMP-0227,P65329,2023-06-07,Flow cytometry,pending,contaminated, discard
+CMP-0228,P81425,2024-07-21,RNA-seq,discarded,degraded, discard
+CMP-0229,P79670,2023-06-19,Sanger seq,re-run required,degraded, discard
+CMP-0230,P69022,2025-03-15,Mass spec,pending,operator: n/a
+CMP-0231,P26522,2025-08-21,RNA-seq,re-run required,operator: n/a
+CMP-0232,P45059,2025-12-27,ELISA,archived,operator: n/a
+CMP-0233,P52803,2025-03-08,Sanger seq,archived,repeat in duplicate
+CMP-0234,P23343,2024-11-04,RNA-seq,discarded,degraded, discard
+CMP-0235,P29440,2025-12-10,CRISPR screen,pending,operator: n/a
+CMP-0236,P24323,2023-05-07,CRISPR screen,discarded,within reference range
+CMP-0237,P11653,2026-07-23,RNA-seq,re-run required,repeat in duplicate
+CMP-0238,P70722,2023-03-09,CRISPR screen,processed,operator: n/a
+CMP-0239,P66364,2026-04-22,RNA-seq,archived,low yield
+CMP-0240,P69493,2026-06-09,Western blot,discarded,operator: n/a
+CMP-0241,P62446,2024-05-28,CRISPR screen,discarded,awaiting supervisor sign-off
+CMP-0242,P12576,2026-09-22,ELISA,pending,within reference range
+CMP-0243,P60948,2026-02-02,Flow cytometry,re-run required,operator: n/a
+CMP-0244,P31081,2024-09-12,Western blot,re-run required,awaiting supervisor sign-off
+CMP-0245,P80914,2024-12-16,qPCR,pending,stored at -80
+CMP-0246,P63785,2026-04-22,ELISA,discarded,low yield
+CMP-0247,P90478,2025-11-02,Flow cytometry,pending,contaminated, discard
+CMP-0248,P62387,2023-01-03,CRISPR screen,discarded,stored at -80
+CMP-0249,P86044,2025-02-08,Flow cytometry,discarded,operator: n/a
+CMP-0250,P61375,2026-04-06,ELISA,processed,operator: n/a
+CMP-0251,P71493,2024-03-12,CRISPR screen,discarded,repeat in duplicate
+CMP-0252,P81862,2024-08-12,RNA-seq,pending,contaminated, discard
+CMP-0253,P43233,2026-11-06,Mass spec,processed,repeat in duplicate
+CMP-0254,P56920,2024-11-10,Sanger seq,discarded,awaiting supervisor sign-off
+CMP-0255,P66163,2023-11-12,ELISA,pending,contaminated, discard
+CMP-0256,P17479,2023-10-11,ELISA,re-run required,stored at -80
+CMP-0257,P92989,2023-11-01,RNA-seq,processed,repeat in duplicate
+CMP-0258,P42771,2023-10-05,RNA-seq,archived,awaiting supervisor sign-off
+CMP-0259,P55409,2024-04-13,ELISA,re-run required,low yield
+CMP-0260,P97616,2025-04-16,RNA-seq,re-run required,low yield
+CMP-0261,P67486,2023-09-04,Flow cytometry,discarded,operator: n/a
+CMP-0262,P28263,2026-08-18,qPCR,discarded,awaiting supervisor sign-off
+CMP-0263,P28929,2026-04-16,ELISA,re-run required,within reference range
+CMP-0264,P31018,2025-08-23,Mass spec,pending,awaiting supervisor sign-off
+CMP-0265,P59146,2026-07-22,Western blot,archived,stored at -80
+CMP-0266,P93378,2023-01-20,qPCR,pending,low yield
+CMP-0267,P76928,2026-08-25,ELISA,processed,operator: n/a
+CMP-0268,P64472,2024-06-04,Sanger seq,pending,awaiting supervisor sign-off
+CMP-0269,P78883,2024-05-14,Sanger seq,discarded,repeat in duplicate
+CMP-0270,P82617,2023-05-10,Sanger seq,discarded,contaminated, discard
+CMP-0271,P53741,2025-09-12,RNA-seq,discarded,low yield
+CMP-0272,P53371,2024-06-23,Flow cytometry,archived,low yield
+CMP-0273,P15249,2026-12-18,CRISPR screen,re-run required,within reference range
+CMP-0274,P62229,2025-02-01,qPCR,archived,awaiting supervisor sign-off
+CMP-0275,P89781,2023-09-18,CRISPR screen,re-run required,degraded, discard
+CMP-0276,P92157,2023-04-02,Mass spec,archived,low yield
+CMP-0277,P96981,2024-01-14,Western blot,processed,stored at -80
+CMP-0278,P28179,2025-09-23,Flow cytometry,pending,degraded, discard
+CMP-0279,P65284,2023-06-01,CRISPR screen,re-run required,within reference range
+CMP-0280,P75243,2023-02-25,CRISPR screen,re-run required,contaminated, discard
+CMP-0281,P68519,2023-01-22,CRISPR screen,re-run required,degraded, discard
+CMP-0282,P72317,2026-09-04,Western blot,discarded,operator: n/a
+CMP-0283,P29892,2023-07-01,qPCR,processed,low yield
+CMP-0284,P38605,2023-03-16,qPCR,pending,operator: n/a
+CMP-0285,P69084,2024-01-12,ELISA,processed,repeat in duplicate
+CMP-0286,P92394,2026-08-22,Flow cytometry,processed,within reference range
+CMP-0287,P11494,2023-01-21,Western blot,discarded,repeat in duplicate
+CMP-0288,P50959,2024-08-20,qPCR,pending,stored at -80
+CMP-0289,P85361,2026-08-22,ELISA,archived,low yield
+CMP-0290,P57613,2024-11-26,CRISPR screen,discarded,contaminated, discard
+CMP-0291,P69343,2025-10-11,Flow cytometry,pending,within reference range
+CMP-0292,P91506,2025-10-24,qPCR,archived,repeat in duplicate
+CMP-0293,P86633,2026-04-13,CRISPR screen,discarded,operator: n/a
+CMP-0294,P69148,2025-12-01,Sanger seq,pending,repeat in duplicate
+CMP-0295,P65377,2024-10-27,qPCR,pending,degraded, discard
+CMP-0296,P84961,2024-05-28,Mass spec,pending,low yield
+CMP-0297,P80776,2026-07-07,RNA-seq,pending,within reference range
+CMP-0298,P98822,2026-08-23,RNA-seq,pending,within reference range
+CMP-0299,P60459,2026-09-03,Sanger seq,processed,operator: n/a
+CMP-0300,P62191,2025-09-11,Mass spec,re-run required,operator: n/a
+CMP-0301,P34792,2024-04-03,ELISA,pending,stored at -80
+CMP-0302,P85742,2025-07-25,ELISA,archived,within reference range
+CMP-0303,P74653,2025-02-12,Mass spec,processed,degraded, discard
+CMP-0304,P51391,2023-06-09,qPCR,processed,within reference range
+CMP-0305,P36823,2026-10-19,RNA-seq,pending,repeat in duplicate
+CMP-0306,P65830,2023-08-25,ELISA,pending,within reference range
+CMP-0307,P54412,2024-03-13,Western blot,processed,within reference range
+CMP-0308,P14562,2025-12-15,Mass spec,processed,contaminated, discard
+CMP-0309,P25717,2023-05-11,RNA-seq,processed,contaminated, discard
+CMP-0310,P33942,2026-03-12,RNA-seq,archived,degraded, discard
+CMP-0311,P15063,2025-06-02,qPCR,processed,repeat in duplicate
+CMP-0312,P77283,2026-01-04,ELISA,pending,within reference range
+CMP-0313,P36076,2025-10-19,Mass spec,processed,awaiting supervisor sign-off
+CMP-0314,P52456,2025-05-13,Western blot,pending,awaiting supervisor sign-off
+CMP-0315,P59760,2024-08-08,ELISA,processed,awaiting supervisor sign-off
+CMP-0316,P35572,2023-03-27,RNA-seq,processed,stored at -80
+CMP-0317,P28318,2026-02-13,qPCR,processed,awaiting supervisor sign-off
+CMP-0318,P54535,2025-04-16,Western blot,pending,degraded, discard
+CMP-0319,P53513,2024-12-02,ELISA,discarded,degraded, discard
+CMP-0320,P67536,2024-05-14,CRISPR screen,archived,degraded, discard
+CMP-0321,P13331,2025-10-27,Flow cytometry,pending,degraded, discard
+CMP-0322,P44166,2026-02-11,Mass spec,discarded,low yield
+CMP-0323,P30102,2023-11-26,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-0324,P47517,2023-05-25,RNA-seq,pending,contaminated, discard
+CMP-0325,P44278,2024-04-04,CRISPR screen,pending,contaminated, discard
+CMP-0326,P31259,2023-12-10,ELISA,processed,awaiting supervisor sign-off
+CMP-0327,P76557,2025-09-05,Mass spec,processed,repeat in duplicate
+CMP-0328,P34355,2025-07-02,CRISPR screen,archived,repeat in duplicate
+CMP-0329,P84886,2024-03-27,ELISA,re-run required,operator: n/a
+CMP-0330,P33019,2024-10-03,Western blot,re-run required,awaiting supervisor sign-off
+CMP-0331,P45899,2024-04-05,RNA-seq,re-run required,repeat in duplicate
+CMP-0332,P36514,2023-02-23,CRISPR screen,processed,stored at -80
+CMP-0333,P53937,2025-11-28,Mass spec,processed,within reference range
+CMP-0334,P63676,2026-03-28,Flow cytometry,archived,degraded, discard
+CMP-0335,P83810,2025-01-06,Sanger seq,re-run required,within reference range
+CMP-0336,P56682,2026-09-03,Western blot,pending,operator: n/a
+CMP-0337,P52071,2026-10-25,qPCR,pending,low yield
+CMP-0338,P74854,2026-09-01,ELISA,processed,operator: n/a
+CMP-0339,P21611,2024-10-06,ELISA,processed,repeat in duplicate
+CMP-0340,P42828,2023-01-04,RNA-seq,pending,within reference range
+CMP-0341,P88564,2026-09-08,Mass spec,processed,stored at -80
+CMP-0342,P22308,2024-01-09,Western blot,discarded,awaiting supervisor sign-off
+CMP-0343,P86795,2025-02-04,Western blot,discarded,degraded, discard
+CMP-0344,P80988,2024-04-05,Mass spec,discarded,degraded, discard
+CMP-0345,P12425,2026-12-14,qPCR,discarded,within reference range
+CMP-0346,P57612,2025-07-08,Sanger seq,discarded,stored at -80
+CMP-0347,P62506,2023-06-17,ELISA,pending,operator: n/a
+CMP-0348,P65330,2023-06-04,ELISA,processed,stored at -80
+CMP-0349,P66759,2024-09-22,qPCR,archived,degraded, discard
+CMP-0350,P65145,2026-08-21,qPCR,processed,within reference range
+CMP-0351,P94092,2025-11-20,Flow cytometry,re-run required,within reference range
+CMP-0352,P91429,2023-05-04,qPCR,discarded,operator: n/a
+CMP-0353,P15166,2025-02-10,Sanger seq,archived,low yield
+CMP-0354,P17908,2025-02-15,ELISA,discarded,low yield
+CMP-0355,P77060,2024-05-14,Flow cytometry,pending,operator: n/a
+CMP-0356,P21514,2025-08-20,RNA-seq,discarded,operator: n/a
+CMP-0357,P81902,2025-08-18,Flow cytometry,re-run required,awaiting supervisor sign-off
+CMP-0358,P71468,2025-01-08,Sanger seq,archived,operator: n/a
+CMP-0359,P77167,2026-10-13,qPCR,pending,degraded, discard
+CMP-0360,P41266,2025-09-11,Mass spec,pending,repeat in duplicate
+CMP-0361,P38330,2025-01-25,qPCR,archived,low yield
+CMP-0362,P89419,2025-08-22,qPCR,re-run required,contaminated, discard
+CMP-0363,P67658,2025-12-25,Western blot,re-run required,operator: n/a
+CMP-0364,P98822,2024-07-11,Sanger seq,archived,operator: n/a
+CMP-0365,P90779,2025-09-04,Mass spec,pending,degraded, discard
+CMP-0366,P64137,2023-01-14,Western blot,discarded,contaminated, discard
+CMP-0367,P84967,2024-07-28,Flow cytometry,re-run required,low yield
+CMP-0368,P59749,2026-12-15,Flow cytometry,pending,repeat in duplicate
+CMP-0369,P56262,2026-09-18,CRISPR screen,pending,within reference range
+CMP-0370,P75476,2026-08-10,ELISA,re-run required,repeat in duplicate
+CMP-0371,P29004,2026-10-13,RNA-seq,processed,stored at -80
+CMP-0372,P52449,2024-06-07,CRISPR screen,processed,within reference range
+CMP-0373,P16218,2025-10-16,Flow cytometry,re-run required,repeat in duplicate
+CMP-0374,P80582,2026-09-27,CRISPR screen,discarded,awaiting supervisor sign-off
+CMP-0375,P56886,2023-10-22,Sanger seq,discarded,within reference range
+CMP-0376,P98667,2023-09-08,Western blot,discarded,stored at -80
+CMP-0377,P75655,2026-11-18,ELISA,archived,contaminated, discard
+CMP-0378,P73794,2026-08-25,Sanger seq,re-run required,low yield
+CMP-0379,P32376,2025-06-12,Western blot,pending,degraded, discard
+CMP-0380,P24484,2025-12-11,CRISPR screen,archived,repeat in duplicate
+CMP-0381,P77057,2024-09-07,CRISPR screen,archived,within reference range
+CMP-0382,P92588,2023-06-19,qPCR,discarded,within reference range
+CMP-0383,P10364,2025-12-23,qPCR,pending,contaminated, discard
+CMP-0384,P22910,2023-11-01,RNA-seq,archived,awaiting supervisor sign-off
+CMP-0385,P82515,2025-11-18,ELISA,re-run required,operator: n/a
+CMP-0386,P63883,2023-03-06,Western blot,processed,low yield
+CMP-0387,P19978,2024-09-16,Mass spec,re-run required,contaminated, discard
+CMP-0388,P18141,2023-11-25,Sanger seq,archived,operator: n/a
+CMP-0389,P56379,2025-03-02,Flow cytometry,processed,low yield
+CMP-0390,P55730,2024-08-20,CRISPR screen,processed,within reference range
+CMP-0391,P38842,2026-10-25,qPCR,discarded,within reference range
+CMP-0392,P91287,2024-04-08,qPCR,archived,degraded, discard
+CMP-0393,P51260,2023-08-10,CRISPR screen,re-run required,repeat in duplicate
+CMP-0394,P74952,2023-04-22,CRISPR screen,re-run required,operator: n/a
+CMP-0395,P64197,2025-07-23,Mass spec,processed,operator: n/a
+CMP-0396,P21464,2024-03-12,CRISPR screen,archived,within reference range
+CMP-0397,P48102,2026-09-12,Western blot,pending,contaminated, discard
+CMP-0398,P54024,2026-11-03,Western blot,discarded,stored at -80
+CMP-0399,P82593,2024-07-07,Mass spec,pending,stored at -80
+CMP-0400,P41086,2026-01-09,qPCR,pending,degraded, discard
+CMP-0401,P41693,2024-02-07,Flow cytometry,re-run required,degraded, discard
+CMP-0402,P82741,2026-08-27,RNA-seq,archived,stored at -80
+CMP-0403,P56257,2024-12-13,CRISPR screen,re-run required,operator: n/a
+CMP-0404,P48961,2026-09-07,RNA-seq,discarded,degraded, discard
+CMP-0405,P44178,2026-10-12,RNA-seq,discarded,operator: n/a
+CMP-0406,P26451,2023-11-17,Western blot,re-run required,repeat in duplicate
+CMP-0407,P60438,2023-11-23,ELISA,pending,within reference range
+CMP-0408,P61109,2023-12-06,RNA-seq,pending,operator: n/a
+CMP-0409,P96867,2023-02-18,Sanger seq,re-run required,repeat in duplicate
+CMP-0410,P35273,2023-12-10,Western blot,archived,repeat in duplicate
+CMP-0411,P26532,2026-05-12,CRISPR screen,discarded,degraded, discard
+CMP-0412,P46244,2024-01-12,Sanger seq,discarded,within reference range
+CMP-0413,P96384,2026-04-28,CRISPR screen,pending,low yield
+CMP-0414,P33810,2025-02-09,RNA-seq,processed,contaminated, discard
+CMP-0415,P15242,2024-07-07,Flow cytometry,archived,contaminated, discard
+CMP-0416,P15142,2025-11-21,ELISA,re-run required,operator: n/a
+CMP-0417,P84732,2026-12-17,Flow cytometry,discarded,stored at -80
+CMP-0418,P10127,2023-11-10,qPCR,re-run required,within reference range
+CMP-0419,P42041,2023-01-26,Sanger seq,archived,stored at -80
+CMP-0420,P21290,2026-12-24,CRISPR screen,re-run required,operator: n/a
+CMP-0421,P46852,2023-06-14,Mass spec,pending,awaiting supervisor sign-off
+CMP-0422,P76670,2023-11-23,RNA-seq,discarded,degraded, discard
+CMP-0423,P74161,2024-01-23,Flow cytometry,archived,degraded, discard
+CMP-0424,P93560,2024-09-09,RNA-seq,processed,degraded, discard
+CMP-0425,P56900,2025-07-03,RNA-seq,pending,degraded, discard
+CMP-0426,P27898,2026-11-16,RNA-seq,archived,within reference range
+CMP-0427,P77552,2026-03-21,Sanger seq,pending,degraded, discard
+CMP-0428,P28597,2024-06-21,Western blot,re-run required,contaminated, discard
+CMP-0429,P32178,2024-10-15,CRISPR screen,archived,low yield
+CMP-0430,P47924,2023-06-16,RNA-seq,processed,within reference range
+CMP-0431,P46815,2025-04-04,Flow cytometry,discarded,low yield
+CMP-0432,P31144,2025-08-15,Sanger seq,pending,degraded, discard
+CMP-0433,P83076,2023-01-01,Mass spec,discarded,low yield
+CMP-0434,P53479,2025-02-21,Mass spec,discarded,awaiting supervisor sign-off
+CMP-0435,P34878,2025-01-12,Western blot,pending,repeat in duplicate
+CMP-0436,P95599,2024-02-05,qPCR,processed,contaminated, discard
+CMP-0437,P29023,2025-06-06,ELISA,processed,repeat in duplicate
+CMP-0438,P90844,2025-07-06,Sanger seq,pending,operator: n/a
+CMP-0439,P58303,2024-09-12,Flow cytometry,archived,within reference range
+CMP-0440,P15407,2023-10-26,CRISPR screen,processed,operator: n/a
+CMP-0441,P74799,2026-08-24,ELISA,pending,low yield
+CMP-0442,P28597,2024-03-05,Mass spec,discarded,low yield
+CMP-0443,P15235,2026-08-07,RNA-seq,pending,within reference range
+CMP-0444,P14197,2026-03-10,Western blot,processed,contaminated, discard
+CMP-0445,P54389,2023-08-01,ELISA,archived,contaminated, discard
+CMP-0446,P48763,2023-08-26,Sanger seq,re-run required,operator: n/a
+CMP-0447,P71451,2023-09-11,Mass spec,discarded,degraded, discard
+CMP-0448,P62607,2023-01-24,Sanger seq,re-run required,repeat in duplicate
+CMP-0449,P84058,2026-06-16,ELISA,pending,stored at -80
+CMP-0450,P79521,2023-04-08,Mass spec,processed,degraded, discard
+CMP-0451,P96570,2025-09-19,CRISPR screen,pending,operator: n/a
+CMP-0452,P84031,2026-07-09,Western blot,archived,degraded, discard
+CMP-0453,P36584,2023-04-28,Flow cytometry,processed,operator: n/a
+CMP-0454,P79569,2025-12-16,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-0455,P39694,2023-12-17,Western blot,discarded,low yield
+CMP-0456,P67609,2024-09-18,Western blot,re-run required,low yield
+CMP-0457,P70291,2026-09-06,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-0458,P22204,2024-06-25,qPCR,discarded,operator: n/a
+CMP-0459,P16189,2025-01-01,RNA-seq,discarded,repeat in duplicate
+CMP-0460,P25799,2024-07-03,RNA-seq,re-run required,low yield
+CMP-0461,P56486,2024-06-24,Sanger seq,processed,repeat in duplicate
+CMP-0462,P26085,2024-06-17,Sanger seq,discarded,within reference range
+CMP-0463,P89140,2025-02-12,Sanger seq,re-run required,low yield
+CMP-0464,P14475,2024-05-12,RNA-seq,discarded,within reference range
+CMP-0465,P86201,2026-02-26,qPCR,discarded,low yield
+CMP-0466,P19667,2025-03-05,Flow cytometry,discarded,degraded, discard
+CMP-0467,P87111,2025-09-23,Flow cytometry,discarded,within reference range
+CMP-0468,P13245,2025-03-16,Mass spec,processed,within reference range
+CMP-0469,P19778,2024-10-27,CRISPR screen,discarded,degraded, discard
+CMP-0470,P68797,2026-04-28,Western blot,pending,stored at -80
+CMP-0471,P79240,2024-05-05,qPCR,archived,degraded, discard
+CMP-0472,P57315,2026-06-19,Mass spec,discarded,stored at -80
+CMP-0473,P51203,2023-06-19,Mass spec,pending,operator: n/a
+CMP-0474,P12688,2024-08-20,qPCR,archived,degraded, discard
+CMP-0475,P45738,2026-05-03,Flow cytometry,pending,degraded, discard
+CMP-0476,P14471,2023-04-25,CRISPR screen,re-run required,low yield
+CMP-0477,P57567,2025-04-28,ELISA,processed,repeat in duplicate
+CMP-0478,P54761,2025-09-28,RNA-seq,pending,contaminated, discard
+CMP-0479,P53834,2023-12-11,Sanger seq,discarded,stored at -80
+CMP-0480,P41905,2024-06-05,ELISA,archived,within reference range
+CMP-0481,P98001,2026-07-15,CRISPR screen,re-run required,repeat in duplicate
+CMP-0482,P32140,2023-03-10,Flow cytometry,pending,stored at -80
+CMP-0483,P19633,2024-10-03,ELISA,pending,stored at -80
+CMP-0484,P71324,2025-12-14,Western blot,discarded,stored at -80
+CMP-0485,P32968,2025-05-18,qPCR,archived,repeat in duplicate
+CMP-0486,P41051,2023-04-02,CRISPR screen,discarded,operator: n/a
+CMP-0487,P89023,2025-09-21,Western blot,archived,operator: n/a
+CMP-0488,P17444,2024-10-02,Western blot,processed,stored at -80
+CMP-0489,P27913,2023-04-09,qPCR,pending,within reference range
+CMP-0490,P37816,2025-06-28,qPCR,discarded,contaminated, discard
+CMP-0491,P89925,2025-03-02,CRISPR screen,processed,low yield
+CMP-0492,P92091,2025-08-20,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-0493,P11782,2023-06-19,Sanger seq,processed,contaminated, discard
+CMP-0494,P90473,2025-03-03,qPCR,archived,operator: n/a
+CMP-0495,P28698,2023-06-27,Sanger seq,discarded,stored at -80
+CMP-0496,P80603,2024-11-20,Sanger seq,archived,repeat in duplicate
+CMP-0497,P72594,2023-11-10,Mass spec,re-run required,repeat in duplicate
+CMP-0498,P57363,2025-03-09,qPCR,re-run required,awaiting supervisor sign-off
+CMP-0499,P23079,2025-03-21,RNA-seq,discarded,low yield
+CMP-0500,P13663,2024-02-02,RNA-seq,re-run required,degraded, discard
+CMP-0501,P43962,2025-12-05,ELISA,archived,within reference range
+CMP-0502,P55983,2024-08-28,Mass spec,archived,stored at -80
+CMP-0503,P60990,2026-04-11,qPCR,processed,within reference range
+CMP-0504,P18577,2026-11-28,Sanger seq,processed,operator: n/a
+CMP-0505,P83950,2026-07-13,RNA-seq,processed,repeat in duplicate
+CMP-0506,P12721,2025-12-14,RNA-seq,archived,stored at -80
+CMP-0507,P36634,2025-07-21,Flow cytometry,pending,awaiting supervisor sign-off
+CMP-0508,P38391,2024-08-28,Flow cytometry,archived,repeat in duplicate
+CMP-0509,P47036,2023-06-01,Mass spec,archived,degraded, discard
+CMP-0510,P51912,2026-04-19,qPCR,archived,stored at -80
+CMP-0511,P16054,2026-03-14,ELISA,pending,within reference range
+CMP-0512,P24622,2024-01-05,Flow cytometry,archived,stored at -80
+CMP-0513,P22785,2024-08-22,CRISPR screen,processed,contaminated, discard
+CMP-0514,P54504,2026-06-02,RNA-seq,archived,within reference range
+CMP-0515,P14964,2024-09-20,RNA-seq,re-run required,contaminated, discard
+CMP-0516,P23745,2023-01-11,Western blot,processed,low yield
+CMP-0517,P73878,2024-09-14,qPCR,archived,operator: n/a
+CMP-0518,P99835,2024-11-24,Western blot,re-run required,stored at -80
+CMP-0519,P75046,2023-06-07,RNA-seq,processed,repeat in duplicate
+CMP-0520,P33228,2023-05-09,Western blot,processed,operator: n/a
+CMP-0521,P76683,2023-07-26,Sanger seq,pending,within reference range
+CMP-0522,P52691,2023-11-15,Flow cytometry,re-run required,stored at -80
+CMP-0523,P63788,2025-07-14,Sanger seq,re-run required,contaminated, discard
+CMP-0524,P60197,2024-07-25,CRISPR screen,discarded,degraded, discard
+CMP-0525,P93228,2023-04-20,Flow cytometry,re-run required,contaminated, discard
+CMP-0526,P41557,2024-11-04,Western blot,re-run required,within reference range
+CMP-0527,P16489,2026-12-18,Sanger seq,discarded,stored at -80
+CMP-0528,P69702,2023-08-24,Mass spec,re-run required,stored at -80
+CMP-0529,P87633,2026-04-27,CRISPR screen,pending,low yield
+CMP-0530,P61579,2025-10-22,Sanger seq,processed,operator: n/a
+CMP-0531,P90283,2025-05-27,Mass spec,pending,awaiting supervisor sign-off
+CMP-0532,P84803,2024-03-03,Sanger seq,re-run required,operator: n/a
+CMP-0533,P79137,2024-06-08,ELISA,archived,awaiting supervisor sign-off
+CMP-0534,P33293,2023-06-13,Sanger seq,discarded,low yield
+CMP-0535,P63742,2024-12-09,CRISPR screen,processed,stored at -80
+CMP-0536,P56746,2025-08-22,Western blot,pending,contaminated, discard
+CMP-0537,P48076,2026-12-04,Mass spec,discarded,degraded, discard
+CMP-0538,P77808,2024-01-22,ELISA,pending,awaiting supervisor sign-off
+CMP-0539,P78248,2024-10-12,Sanger seq,discarded,repeat in duplicate
+CMP-0540,P12328,2024-01-19,Flow cytometry,processed,degraded, discard
+CMP-0541,P50178,2025-06-09,RNA-seq,pending,awaiting supervisor sign-off
+CMP-0542,P21970,2026-02-07,ELISA,discarded,repeat in duplicate
+CMP-0543,P90984,2025-01-23,Mass spec,discarded,stored at -80
+CMP-0544,P15472,2025-07-14,Flow cytometry,pending,operator: n/a
+CMP-0545,P60509,2024-10-07,Sanger seq,processed,operator: n/a
+CMP-0546,P53181,2023-02-25,Mass spec,discarded,contaminated, discard
+CMP-0547,P78919,2026-08-21,qPCR,processed,awaiting supervisor sign-off
+CMP-0548,P70578,2026-07-16,ELISA,processed,awaiting supervisor sign-off
+CMP-0549,P62116,2026-03-17,qPCR,archived,operator: n/a
+CMP-0550,P62648,2023-11-10,Sanger seq,discarded,awaiting supervisor sign-off
+CMP-0551,P25482,2023-04-28,Western blot,re-run required,within reference range
+CMP-0552,P23330,2026-02-28,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-0553,P17209,2024-12-11,Mass spec,processed,contaminated, discard
+CMP-0554,P86538,2024-07-27,qPCR,archived,stored at -80
+CMP-0555,P53822,2024-09-01,ELISA,re-run required,repeat in duplicate
+CMP-0556,P78158,2025-02-11,CRISPR screen,pending,repeat in duplicate
+CMP-0557,P82835,2026-09-14,qPCR,pending,repeat in duplicate
+CMP-0558,P42574,2026-07-28,Flow cytometry,pending,operator: n/a
+CMP-0559,P27268,2023-04-18,Sanger seq,discarded,awaiting supervisor sign-off
+CMP-0560,P86516,2024-06-26,Sanger seq,archived,awaiting supervisor sign-off
+CMP-0561,P82892,2023-12-11,qPCR,re-run required,low yield
+CMP-0562,P63599,2025-01-09,RNA-seq,discarded,repeat in duplicate
+CMP-0563,P36286,2024-10-20,Mass spec,discarded,awaiting supervisor sign-off
+CMP-0564,P36720,2024-01-06,CRISPR screen,processed,within reference range
+CMP-0565,P27956,2023-10-16,ELISA,processed,degraded, discard
+CMP-0566,P75302,2024-11-24,Flow cytometry,archived,degraded, discard
+CMP-0567,P29107,2024-09-04,Mass spec,processed,operator: n/a
+CMP-0568,P21997,2023-07-08,Flow cytometry,discarded,contaminated, discard
+CMP-0569,P30294,2023-12-05,qPCR,archived,awaiting supervisor sign-off
+CMP-0570,P48487,2024-10-26,Sanger seq,re-run required,degraded, discard
+CMP-0571,P50575,2025-06-18,RNA-seq,archived,operator: n/a
+CMP-0572,P61314,2023-06-13,ELISA,pending,operator: n/a
+CMP-0573,P95829,2023-04-15,ELISA,archived,contaminated, discard
+CMP-0574,P53670,2026-02-02,Sanger seq,processed,operator: n/a
+CMP-0575,P95999,2023-05-16,Sanger seq,processed,awaiting supervisor sign-off
+CMP-0576,P22188,2024-08-09,Flow cytometry,re-run required,low yield
+CMP-0577,P36388,2024-08-09,RNA-seq,re-run required,repeat in duplicate
+CMP-0578,P14247,2023-01-12,RNA-seq,archived,repeat in duplicate
+CMP-0579,P16560,2024-06-12,Mass spec,discarded,operator: n/a
+CMP-0580,P53195,2025-03-04,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-0581,P22539,2023-03-20,CRISPR screen,discarded,within reference range
+CMP-0582,P14420,2023-09-19,Western blot,discarded,degraded, discard
+CMP-0583,P64437,2025-02-12,ELISA,pending,degraded, discard
+CMP-0584,P96867,2023-06-01,Mass spec,pending,degraded, discard
+CMP-0585,P44246,2023-02-08,Western blot,archived,awaiting supervisor sign-off
+CMP-0586,P45450,2023-06-15,RNA-seq,archived,within reference range
+CMP-0587,P76425,2025-06-07,Flow cytometry,discarded,operator: n/a
+CMP-0588,P26661,2024-12-28,RNA-seq,processed,within reference range
+CMP-0589,P23861,2023-08-26,RNA-seq,archived,low yield
+CMP-0590,P32449,2024-05-01,CRISPR screen,discarded,low yield
+CMP-0591,P48267,2023-02-22,RNA-seq,archived,operator: n/a
+CMP-0592,P88026,2023-04-03,Sanger seq,processed,within reference range
+CMP-0593,P38167,2024-05-11,Western blot,discarded,degraded, discard
+CMP-0594,P11411,2025-07-26,CRISPR screen,processed,low yield
+CMP-0595,P42091,2024-12-17,ELISA,archived,stored at -80
+CMP-0596,P28398,2024-04-08,Sanger seq,processed,within reference range
+CMP-0597,P72878,2023-08-17,Sanger seq,processed,low yield
+CMP-0598,P36088,2023-06-26,CRISPR screen,processed,stored at -80
+CMP-0599,P86385,2024-08-22,Mass spec,archived,repeat in duplicate
+CMP-0600,P49710,2023-12-15,ELISA,discarded,contaminated, discard
+CMP-0601,P93854,2025-12-19,Western blot,processed,repeat in duplicate
+CMP-0602,P40420,2024-04-19,Mass spec,re-run required,operator: n/a
+CMP-0603,P74568,2023-07-22,CRISPR screen,pending,contaminated, discard
+CMP-0604,P63246,2023-04-21,Sanger seq,re-run required,contaminated, discard
+CMP-0605,P49945,2023-05-16,qPCR,processed,awaiting supervisor sign-off
+CMP-0606,P64874,2026-10-10,Mass spec,archived,stored at -80
+CMP-0607,P81487,2024-02-12,CRISPR screen,discarded,within reference range
+CMP-0608,P48290,2025-02-09,ELISA,discarded,contaminated, discard
+CMP-0609,P96638,2024-02-07,qPCR,discarded,degraded, discard
+CMP-0610,P61074,2025-06-05,Sanger seq,archived,operator: n/a
+CMP-0611,P56078,2026-05-16,Sanger seq,re-run required,operator: n/a
+CMP-0612,P31261,2026-09-01,qPCR,archived,low yield
+CMP-0613,P42227,2026-10-26,Flow cytometry,pending,low yield
+CMP-0614,P82440,2026-03-25,Flow cytometry,discarded,low yield
+CMP-0615,P77407,2025-08-09,Flow cytometry,pending,repeat in duplicate
+CMP-0616,P96660,2026-09-26,qPCR,discarded,awaiting supervisor sign-off
+CMP-0617,P57673,2023-01-27,Western blot,re-run required,contaminated, discard
+CMP-0618,P68685,2025-09-05,Mass spec,processed,stored at -80
+CMP-0619,P73238,2024-01-09,ELISA,archived,within reference range
+CMP-0620,P61408,2024-12-19,Flow cytometry,archived,repeat in duplicate
+CMP-0621,P81340,2023-07-18,CRISPR screen,processed,contaminated, discard
+CMP-0622,P74617,2025-12-09,Sanger seq,archived,awaiting supervisor sign-off
+CMP-0623,P16333,2025-03-07,qPCR,archived,repeat in duplicate
+CMP-0624,P78224,2024-11-10,qPCR,re-run required,repeat in duplicate
+CMP-0625,P60196,2025-12-06,Flow cytometry,pending,awaiting supervisor sign-off
+CMP-0626,P35867,2025-08-13,Western blot,pending,stored at -80
+CMP-0627,P61638,2025-07-26,Mass spec,pending,low yield
+CMP-0628,P36735,2026-09-27,CRISPR screen,archived,stored at -80
+CMP-0629,P15760,2024-05-25,Mass spec,re-run required,contaminated, discard
+CMP-0630,P20022,2025-07-12,CRISPR screen,re-run required,repeat in duplicate
+CMP-0631,P92600,2023-05-15,qPCR,processed,repeat in duplicate
+CMP-0632,P56354,2025-05-08,Western blot,re-run required,low yield
+CMP-0633,P89005,2026-12-04,Flow cytometry,archived,degraded, discard
+CMP-0634,P93087,2023-07-13,Sanger seq,discarded,contaminated, discard
+CMP-0635,P75511,2025-06-28,ELISA,archived,contaminated, discard
+CMP-0636,P97740,2025-03-07,Sanger seq,processed,contaminated, discard
+CMP-0637,P18754,2023-10-22,RNA-seq,re-run required,contaminated, discard
+CMP-0638,P62911,2024-10-24,Flow cytometry,archived,degraded, discard
+CMP-0639,P39121,2024-09-04,Flow cytometry,processed,contaminated, discard
+CMP-0640,P47681,2024-11-23,CRISPR screen,re-run required,repeat in duplicate
+CMP-0641,P18822,2025-10-07,RNA-seq,pending,low yield
+CMP-0642,P57152,2023-06-01,Western blot,processed,stored at -80
+CMP-0643,P38625,2023-08-21,ELISA,discarded,repeat in duplicate
+CMP-0644,P75977,2023-08-19,qPCR,processed,awaiting supervisor sign-off
+CMP-0645,P24489,2026-04-10,Sanger seq,pending,operator: n/a
+CMP-0646,P38555,2024-05-27,qPCR,archived,degraded, discard
+CMP-0647,P13718,2025-07-12,Western blot,pending,low yield
+CMP-0648,P86666,2023-07-13,CRISPR screen,archived,within reference range
+CMP-0649,P58673,2025-11-09,Western blot,discarded,degraded, discard
+CMP-0650,P66535,2026-11-23,Mass spec,archived,stored at -80
+CMP-0651,P90699,2024-02-13,ELISA,pending,operator: n/a
+CMP-0652,P20020,2023-08-25,RNA-seq,archived,repeat in duplicate
+CMP-0653,P36368,2025-12-26,qPCR,re-run required,within reference range
+CMP-0654,P18222,2025-04-14,qPCR,re-run required,repeat in duplicate
+CMP-0655,P83105,2025-11-06,Sanger seq,pending,repeat in duplicate
+CMP-0656,P23796,2023-12-06,Sanger seq,discarded,within reference range
+CMP-0657,P69645,2023-06-04,ELISA,pending,awaiting supervisor sign-off
+CMP-0658,P73703,2023-06-26,Sanger seq,discarded,degraded, discard
+CMP-0659,P24269,2025-09-13,RNA-seq,pending,repeat in duplicate
+CMP-0660,P96026,2023-04-23,Flow cytometry,re-run required,contaminated, discard
+CMP-0661,P60351,2024-07-05,ELISA,processed,low yield
+CMP-0662,P38053,2026-01-01,Western blot,discarded,within reference range
+CMP-0663,P36733,2023-06-11,Mass spec,discarded,operator: n/a
+CMP-0664,P10961,2024-04-12,CRISPR screen,processed,low yield
+CMP-0665,P87492,2024-04-15,Mass spec,re-run required,awaiting supervisor sign-off
+CMP-0666,P18854,2023-08-06,CRISPR screen,archived,awaiting supervisor sign-off
+CMP-0667,P71828,2024-02-16,CRISPR screen,processed,operator: n/a
+CMP-0668,P39978,2023-07-19,RNA-seq,processed,operator: n/a
+CMP-0669,P22294,2024-01-02,Mass spec,processed,contaminated, discard
+CMP-0670,P41516,2024-11-02,CRISPR screen,pending,within reference range
+CMP-0671,P30108,2026-01-16,Western blot,processed,degraded, discard
+CMP-0672,P28776,2024-10-17,Sanger seq,processed,contaminated, discard
+CMP-0673,P10296,2023-01-18,Western blot,re-run required,low yield
+CMP-0674,P17109,2025-08-13,qPCR,re-run required,operator: n/a
+CMP-0675,P13155,2024-09-26,Mass spec,archived,low yield
+CMP-0676,P95204,2024-11-14,Western blot,re-run required,low yield
+CMP-0677,P81580,2025-11-04,Western blot,archived,low yield
+CMP-0678,P21768,2025-05-10,Flow cytometry,pending,degraded, discard
+CMP-0679,P74767,2025-04-01,Western blot,processed,within reference range
+CMP-0680,P24898,2024-09-13,Mass spec,discarded,operator: n/a
+CMP-0681,P20460,2023-01-23,qPCR,archived,contaminated, discard
+CMP-0682,P17184,2024-10-10,Mass spec,pending,degraded, discard
+CMP-0683,P43114,2025-06-01,Sanger seq,discarded,low yield
+CMP-0684,P31251,2026-03-21,Mass spec,re-run required,stored at -80
+CMP-0685,P45939,2024-01-14,qPCR,pending,operator: n/a
+CMP-0686,P81299,2025-06-01,RNA-seq,pending,low yield
+CMP-0687,P79732,2024-02-02,Sanger seq,discarded,stored at -80
+CMP-0688,P58119,2023-09-04,Mass spec,archived,operator: n/a
+CMP-0689,P79588,2023-11-22,RNA-seq,discarded,low yield
+CMP-0690,P94907,2024-04-10,qPCR,pending,contaminated, discard
+CMP-0691,P25509,2024-10-15,ELISA,pending,contaminated, discard
+CMP-0692,P42570,2025-05-01,Western blot,archived,repeat in duplicate
+CMP-0693,P91039,2024-11-03,Western blot,discarded,repeat in duplicate
+CMP-0694,P20215,2023-12-03,qPCR,processed,stored at -80
+CMP-0695,P19762,2024-09-04,Mass spec,re-run required,repeat in duplicate
+CMP-0696,P68986,2024-02-09,Flow cytometry,discarded,contaminated, discard
+CMP-0697,P32704,2026-12-04,Mass spec,pending,stored at -80
+CMP-0698,P37007,2023-07-27,RNA-seq,processed,operator: n/a
+CMP-0699,P55973,2025-05-20,qPCR,archived,low yield
+CMP-0700,P21729,2024-11-22,Flow cytometry,pending,degraded, discard
+CMP-0701,P15984,2024-08-04,qPCR,discarded,repeat in duplicate
+CMP-0702,P95488,2023-10-19,RNA-seq,processed,low yield
+CMP-0703,P48782,2023-05-28,ELISA,pending,stored at -80
+CMP-0704,P81064,2024-03-12,Flow cytometry,pending,stored at -80
+CMP-0705,P31788,2023-04-26,ELISA,pending,contaminated, discard
+CMP-0706,P13943,2024-11-07,RNA-seq,discarded,stored at -80
+CMP-0707,P41571,2026-05-28,qPCR,processed,low yield
+CMP-0708,P96984,2026-06-08,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-0709,P67454,2026-02-04,Mass spec,re-run required,awaiting supervisor sign-off
+CMP-0710,P22285,2026-02-16,Mass spec,archived,operator: n/a
+CMP-0711,P65814,2026-01-04,RNA-seq,processed,repeat in duplicate
+CMP-0712,P57335,2026-08-08,Sanger seq,re-run required,within reference range
+CMP-0713,P19373,2024-08-24,RNA-seq,re-run required,contaminated, discard
+CMP-0714,P24424,2023-07-17,qPCR,archived,degraded, discard
+CMP-0715,P76910,2025-04-04,Western blot,discarded,repeat in duplicate
+CMP-0716,P71404,2026-12-05,Western blot,discarded,stored at -80
+CMP-0717,P22836,2024-05-22,Sanger seq,processed,low yield
+CMP-0718,P72255,2026-05-06,qPCR,re-run required,within reference range
+CMP-0719,P94353,2026-11-24,qPCR,re-run required,operator: n/a
+CMP-0720,P75404,2024-11-12,ELISA,discarded,stored at -80
+CMP-0721,P15472,2025-11-21,ELISA,archived,within reference range
+CMP-0722,P88375,2026-12-03,Mass spec,archived,within reference range
+CMP-0723,P47377,2026-03-27,RNA-seq,pending,stored at -80
+CMP-0724,P86454,2024-02-13,qPCR,archived,within reference range
+CMP-0725,P57175,2026-04-03,Mass spec,pending,awaiting supervisor sign-off
+CMP-0726,P98157,2024-10-07,RNA-seq,discarded,operator: n/a
+CMP-0727,P50617,2026-05-08,Sanger seq,processed,contaminated, discard
+CMP-0728,P33266,2025-07-22,qPCR,re-run required,stored at -80
+CMP-0729,P31243,2024-01-05,Flow cytometry,re-run required,awaiting supervisor sign-off
+CMP-0730,P72267,2026-03-09,RNA-seq,re-run required,low yield
+CMP-0731,P45899,2026-03-05,ELISA,re-run required,stored at -80
+CMP-0732,P17461,2024-04-14,ELISA,processed,awaiting supervisor sign-off
+CMP-0733,P63599,2025-10-22,RNA-seq,archived,repeat in duplicate
+CMP-0734,P63444,2023-01-14,Western blot,processed,repeat in duplicate
+CMP-0735,P19245,2025-03-28,ELISA,discarded,low yield
+CMP-0736,P79387,2026-05-26,Western blot,discarded,operator: n/a
+CMP-0737,P75482,2025-09-18,RNA-seq,discarded,low yield
+CMP-0738,P87619,2025-10-13,ELISA,pending,operator: n/a
+CMP-0739,P64007,2025-09-09,Western blot,processed,awaiting supervisor sign-off
+CMP-0740,P37831,2025-01-15,Mass spec,pending,degraded, discard
+CMP-0741,P71014,2025-04-14,Western blot,archived,contaminated, discard
+CMP-0742,P62566,2024-12-08,Sanger seq,pending,contaminated, discard
+CMP-0743,P96944,2026-06-05,RNA-seq,archived,repeat in duplicate
+CMP-0744,P24823,2023-09-05,CRISPR screen,re-run required,contaminated, discard
+CMP-0745,P94720,2023-08-19,Mass spec,pending,stored at -80
+CMP-0746,P55233,2026-06-06,Mass spec,processed,degraded, discard
+CMP-0747,P61646,2025-02-21,Flow cytometry,re-run required,operator: n/a
+CMP-0748,P93176,2024-12-19,RNA-seq,pending,repeat in duplicate
+CMP-0749,P95029,2025-03-27,Western blot,re-run required,awaiting supervisor sign-off
+CMP-0750,P97278,2023-04-01,CRISPR screen,re-run required,repeat in duplicate
+CMP-0751,P13808,2023-01-27,ELISA,processed,operator: n/a
+CMP-0752,P10515,2024-04-06,Flow cytometry,archived,within reference range
+CMP-0753,P13138,2023-02-03,RNA-seq,archived,awaiting supervisor sign-off
+CMP-0754,P53955,2023-09-12,Sanger seq,pending,contaminated, discard
+CMP-0755,P72762,2025-06-02,Western blot,pending,degraded, discard
+CMP-0756,P44807,2023-02-20,qPCR,pending,degraded, discard
+CMP-0757,P53077,2025-09-16,ELISA,archived,within reference range
+CMP-0758,P30174,2026-07-10,qPCR,archived,repeat in duplicate
+CMP-0759,P19457,2026-02-03,ELISA,archived,awaiting supervisor sign-off
+CMP-0760,P71398,2024-10-03,Mass spec,re-run required,contaminated, discard
+CMP-0761,P28115,2023-04-19,RNA-seq,processed,awaiting supervisor sign-off
+CMP-0762,P41578,2025-09-14,Sanger seq,processed,within reference range
+CMP-0763,P39987,2023-04-17,Flow cytometry,archived,awaiting supervisor sign-off
+CMP-0764,P90572,2024-03-07,Flow cytometry,pending,degraded, discard
+CMP-0765,P30623,2023-04-15,Sanger seq,pending,contaminated, discard
+CMP-0766,P51347,2025-01-25,Sanger seq,processed,repeat in duplicate
+CMP-0767,P16432,2025-09-08,ELISA,archived,operator: n/a
+CMP-0768,P70523,2023-04-11,Western blot,re-run required,stored at -80
+CMP-0769,P99885,2026-09-10,Western blot,processed,low yield
+CMP-0770,P91754,2026-07-16,Western blot,pending,operator: n/a
+CMP-0771,P68933,2025-08-23,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-0772,P51245,2023-02-25,Mass spec,processed,repeat in duplicate
+CMP-0773,P27439,2023-09-05,Western blot,discarded,within reference range
+CMP-0774,P49318,2023-11-25,Sanger seq,discarded,low yield
+CMP-0775,P28982,2026-12-04,qPCR,processed,repeat in duplicate
+CMP-0776,P97860,2024-09-04,Western blot,pending,degraded, discard
+CMP-0777,P79711,2026-03-08,ELISA,discarded,contaminated, discard
+CMP-0778,P54306,2025-02-08,Mass spec,re-run required,low yield
+CMP-0779,P22017,2025-12-24,CRISPR screen,discarded,operator: n/a
+CMP-0780,P34242,2025-08-13,RNA-seq,archived,operator: n/a
+CMP-0781,P74362,2023-09-11,RNA-seq,processed,repeat in duplicate
+CMP-0782,P77216,2026-12-05,Sanger seq,pending,degraded, discard
+CMP-0783,P54774,2024-11-14,qPCR,processed,operator: n/a
+CMP-0784,P85352,2025-01-26,Flow cytometry,re-run required,within reference range
+CMP-0785,P14918,2025-04-28,Sanger seq,pending,stored at -80
+CMP-0786,P49527,2025-10-12,CRISPR screen,discarded,repeat in duplicate
+CMP-0787,P24449,2024-01-22,CRISPR screen,re-run required,operator: n/a
+CMP-0788,P94437,2023-12-06,ELISA,pending,repeat in duplicate
+CMP-0789,P76132,2025-07-14,Flow cytometry,archived,operator: n/a
+CMP-0790,P80663,2025-11-27,qPCR,pending,degraded, discard
+CMP-0791,P51904,2024-12-28,qPCR,re-run required,awaiting supervisor sign-off
+CMP-0792,P54474,2026-08-26,RNA-seq,pending,stored at -80
+CMP-0793,P42682,2023-02-04,Sanger seq,processed,within reference range
+CMP-0794,P39765,2025-02-20,Western blot,discarded,within reference range
+CMP-0795,P36009,2026-11-13,Flow cytometry,discarded,contaminated, discard
+CMP-0796,P50616,2026-06-12,Flow cytometry,pending,low yield
+CMP-0797,P88627,2023-08-15,CRISPR screen,processed,operator: n/a
+CMP-0798,P37254,2024-06-18,Sanger seq,processed,within reference range
+CMP-0799,P70493,2026-01-23,ELISA,discarded,low yield
+CMP-0800,P34092,2025-09-26,Sanger seq,processed,operator: n/a
+CMP-0801,P89139,2023-04-12,CRISPR screen,archived,contaminated, discard
+CMP-0802,P93485,2023-07-07,Sanger seq,pending,stored at -80
+CMP-0803,P77572,2024-08-18,qPCR,archived,contaminated, discard
+CMP-0804,P83544,2024-03-01,Western blot,re-run required,stored at -80
+CMP-0805,P17001,2023-04-17,qPCR,re-run required,operator: n/a
+CMP-0806,P76951,2026-03-18,RNA-seq,archived,degraded, discard
+CMP-0807,P92715,2026-01-14,ELISA,re-run required,repeat in duplicate
+CMP-0808,P89187,2025-04-14,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-0809,P17098,2023-01-26,Sanger seq,archived,operator: n/a
+CMP-0810,P80590,2025-04-17,ELISA,archived,degraded, discard
+CMP-0811,P36476,2023-12-15,RNA-seq,pending,contaminated, discard
+CMP-0812,P76961,2023-08-01,Mass spec,processed,low yield
+CMP-0813,P83311,2026-03-11,Mass spec,archived,operator: n/a
+CMP-0814,P81174,2025-07-25,RNA-seq,archived,operator: n/a
+CMP-0815,P31132,2026-06-20,CRISPR screen,pending,repeat in duplicate
+CMP-0816,P31224,2024-08-03,ELISA,archived,stored at -80
+CMP-0817,P26313,2025-03-14,Mass spec,discarded,awaiting supervisor sign-off
+CMP-0818,P72005,2025-08-17,RNA-seq,discarded,degraded, discard
+CMP-0819,P75558,2024-04-03,Sanger seq,discarded,low yield
+CMP-0820,P62873,2023-06-24,CRISPR screen,pending,stored at -80
+CMP-0821,P61369,2024-08-28,qPCR,processed,awaiting supervisor sign-off
+CMP-0822,P56461,2026-07-20,Flow cytometry,archived,within reference range
+CMP-0823,P99980,2024-11-12,CRISPR screen,pending,operator: n/a
+CMP-0824,P54572,2024-09-18,CRISPR screen,archived,repeat in duplicate
+CMP-0825,P25128,2024-01-20,Sanger seq,discarded,awaiting supervisor sign-off
+CMP-0826,P74972,2025-06-17,qPCR,pending,stored at -80
+CMP-0827,P93777,2026-02-11,Flow cytometry,discarded,repeat in duplicate
+CMP-0828,P12196,2025-07-03,Sanger seq,re-run required,within reference range
+CMP-0829,P46152,2025-05-27,Mass spec,archived,contaminated, discard
+CMP-0830,P12851,2023-04-07,qPCR,archived,degraded, discard
+CMP-0831,P50779,2024-04-02,CRISPR screen,pending,low yield
+CMP-0832,P24039,2024-09-18,Western blot,archived,contaminated, discard
+CMP-0833,P35288,2023-12-16,CRISPR screen,discarded,low yield
+CMP-0834,P92518,2024-10-05,Flow cytometry,processed,low yield
+CMP-0835,P17332,2024-02-02,qPCR,pending,degraded, discard
+CMP-0836,P24724,2026-03-04,ELISA,archived,stored at -80
+CMP-0837,P98144,2024-06-04,CRISPR screen,pending,contaminated, discard
+CMP-0838,P63610,2025-08-08,Mass spec,processed,degraded, discard
+CMP-0839,P31700,2024-03-26,Sanger seq,processed,awaiting supervisor sign-off
+CMP-0840,P79496,2023-08-18,qPCR,discarded,awaiting supervisor sign-off
+CMP-0841,P13016,2025-11-13,ELISA,processed,degraded, discard
+CMP-0842,P75111,2024-12-13,ELISA,processed,within reference range
+CMP-0843,P57442,2026-12-22,RNA-seq,re-run required,contaminated, discard
+CMP-0844,P96860,2026-06-16,ELISA,pending,contaminated, discard
+CMP-0845,P35016,2025-04-26,qPCR,re-run required,stored at -80
+CMP-0846,P51716,2025-10-11,ELISA,re-run required,awaiting supervisor sign-off
+CMP-0847,P46059,2023-08-27,qPCR,archived,contaminated, discard
+CMP-0848,P20828,2026-05-19,CRISPR screen,processed,low yield
+CMP-0849,P87197,2024-02-13,Flow cytometry,processed,contaminated, discard
+CMP-0850,P67907,2025-02-24,Mass spec,pending,low yield
+CMP-0851,P14677,2026-12-10,RNA-seq,processed,repeat in duplicate
+CMP-0852,P46424,2025-04-17,CRISPR screen,re-run required,repeat in duplicate
+CMP-0853,P69797,2025-07-22,Mass spec,processed,within reference range
+CMP-0854,P28991,2025-01-20,ELISA,pending,contaminated, discard
+CMP-0855,P42650,2025-09-02,Mass spec,discarded,within reference range
+CMP-0856,P21388,2023-01-07,Mass spec,re-run required,awaiting supervisor sign-off
+CMP-0857,P20551,2025-06-27,ELISA,archived,low yield
+CMP-0858,P94551,2024-09-09,Sanger seq,archived,degraded, discard
+CMP-0859,P39245,2026-04-09,Flow cytometry,processed,operator: n/a
+CMP-0860,P31112,2025-02-21,CRISPR screen,re-run required,awaiting supervisor sign-off
+CMP-0861,P37818,2023-07-16,Sanger seq,processed,contaminated, discard
+CMP-0862,P40413,2026-08-27,RNA-seq,pending,degraded, discard
+CMP-0863,P78243,2023-09-11,CRISPR screen,archived,degraded, discard
+CMP-0864,P71640,2026-08-09,Sanger seq,processed,awaiting supervisor sign-off
+CMP-0865,P87251,2025-03-11,Western blot,pending,contaminated, discard
+CMP-0866,P24711,2024-08-19,Flow cytometry,pending,contaminated, discard
+CMP-0867,P85727,2024-06-25,qPCR,pending,operator: n/a
+CMP-0868,P70070,2023-05-15,Sanger seq,re-run required,stored at -80
+CMP-0869,P73007,2024-09-28,ELISA,pending,operator: n/a
+CMP-0870,P89274,2024-05-10,RNA-seq,re-run required,low yield
+CMP-0871,P65114,2023-04-18,Western blot,archived,low yield
+CMP-0872,P41097,2023-11-10,Western blot,archived,within reference range
+CMP-0873,P44939,2023-07-03,Flow cytometry,pending,within reference range
+CMP-0874,P77524,2026-06-23,ELISA,processed,operator: n/a
+CMP-0875,P33493,2024-02-07,Western blot,pending,stored at -80
+CMP-0876,P98450,2026-07-23,qPCR,processed,contaminated, discard
+CMP-0877,P24483,2025-09-05,CRISPR screen,pending,within reference range
+CMP-0878,P13571,2023-07-20,CRISPR screen,archived,stored at -80
+CMP-0879,P57903,2024-06-12,Flow cytometry,re-run required,degraded, discard
+CMP-0880,P31308,2024-03-05,Western blot,re-run required,low yield
+CMP-0881,P30976,2025-09-19,Western blot,re-run required,awaiting supervisor sign-off
+CMP-0882,P64093,2026-09-25,qPCR,processed,operator: n/a
+CMP-0883,P65399,2024-04-25,qPCR,archived,stored at -80
+CMP-0884,P41650,2023-08-19,CRISPR screen,discarded,stored at -80
+CMP-0885,P72438,2023-04-22,qPCR,discarded,operator: n/a
+CMP-0886,P14930,2024-04-03,Flow cytometry,processed,stored at -80
+CMP-0887,P21645,2025-11-03,CRISPR screen,pending,low yield
+CMP-0888,P77130,2026-04-22,ELISA,archived,repeat in duplicate
+CMP-0889,P66616,2025-02-23,CRISPR screen,archived,within reference range
+CMP-0890,P75242,2023-12-21,ELISA,processed,repeat in duplicate
+CMP-0891,P76439,2023-06-02,Western blot,re-run required,operator: n/a
+CMP-0892,P76930,2026-03-08,RNA-seq,discarded,repeat in duplicate
+CMP-0893,P96668,2026-02-08,Mass spec,processed,operator: n/a
+CMP-0894,P96751,2026-02-07,CRISPR screen,processed,repeat in duplicate
+CMP-0895,P57753,2025-04-09,Sanger seq,archived,within reference range
+CMP-0896,P62527,2026-12-28,CRISPR screen,processed,degraded, discard
+CMP-0897,P21119,2023-01-18,RNA-seq,pending,low yield
+CMP-0898,P60126,2026-05-07,Western blot,discarded,awaiting supervisor sign-off
+CMP-0899,P48265,2023-10-27,Mass spec,archived,degraded, discard
+CMP-0900,P18796,2026-07-05,qPCR,archived,within reference range
+CMP-0901,P19817,2023-06-08,qPCR,archived,repeat in duplicate
+CMP-0902,P55609,2024-12-27,Sanger seq,discarded,repeat in duplicate
+CMP-0903,P31207,2026-08-06,qPCR,archived,low yield
+CMP-0904,P81289,2026-04-21,ELISA,pending,low yield
+CMP-0905,P25100,2026-02-22,RNA-seq,processed,degraded, discard
+CMP-0906,P15546,2025-02-28,Flow cytometry,re-run required,stored at -80
+CMP-0907,P83274,2026-11-26,RNA-seq,pending,operator: n/a
+CMP-0908,P73303,2025-03-12,Sanger seq,re-run required,operator: n/a
+CMP-0909,P91202,2025-11-17,ELISA,re-run required,within reference range
+CMP-0910,P64890,2026-11-20,ELISA,processed,repeat in duplicate
+CMP-0911,P46148,2023-11-23,Mass spec,pending,awaiting supervisor sign-off
+CMP-0912,P42632,2026-09-10,Flow cytometry,discarded,within reference range
+CMP-0913,P43658,2026-06-24,RNA-seq,discarded,stored at -80
+CMP-0914,P50159,2026-06-03,Sanger seq,archived,operator: n/a
+CMP-0915,P66645,2025-11-12,qPCR,pending,within reference range
+CMP-0916,P54795,2025-07-02,CRISPR screen,re-run required,repeat in duplicate
+CMP-0917,P40055,2025-06-16,Western blot,archived,awaiting supervisor sign-off
+CMP-0918,P23381,2025-04-09,Mass spec,processed,degraded, discard
+CMP-0919,P54418,2026-08-10,CRISPR screen,archived,stored at -80
+CMP-0920,P30173,2024-12-06,Sanger seq,pending,within reference range
+CMP-0921,P98430,2024-06-02,ELISA,processed,contaminated, discard
+CMP-0922,P65578,2024-03-25,Sanger seq,re-run required,low yield
+CMP-0923,P24596,2025-08-17,CRISPR screen,re-run required,repeat in duplicate
+CMP-0924,P12653,2026-07-06,CRISPR screen,processed,stored at -80
+CMP-0925,P24951,2025-06-05,qPCR,re-run required,operator: n/a
+CMP-0926,P37112,2023-10-22,RNA-seq,pending,low yield
+CMP-0927,P36239,2024-04-16,Sanger seq,processed,within reference range
+CMP-0928,P84924,2025-09-21,Western blot,re-run required,awaiting supervisor sign-off
+CMP-0929,P26035,2024-04-15,Flow cytometry,discarded,stored at -80
+CMP-0930,P12017,2024-02-11,CRISPR screen,archived,contaminated, discard
+CMP-0931,P41925,2025-10-08,CRISPR screen,processed,repeat in duplicate
+CMP-0932,P45282,2026-12-16,Mass spec,processed,within reference range
+CMP-0933,P96951,2026-08-08,ELISA,re-run required,awaiting supervisor sign-off
+CMP-0934,P81873,2026-03-26,Western blot,pending,awaiting supervisor sign-off
+CMP-0935,P21920,2025-08-28,RNA-seq,processed,low yield
+CMP-0936,P22255,2023-03-12,qPCR,discarded,contaminated, discard
+CMP-0937,P76556,2026-05-23,Sanger seq,re-run required,stored at -80
+CMP-0938,P32180,2023-09-17,Mass spec,processed,stored at -80
+CMP-0939,P48043,2024-04-13,Sanger seq,pending,repeat in duplicate
+CMP-0940,P47222,2023-10-23,Sanger seq,processed,stored at -80
+CMP-0941,P96048,2025-03-11,Western blot,pending,degraded, discard
+CMP-0942,P64710,2023-06-08,CRISPR screen,processed,degraded, discard
+CMP-0943,P96832,2024-11-18,Mass spec,pending,contaminated, discard
+CMP-0944,P43864,2024-03-26,Mass spec,archived,stored at -80
+CMP-0945,P17634,2023-07-08,Sanger seq,discarded,within reference range
+CMP-0946,P75145,2026-04-18,ELISA,processed,degraded, discard
+CMP-0947,P34409,2025-11-17,ELISA,re-run required,degraded, discard
+CMP-0948,P96331,2025-05-18,ELISA,discarded,low yield
+CMP-0949,P27662,2025-05-10,RNA-seq,re-run required,operator: n/a
+CMP-0950,P98063,2026-12-27,Sanger seq,re-run required,degraded, discard
+CMP-0951,P57712,2026-08-18,ELISA,processed,low yield
+CMP-0952,P20589,2023-10-23,ELISA,pending,low yield
+CMP-0953,P33225,2023-01-20,RNA-seq,discarded,low yield
+CMP-0954,P69496,2024-03-07,Sanger seq,pending,within reference range
+CMP-0955,P27261,2025-06-03,Western blot,processed,low yield
+CMP-0956,P16631,2024-12-10,Flow cytometry,pending,low yield
+CMP-0957,P36856,2026-10-26,Flow cytometry,re-run required,within reference range
+CMP-0958,P17721,2025-04-10,Western blot,re-run required,awaiting supervisor sign-off
+CMP-0959,P90260,2024-07-23,Mass spec,discarded,awaiting supervisor sign-off
+CMP-0960,P35782,2024-05-09,RNA-seq,archived,repeat in duplicate
+CMP-0961,P61916,2023-04-04,RNA-seq,discarded,stored at -80
+CMP-0962,P70489,2025-09-16,qPCR,re-run required,stored at -80
+CMP-0963,P62586,2024-03-12,Mass spec,discarded,degraded, discard
+CMP-0964,P78766,2024-07-06,Mass spec,re-run required,operator: n/a
+CMP-0965,P35933,2024-06-19,Western blot,pending,repeat in duplicate
+CMP-0966,P55691,2023-08-10,CRISPR screen,re-run required,operator: n/a
+CMP-0967,P51381,2026-01-28,Flow cytometry,pending,degraded, discard
+CMP-0968,P82370,2024-12-25,ELISA,pending,low yield
+CMP-0969,P98886,2026-08-14,CRISPR screen,archived,low yield
+CMP-0970,P30464,2026-03-17,ELISA,pending,operator: n/a
+CMP-0971,P94461,2026-07-09,ELISA,processed,degraded, discard
+CMP-0972,P85691,2024-03-16,RNA-seq,discarded,awaiting supervisor sign-off
+CMP-0973,P22992,2023-04-15,qPCR,re-run required,low yield
+CMP-0974,P80504,2026-04-28,Flow cytometry,re-run required,operator: n/a
+CMP-0975,P85082,2024-11-12,Sanger seq,processed,awaiting supervisor sign-off
+CMP-0976,P18550,2024-12-10,ELISA,pending,low yield
+CMP-0977,P17852,2023-04-08,RNA-seq,processed,repeat in duplicate
+CMP-0978,P43118,2023-05-16,ELISA,pending,within reference range
+CMP-0979,P49337,2026-04-12,RNA-seq,discarded,low yield
+CMP-0980,P39289,2023-02-11,Western blot,discarded,awaiting supervisor sign-off
+CMP-0981,P13024,2024-04-12,qPCR,pending,contaminated, discard
+CMP-0982,P63968,2026-04-10,CRISPR screen,processed,awaiting supervisor sign-off
+CMP-0983,P98707,2026-10-25,Mass spec,pending,degraded, discard
+CMP-0984,P63256,2026-04-22,qPCR,re-run required,operator: n/a
+CMP-0985,P70470,2024-09-17,Western blot,processed,stored at -80
+CMP-0986,P66479,2023-01-09,Mass spec,archived,operator: n/a
+CMP-0987,P71602,2024-05-14,RNA-seq,archived,contaminated, discard
+CMP-0988,P96081,2023-11-10,qPCR,discarded,awaiting supervisor sign-off
+CMP-0989,P52597,2024-06-03,ELISA,processed,low yield
+CMP-0990,P47608,2023-05-10,ELISA,processed,low yield
+CMP-0991,P94199,2023-05-01,Sanger seq,archived,contaminated, discard
+CMP-0992,P93451,2026-02-04,Mass spec,pending,awaiting supervisor sign-off
+CMP-0993,P68186,2026-02-14,RNA-seq,discarded,operator: n/a
+CMP-0994,P52175,2026-11-23,CRISPR screen,discarded,repeat in duplicate
+CMP-0995,P24356,2023-11-15,Flow cytometry,archived,degraded, discard
+CMP-0996,P67734,2026-10-09,Sanger seq,archived,degraded, discard
+CMP-0997,P65755,2024-05-27,RNA-seq,processed,within reference range
+CMP-0998,P64556,2023-01-20,Mass spec,pending,awaiting supervisor sign-off
+CMP-0999,P18266,2023-02-13,Flow cytometry,re-run required,within reference range
+CMP-1000,P59212,2025-03-26,Mass spec,processed,within reference range
+CMP-1001,P13551,2024-09-08,Western blot,processed,operator: n/a
+CMP-1002,P89215,2023-03-10,CRISPR screen,discarded,repeat in duplicate
+CMP-1003,P86804,2024-06-27,qPCR,re-run required,low yield
+CMP-1004,P81189,2026-05-20,qPCR,processed,low yield
+CMP-1005,P66083,2023-10-23,RNA-seq,re-run required,repeat in duplicate
+CMP-1006,P98818,2026-05-06,CRISPR screen,processed,repeat in duplicate
+CMP-1007,P69818,2025-05-18,Flow cytometry,re-run required,low yield
+CMP-1008,P22336,2026-06-08,Sanger seq,processed,stored at -80
+CMP-1009,P76686,2025-12-10,Sanger seq,archived,contaminated, discard
+CMP-1010,P77248,2025-10-20,RNA-seq,discarded,awaiting supervisor sign-off
+CMP-1011,P43709,2024-03-18,ELISA,re-run required,within reference range
+CMP-1012,P20423,2025-12-06,Sanger seq,pending,operator: n/a
+CMP-1013,P62324,2026-03-23,Western blot,pending,low yield
+CMP-1014,P34175,2026-11-21,CRISPR screen,processed,operator: n/a
+CMP-1015,P61389,2026-11-14,RNA-seq,pending,repeat in duplicate
+CMP-1016,P62736,2026-09-13,RNA-seq,discarded,degraded, discard
+CMP-1017,P77144,2025-09-15,qPCR,processed,operator: n/a
+CMP-1018,P99524,2023-12-18,ELISA,pending,repeat in duplicate
+CMP-1019,P70189,2026-06-10,Sanger seq,archived,degraded, discard
+CMP-1020,P32321,2023-03-19,RNA-seq,discarded,stored at -80
+CMP-1021,P23431,2024-03-23,RNA-seq,pending,repeat in duplicate
+CMP-1022,P49665,2023-05-07,CRISPR screen,processed,contaminated, discard
+CMP-1023,P38825,2026-08-01,Mass spec,discarded,within reference range
+CMP-1024,P22310,2024-07-09,RNA-seq,processed,low yield
+CMP-1025,P70556,2026-10-22,Western blot,archived,awaiting supervisor sign-off
+CMP-1026,P47583,2024-01-12,qPCR,processed,within reference range
+CMP-1027,P92400,2026-09-05,CRISPR screen,archived,awaiting supervisor sign-off
+CMP-1028,P44845,2025-07-06,RNA-seq,processed,stored at -80
+CMP-1029,P88536,2026-04-26,Flow cytometry,re-run required,stored at -80
+CMP-1030,P16213,2025-09-04,qPCR,pending,repeat in duplicate
+CMP-1031,P94631,2025-11-09,CRISPR screen,re-run required,awaiting supervisor sign-off
+CMP-1032,P68913,2026-08-25,Sanger seq,processed,degraded, discard
+CMP-1033,P24858,2024-12-22,ELISA,archived,degraded, discard
+CMP-1034,P37405,2026-11-11,RNA-seq,pending,awaiting supervisor sign-off
+CMP-1035,P73182,2023-11-27,ELISA,processed,degraded, discard
+CMP-1036,P68461,2023-02-15,qPCR,processed,awaiting supervisor sign-off
+CMP-1037,P64009,2023-07-08,ELISA,processed,contaminated, discard
+CMP-1038,P41169,2025-05-21,Mass spec,discarded,contaminated, discard
+CMP-1039,P17506,2023-06-02,CRISPR screen,archived,operator: n/a
+CMP-1040,P53995,2023-01-04,qPCR,discarded,awaiting supervisor sign-off
+CMP-1041,P74624,2025-02-19,CRISPR screen,re-run required,stored at -80
+CMP-1042,P11642,2026-11-09,CRISPR screen,re-run required,low yield
+CMP-1043,P75495,2026-02-16,Western blot,discarded,low yield
+CMP-1044,P75278,2026-09-20,qPCR,processed,awaiting supervisor sign-off
+CMP-1045,P49866,2023-10-14,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-1046,P42441,2025-10-15,CRISPR screen,processed,repeat in duplicate
+CMP-1047,P92398,2023-06-10,RNA-seq,re-run required,contaminated, discard
+CMP-1048,P84191,2023-07-15,ELISA,re-run required,awaiting supervisor sign-off
+CMP-1049,P49839,2023-12-10,qPCR,archived,stored at -80
+CMP-1050,P17818,2024-01-21,ELISA,pending,operator: n/a
+CMP-1051,P59966,2024-12-23,Sanger seq,re-run required,degraded, discard
+CMP-1052,P23236,2024-08-17,CRISPR screen,pending,degraded, discard
+CMP-1053,P68760,2024-09-25,Flow cytometry,pending,within reference range
+CMP-1054,P79189,2025-08-02,Western blot,archived,within reference range
+CMP-1055,P62059,2023-06-11,Western blot,archived,contaminated, discard
+CMP-1056,P27536,2025-09-23,qPCR,re-run required,low yield
+CMP-1057,P70235,2024-08-27,Western blot,archived,degraded, discard
+CMP-1058,P50269,2024-01-02,Flow cytometry,processed,degraded, discard
+CMP-1059,P67413,2025-03-06,Sanger seq,discarded,degraded, discard
+CMP-1060,P98667,2026-05-26,Flow cytometry,re-run required,degraded, discard
+CMP-1061,P27739,2025-03-08,qPCR,processed,operator: n/a
+CMP-1062,P50142,2023-05-11,Western blot,pending,awaiting supervisor sign-off
+CMP-1063,P80829,2024-08-04,Western blot,pending,contaminated, discard
+CMP-1064,P33574,2024-04-03,qPCR,processed,contaminated, discard
+CMP-1065,P20939,2024-04-15,qPCR,discarded,awaiting supervisor sign-off
+CMP-1066,P25297,2023-07-11,RNA-seq,archived,contaminated, discard
+CMP-1067,P55456,2026-09-12,ELISA,discarded,low yield
+CMP-1068,P48396,2026-05-10,Western blot,archived,contaminated, discard
+CMP-1069,P52644,2026-05-07,Mass spec,pending,contaminated, discard
+CMP-1070,P91593,2023-02-15,Western blot,re-run required,awaiting supervisor sign-off
+CMP-1071,P66044,2025-08-09,CRISPR screen,processed,operator: n/a
+CMP-1072,P75795,2024-09-14,RNA-seq,processed,awaiting supervisor sign-off
+CMP-1073,P60119,2025-07-21,Western blot,re-run required,low yield
+CMP-1074,P61431,2024-05-14,ELISA,pending,stored at -80
+CMP-1075,P68458,2026-05-28,Mass spec,re-run required,degraded, discard
+CMP-1076,P32711,2025-11-17,qPCR,discarded,within reference range
+CMP-1077,P45996,2026-06-27,RNA-seq,discarded,within reference range
+CMP-1078,P71400,2026-12-07,Western blot,processed,operator: n/a
+CMP-1079,P50654,2026-04-14,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-1080,P92997,2026-06-13,Western blot,archived,low yield
+CMP-1081,P50436,2023-10-24,Mass spec,discarded,stored at -80
+CMP-1082,P84760,2026-11-06,RNA-seq,re-run required,contaminated, discard
+CMP-1083,P53188,2025-07-11,Mass spec,discarded,within reference range
+CMP-1084,P75480,2024-11-02,ELISA,processed,stored at -80
+CMP-1085,P49062,2023-04-08,Mass spec,pending,awaiting supervisor sign-off
+CMP-1086,P80452,2026-09-03,qPCR,processed,degraded, discard
+CMP-1087,P97496,2024-12-03,CRISPR screen,archived,repeat in duplicate
+CMP-1088,P57378,2023-03-18,Sanger seq,discarded,operator: n/a
+CMP-1089,P26295,2023-02-16,Sanger seq,processed,contaminated, discard
+CMP-1090,P91988,2025-06-15,RNA-seq,pending,degraded, discard
+CMP-1091,P71306,2024-03-27,Mass spec,pending,degraded, discard
+CMP-1092,P88097,2026-09-03,RNA-seq,pending,stored at -80
+CMP-1093,P98103,2025-09-08,Western blot,re-run required,stored at -80
+CMP-1094,P60313,2024-10-27,Sanger seq,processed,within reference range
+CMP-1095,P68279,2026-11-24,Sanger seq,pending,awaiting supervisor sign-off
+CMP-1096,P40448,2024-05-07,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-1097,P85107,2025-12-13,Western blot,processed,within reference range
+CMP-1098,P87227,2026-11-25,Sanger seq,discarded,operator: n/a
+CMP-1099,P67053,2024-08-02,Mass spec,archived,stored at -80
+CMP-1100,P71842,2023-12-09,Flow cytometry,archived,awaiting supervisor sign-off
+CMP-1101,P91808,2024-05-18,Mass spec,re-run required,degraded, discard
+CMP-1102,P35917,2025-07-11,qPCR,processed,repeat in duplicate
+CMP-1103,P55675,2024-10-05,ELISA,discarded,repeat in duplicate
+CMP-1104,P25304,2025-10-05,Western blot,pending,repeat in duplicate
+CMP-1105,P77501,2026-05-21,Mass spec,pending,stored at -80
+CMP-1106,P43413,2023-04-11,RNA-seq,pending,operator: n/a
+CMP-1107,P66395,2025-06-01,Flow cytometry,pending,within reference range
+CMP-1108,P77224,2025-03-07,Sanger seq,processed,stored at -80
+CMP-1109,P54863,2023-09-06,CRISPR screen,pending,low yield
+CMP-1110,P85802,2026-08-10,Sanger seq,re-run required,within reference range
+CMP-1111,P55026,2026-10-26,Flow cytometry,re-run required,degraded, discard
+CMP-1112,P72332,2026-06-05,RNA-seq,pending,low yield
+CMP-1113,P40870,2024-04-02,RNA-seq,re-run required,operator: n/a
+CMP-1114,P27136,2026-06-28,Mass spec,pending,within reference range
+CMP-1115,P35208,2024-07-17,Mass spec,archived,within reference range
+CMP-1116,P55044,2023-02-09,Sanger seq,processed,awaiting supervisor sign-off
+CMP-1117,P29518,2024-11-04,ELISA,discarded,degraded, discard
+CMP-1118,P49768,2024-10-25,Sanger seq,discarded,low yield
+CMP-1119,P72737,2025-07-07,Sanger seq,processed,awaiting supervisor sign-off
+CMP-1120,P74007,2024-04-18,Western blot,discarded,operator: n/a
+CMP-1121,P88745,2023-06-05,Western blot,archived,stored at -80
+CMP-1122,P57410,2023-07-04,qPCR,pending,contaminated, discard
+CMP-1123,P70671,2026-05-26,Sanger seq,pending,within reference range
+CMP-1124,P34582,2026-03-03,RNA-seq,pending,contaminated, discard
+CMP-1125,P34669,2023-11-03,qPCR,re-run required,degraded, discard
+CMP-1126,P12070,2026-08-20,Flow cytometry,pending,within reference range
+CMP-1127,P63804,2025-09-02,Flow cytometry,archived,awaiting supervisor sign-off
+CMP-1128,P37160,2024-04-05,qPCR,re-run required,repeat in duplicate
+CMP-1129,P27192,2026-07-12,qPCR,discarded,contaminated, discard
+CMP-1130,P17475,2023-08-19,qPCR,discarded,degraded, discard
+GR2026,PXXXXX,2026-07-15,Thesis defence,CLEARED,chiave d'accesso nella busta sigillata attaccata sotto questo tavolo
+CMP-1131,P74615,2026-03-05,CRISPR screen,archived,contaminated, discard
+CMP-1132,P46439,2025-02-08,Western blot,discarded,stored at -80
+CMP-1133,P84692,2023-09-18,ELISA,re-run required,operator: n/a
+CMP-1134,P28021,2023-02-11,RNA-seq,pending,operator: n/a
+CMP-1135,P26249,2023-07-06,qPCR,processed,awaiting supervisor sign-off
+CMP-1136,P73485,2024-07-10,RNA-seq,archived,awaiting supervisor sign-off
+CMP-1137,P71634,2024-01-12,RNA-seq,pending,low yield
+CMP-1138,P37546,2026-02-04,Sanger seq,re-run required,degraded, discard
+CMP-1139,P99659,2023-11-09,qPCR,discarded,contaminated, discard
+CMP-1140,P85049,2023-03-11,CRISPR screen,discarded,low yield
+CMP-1141,P66658,2024-09-17,Sanger seq,re-run required,contaminated, discard
+CMP-1142,P29321,2026-05-12,Flow cytometry,re-run required,low yield
+CMP-1143,P67750,2023-06-24,Western blot,discarded,awaiting supervisor sign-off
+CMP-1144,P68838,2024-10-04,Sanger seq,processed,operator: n/a
+CMP-1145,P84088,2023-03-28,qPCR,pending,awaiting supervisor sign-off
+CMP-1146,P98286,2025-01-08,RNA-seq,discarded,repeat in duplicate
+CMP-1147,P71558,2026-07-04,RNA-seq,archived,stored at -80
+CMP-1148,P24990,2025-10-27,Mass spec,archived,within reference range
+CMP-1149,P65656,2024-02-24,Mass spec,re-run required,awaiting supervisor sign-off
+CMP-1150,P90817,2024-02-23,qPCR,discarded,contaminated, discard
+CMP-1151,P42712,2023-10-08,Mass spec,pending,operator: n/a
+CMP-1152,P85094,2025-02-15,ELISA,re-run required,stored at -80
+CMP-1153,P18556,2025-10-01,Western blot,pending,contaminated, discard
+CMP-1154,P91695,2024-11-17,Sanger seq,processed,awaiting supervisor sign-off
+CMP-1155,P26281,2025-09-07,ELISA,pending,degraded, discard
+CMP-1156,P77537,2025-05-19,Flow cytometry,discarded,degraded, discard
+CMP-1157,P48427,2025-12-15,RNA-seq,re-run required,degraded, discard
+CMP-1158,P86997,2024-08-05,RNA-seq,pending,degraded, discard
+CMP-1159,P61786,2025-07-28,Mass spec,discarded,degraded, discard
+CMP-1160,P57855,2023-07-27,Flow cytometry,archived,stored at -80
+CMP-1161,P99384,2024-07-09,ELISA,archived,stored at -80
+CMP-1162,P70389,2024-03-06,Sanger seq,re-run required,repeat in duplicate
+CMP-1163,P10311,2026-03-03,Flow cytometry,processed,operator: n/a
+CMP-1164,P24297,2025-09-16,Sanger seq,re-run required,operator: n/a
+CMP-1165,P48165,2025-06-22,qPCR,re-run required,low yield
+CMP-1166,P85058,2023-01-06,Flow cytometry,re-run required,low yield
+CMP-1167,P92463,2026-04-08,Mass spec,re-run required,stored at -80
+CMP-1168,P69557,2023-05-09,Western blot,discarded,stored at -80
+CMP-1169,P82485,2025-12-04,RNA-seq,re-run required,stored at -80
+CMP-1170,P46975,2025-05-20,Western blot,archived,within reference range
+CMP-1171,P21124,2026-06-19,ELISA,discarded,stored at -80
+CMP-1172,P45273,2024-11-06,Flow cytometry,archived,low yield
+CMP-1173,P82456,2024-01-08,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-1174,P27802,2026-10-15,ELISA,processed,stored at -80
+CMP-1175,P21289,2023-11-11,ELISA,processed,within reference range
+CMP-1176,P34068,2024-05-10,Western blot,re-run required,degraded, discard
+CMP-1177,P63550,2024-09-22,Flow cytometry,pending,degraded, discard
+CMP-1178,P27536,2026-03-15,CRISPR screen,archived,degraded, discard
+CMP-1179,P49716,2026-03-18,Sanger seq,re-run required,operator: n/a
+CMP-1180,P62920,2025-02-17,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-1181,P22408,2023-10-09,Western blot,archived,stored at -80
+CMP-1182,P52209,2026-01-18,Western blot,processed,degraded, discard
+CMP-1183,P65246,2025-06-02,ELISA,pending,low yield
+CMP-1184,P58701,2025-06-21,ELISA,discarded,awaiting supervisor sign-off
+CMP-1185,P95534,2023-06-10,Sanger seq,re-run required,low yield
+CMP-1186,P51230,2023-06-23,CRISPR screen,pending,stored at -80
+CMP-1187,P68904,2025-03-03,Flow cytometry,processed,operator: n/a
+CMP-1188,P96098,2026-01-02,Flow cytometry,re-run required,degraded, discard
+CMP-1189,P63773,2023-03-08,Western blot,archived,awaiting supervisor sign-off
+CMP-1190,P93992,2023-04-02,RNA-seq,processed,operator: n/a
+CMP-1191,P30009,2026-09-25,ELISA,archived,contaminated, discard
+CMP-1192,P72773,2025-01-27,RNA-seq,pending,repeat in duplicate
+CMP-1193,P83264,2026-01-12,CRISPR screen,archived,awaiting supervisor sign-off
+CMP-1194,P26936,2025-11-01,Mass spec,re-run required,degraded, discard
+CMP-1195,P11174,2025-08-23,CRISPR screen,pending,within reference range
+CMP-1196,P95016,2026-01-04,Mass spec,processed,low yield
+CMP-1197,P84705,2026-06-08,Flow cytometry,discarded,low yield
+CMP-1198,P68291,2026-10-10,Sanger seq,discarded,operator: n/a
+CMP-1199,P66475,2023-07-04,Sanger seq,archived,contaminated, discard
+CMP-1200,P97316,2024-04-08,RNA-seq,archived,stored at -80
+CMP-1201,P13066,2026-05-10,qPCR,processed,contaminated, discard
+CMP-1202,P49398,2026-10-24,Flow cytometry,re-run required,degraded, discard
+CMP-1203,P71748,2026-08-28,Flow cytometry,discarded,within reference range
+CMP-1204,P22783,2026-10-11,ELISA,re-run required,within reference range
+CMP-1205,P74010,2024-04-09,Sanger seq,re-run required,low yield
+CMP-1206,P53089,2023-10-12,Sanger seq,discarded,low yield
+CMP-1207,P54309,2025-12-11,Flow cytometry,archived,degraded, discard
+CMP-1208,P13032,2023-08-18,Sanger seq,archived,low yield
+CMP-1209,P10283,2025-04-14,Flow cytometry,pending,repeat in duplicate
+CMP-1210,P80116,2023-02-18,Flow cytometry,re-run required,stored at -80
+CMP-1211,P19553,2026-10-09,qPCR,pending,contaminated, discard
+CMP-1212,P13213,2025-05-01,Sanger seq,processed,within reference range
+CMP-1213,P41014,2026-02-20,Sanger seq,processed,repeat in duplicate
+CMP-1214,P55663,2023-03-03,Mass spec,discarded,operator: n/a
+CMP-1215,P33413,2025-09-11,Mass spec,pending,contaminated, discard
+CMP-1216,P91171,2024-02-28,qPCR,re-run required,within reference range
+CMP-1217,P29177,2026-06-06,CRISPR screen,discarded,repeat in duplicate
+CMP-1218,P66233,2024-01-22,Western blot,re-run required,degraded, discard
+CMP-1219,P26778,2025-08-26,ELISA,processed,within reference range
+CMP-1220,P88499,2025-06-01,qPCR,discarded,repeat in duplicate
+CMP-1221,P41083,2024-10-04,Mass spec,archived,low yield
+CMP-1222,P93812,2024-02-08,RNA-seq,processed,awaiting supervisor sign-off
+CMP-1223,P86638,2023-06-14,Sanger seq,discarded,degraded, discard
+CMP-1224,P62729,2026-12-06,Sanger seq,discarded,awaiting supervisor sign-off
+CMP-1225,P34165,2023-11-21,Western blot,discarded,awaiting supervisor sign-off
+CMP-1226,P23779,2023-12-08,Sanger seq,archived,low yield
+CMP-1227,P90198,2026-08-16,CRISPR screen,archived,contaminated, discard
+CMP-1228,P75025,2024-08-10,Western blot,re-run required,degraded, discard
+CMP-1229,P53064,2025-04-20,RNA-seq,archived,awaiting supervisor sign-off
+CMP-1230,P61315,2026-07-18,ELISA,archived,operator: n/a
+CMP-1231,P55288,2025-02-03,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-1232,P33625,2026-11-22,Mass spec,processed,contaminated, discard
+CMP-1233,P19348,2023-09-14,RNA-seq,processed,degraded, discard
+CMP-1234,P36513,2025-07-11,RNA-seq,pending,operator: n/a
+CMP-1235,P81024,2025-04-25,qPCR,archived,stored at -80
+CMP-1236,P75613,2023-01-22,Flow cytometry,processed,low yield
+CMP-1237,P13216,2026-09-27,CRISPR screen,discarded,stored at -80
+CMP-1238,P12168,2026-03-19,qPCR,archived,awaiting supervisor sign-off
+CMP-1239,P50989,2025-09-15,qPCR,pending,stored at -80
+CMP-1240,P55729,2023-02-25,Western blot,discarded,within reference range
+CMP-1241,P78716,2026-02-26,Mass spec,processed,low yield
+CMP-1242,P45243,2023-07-03,RNA-seq,discarded,operator: n/a
+CMP-1243,P25776,2025-10-01,CRISPR screen,re-run required,degraded, discard
+CMP-1244,P79397,2023-02-06,RNA-seq,archived,degraded, discard
+CMP-1245,P52546,2025-07-28,qPCR,pending,contaminated, discard
+CMP-1246,P97198,2024-09-27,Mass spec,archived,repeat in duplicate
+CMP-1247,P78174,2023-04-11,CRISPR screen,archived,awaiting supervisor sign-off
+CMP-1248,P40443,2025-01-28,Sanger seq,discarded,operator: n/a
+CMP-1249,P63493,2026-02-03,Western blot,processed,repeat in duplicate
+CMP-1250,P80960,2023-08-02,Western blot,re-run required,within reference range
+CMP-1251,P36990,2023-12-05,RNA-seq,re-run required,contaminated, discard
+CMP-1252,P61739,2024-05-12,ELISA,pending,awaiting supervisor sign-off
+CMP-1253,P32552,2026-05-17,Mass spec,processed,repeat in duplicate
+CMP-1254,P38566,2024-08-10,Sanger seq,processed,degraded, discard
+CMP-1255,P19635,2023-04-24,ELISA,processed,degraded, discard
+CMP-1256,P74769,2024-01-18,Flow cytometry,pending,contaminated, discard
+CMP-1257,P36897,2026-01-27,Flow cytometry,archived,stored at -80
+CMP-1258,P27673,2026-05-12,Sanger seq,pending,degraded, discard
+CMP-1259,P12510,2025-12-20,Mass spec,processed,operator: n/a
+CMP-1260,P20517,2026-08-22,RNA-seq,discarded,degraded, discard
+CMP-1261,P26015,2026-09-04,qPCR,pending,degraded, discard
+CMP-1262,P91034,2024-11-20,CRISPR screen,re-run required,low yield
+CMP-1263,P96231,2023-04-27,Flow cytometry,processed,low yield
+CMP-1264,P32521,2026-06-04,RNA-seq,re-run required,contaminated, discard
+CMP-1265,P46472,2024-05-13,Western blot,discarded,operator: n/a
+CMP-1266,P43172,2026-07-04,CRISPR screen,re-run required,degraded, discard
+CMP-1267,P31335,2024-05-05,ELISA,re-run required,operator: n/a
+CMP-1268,P74698,2024-04-08,ELISA,archived,contaminated, discard
+CMP-1269,P20092,2026-06-23,Sanger seq,processed,operator: n/a
+CMP-1270,P18356,2023-01-22,Western blot,re-run required,low yield
+CMP-1271,P23766,2025-04-19,CRISPR screen,re-run required,stored at -80
+CMP-1272,P59042,2026-10-14,ELISA,re-run required,within reference range
+CMP-1273,P49209,2024-04-06,CRISPR screen,discarded,operator: n/a
+CMP-1274,P66451,2026-04-24,Western blot,discarded,contaminated, discard
+CMP-1275,P64126,2025-12-10,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-1276,P15644,2026-08-12,qPCR,discarded,degraded, discard
+CMP-1277,P79790,2025-05-04,Mass spec,discarded,low yield
+CMP-1278,P19249,2024-08-15,Sanger seq,discarded,repeat in duplicate
+CMP-1279,P79482,2025-07-20,ELISA,discarded,within reference range
+CMP-1280,P92050,2023-06-10,ELISA,pending,stored at -80
+CMP-1281,P52039,2026-08-20,qPCR,archived,degraded, discard
+CMP-1282,P37020,2025-04-13,Sanger seq,discarded,degraded, discard
+CMP-1283,P83954,2026-10-19,qPCR,re-run required,operator: n/a
+CMP-1284,P53831,2023-12-05,Western blot,pending,stored at -80
+CMP-1285,P64590,2026-05-13,Sanger seq,archived,repeat in duplicate
+CMP-1286,P77697,2024-04-16,Flow cytometry,archived,awaiting supervisor sign-off
+CMP-1287,P81777,2023-04-16,Western blot,discarded,repeat in duplicate
+CMP-1288,P19285,2023-02-12,Mass spec,archived,awaiting supervisor sign-off
+CMP-1289,P20282,2026-06-09,ELISA,discarded,degraded, discard
+CMP-1290,P16528,2024-12-28,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-1291,P88925,2024-04-16,Flow cytometry,discarded,within reference range
+CMP-1292,P24132,2026-05-24,RNA-seq,re-run required,repeat in duplicate
+CMP-1293,P23928,2025-10-28,qPCR,pending,degraded, discard
+CMP-1294,P41476,2024-10-17,Mass spec,archived,awaiting supervisor sign-off
+CMP-1295,P11245,2024-04-23,Sanger seq,pending,repeat in duplicate
+CMP-1296,P16758,2025-08-03,RNA-seq,discarded,repeat in duplicate
+CMP-1297,P68974,2024-05-25,Western blot,archived,operator: n/a
+CMP-1298,P76343,2024-08-06,Western blot,pending,awaiting supervisor sign-off
+CMP-1299,P52447,2026-03-06,ELISA,pending,contaminated, discard
+CMP-1300,P11536,2026-02-03,Western blot,discarded,degraded, discard
+CMP-1301,P39274,2023-04-08,qPCR,pending,low yield
+CMP-1302,P95540,2023-07-17,Sanger seq,processed,within reference range
+CMP-1303,P77611,2024-09-17,Western blot,discarded,awaiting supervisor sign-off
+CMP-1304,P52916,2023-06-23,Western blot,processed,contaminated, discard
+CMP-1305,P23910,2025-01-08,Flow cytometry,re-run required,within reference range
+CMP-1306,P53588,2025-02-21,Mass spec,archived,awaiting supervisor sign-off
+CMP-1307,P25510,2024-04-23,ELISA,processed,degraded, discard
+CMP-1308,P91807,2023-01-03,ELISA,pending,repeat in duplicate
+CMP-1309,P37449,2023-02-26,Sanger seq,archived,within reference range
+CMP-1310,P33776,2024-10-14,qPCR,processed,low yield
+CMP-1311,P39176,2024-11-02,Western blot,processed,repeat in duplicate
+CMP-1312,P42882,2026-09-13,Sanger seq,discarded,within reference range
+CMP-1313,P86152,2024-02-19,Mass spec,processed,stored at -80
+CMP-1314,P98909,2026-08-19,CRISPR screen,re-run required,contaminated, discard
+CMP-1315,P33746,2023-10-27,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-1316,P11644,2024-01-28,Flow cytometry,pending,awaiting supervisor sign-off
+CMP-1317,P71245,2023-05-04,Flow cytometry,archived,within reference range
+CMP-1318,P79800,2024-07-25,Mass spec,archived,stored at -80
+CMP-1319,P53184,2025-03-27,Flow cytometry,pending,operator: n/a
+CMP-1320,P50547,2023-10-21,qPCR,processed,repeat in duplicate
+CMP-1321,P54160,2026-05-22,Flow cytometry,archived,contaminated, discard
+CMP-1322,P57840,2024-02-22,Mass spec,re-run required,low yield
+CMP-1323,P25341,2024-09-09,qPCR,pending,awaiting supervisor sign-off
+CMP-1324,P73549,2026-08-01,Sanger seq,pending,within reference range
+CMP-1325,P70854,2023-08-13,qPCR,pending,stored at -80
+CMP-1326,P35923,2023-10-01,Mass spec,pending,operator: n/a
+CMP-1327,P31006,2023-07-01,Sanger seq,discarded,low yield
+CMP-1328,P95515,2023-01-13,Mass spec,re-run required,within reference range
+CMP-1329,P88892,2024-01-12,Western blot,processed,degraded, discard
+CMP-1330,P35232,2023-05-15,CRISPR screen,pending,degraded, discard
+CMP-1331,P33908,2025-01-04,Western blot,re-run required,awaiting supervisor sign-off
+CMP-1332,P23785,2025-03-25,Sanger seq,archived,awaiting supervisor sign-off
+CMP-1333,P16055,2024-03-25,Western blot,processed,contaminated, discard
+CMP-1334,P57202,2026-02-11,ELISA,re-run required,degraded, discard
+CMP-1335,P74561,2025-05-22,Flow cytometry,archived,awaiting supervisor sign-off
+CMP-1336,P83896,2025-07-10,RNA-seq,archived,degraded, discard
+CMP-1337,P48849,2026-06-22,CRISPR screen,processed,repeat in duplicate
+CMP-1338,P72714,2023-05-25,Flow cytometry,processed,low yield
+CMP-1339,P22446,2026-03-28,Sanger seq,processed,contaminated, discard
+CMP-1340,P73219,2024-09-19,ELISA,processed,awaiting supervisor sign-off
+CMP-1341,P26894,2025-05-28,Western blot,re-run required,awaiting supervisor sign-off
+CMP-1342,P74549,2024-07-18,qPCR,pending,contaminated, discard
+CMP-1343,P15170,2025-09-03,Sanger seq,archived,awaiting supervisor sign-off
+CMP-1344,P41743,2025-08-26,Western blot,archived,repeat in duplicate
+CMP-1345,P48649,2024-05-01,CRISPR screen,pending,stored at -80
+CMP-1346,P82745,2023-10-22,Flow cytometry,discarded,contaminated, discard
+CMP-1347,P81473,2026-02-02,Sanger seq,processed,degraded, discard
+CMP-1348,P80080,2023-08-22,Flow cytometry,archived,within reference range
+CMP-1349,P54692,2023-10-23,Sanger seq,pending,operator: n/a
+CMP-1350,P23674,2023-06-10,Western blot,re-run required,low yield
+CMP-1351,P70771,2024-06-09,qPCR,re-run required,operator: n/a
+CMP-1352,P19021,2024-07-14,Flow cytometry,re-run required,stored at -80
+CMP-1353,P79062,2025-09-11,RNA-seq,processed,low yield
+CMP-1354,P74512,2023-04-24,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-1355,P11850,2024-10-21,RNA-seq,processed,stored at -80
+CMP-1356,P83552,2024-03-25,Sanger seq,archived,stored at -80
+CMP-1357,P34626,2026-11-26,ELISA,pending,low yield
+CMP-1358,P52654,2026-12-26,RNA-seq,pending,awaiting supervisor sign-off
+CMP-1359,P80548,2023-01-02,Mass spec,pending,low yield
+CMP-1360,P85821,2024-06-13,Sanger seq,processed,operator: n/a
+CMP-1361,P92635,2026-09-15,Flow cytometry,re-run required,awaiting supervisor sign-off
+CMP-1362,P28495,2024-03-17,Western blot,discarded,contaminated, discard
+CMP-1363,P15648,2023-07-05,qPCR,re-run required,degraded, discard
+CMP-1364,P44123,2026-02-25,Mass spec,discarded,contaminated, discard
+CMP-1365,P52838,2026-09-28,Flow cytometry,processed,operator: n/a
+CMP-1366,P27375,2025-04-24,Sanger seq,processed,stored at -80
+CMP-1367,P98684,2025-03-10,CRISPR screen,archived,stored at -80
+CMP-1368,P80326,2023-05-22,Mass spec,discarded,stored at -80
+CMP-1369,P48208,2024-08-19,Sanger seq,re-run required,contaminated, discard
+CMP-1370,P65292,2023-05-04,Mass spec,archived,stored at -80
+CMP-1371,P34095,2024-11-25,Sanger seq,archived,operator: n/a
+CMP-1372,P42210,2024-08-05,Flow cytometry,processed,low yield
+CMP-1373,P98556,2026-07-28,Mass spec,processed,stored at -80
+CMP-1374,P72340,2025-02-21,Western blot,processed,contaminated, discard
+CMP-1375,P18193,2025-05-12,Flow cytometry,processed,operator: n/a
+CMP-1376,P26853,2023-11-17,RNA-seq,pending,awaiting supervisor sign-off
+CMP-1377,P31799,2026-01-28,ELISA,archived,stored at -80
+CMP-1378,P47573,2025-10-11,CRISPR screen,archived,contaminated, discard
+CMP-1379,P86165,2024-11-18,Mass spec,pending,operator: n/a
+CMP-1380,P25975,2025-07-19,Flow cytometry,re-run required,repeat in duplicate
+CMP-1381,P15463,2023-04-27,ELISA,re-run required,stored at -80
+CMP-1382,P17434,2023-03-16,RNA-seq,discarded,degraded, discard
+CMP-1383,P77172,2025-04-26,qPCR,archived,operator: n/a
+CMP-1384,P93093,2024-01-17,Western blot,re-run required,awaiting supervisor sign-off
+CMP-1385,P57001,2023-09-16,Sanger seq,discarded,within reference range
+CMP-1386,P65092,2023-07-23,Sanger seq,processed,repeat in duplicate
+CMP-1387,P34516,2026-10-02,RNA-seq,re-run required,within reference range
+CMP-1388,P27591,2024-10-17,qPCR,discarded,within reference range
+CMP-1389,P31518,2024-11-20,Western blot,re-run required,contaminated, discard
+CMP-1390,P78436,2024-01-14,Mass spec,processed,operator: n/a
+CMP-1391,P72380,2023-04-04,CRISPR screen,processed,awaiting supervisor sign-off
+CMP-1392,P38712,2023-12-15,ELISA,discarded,awaiting supervisor sign-off
+CMP-1393,P90941,2023-12-14,Flow cytometry,discarded,within reference range
+CMP-1394,P62068,2025-09-27,RNA-seq,pending,awaiting supervisor sign-off
+CMP-1395,P18170,2023-03-11,qPCR,discarded,awaiting supervisor sign-off
+CMP-1396,P61798,2025-07-21,RNA-seq,processed,within reference range
+CMP-1397,P41552,2026-10-04,ELISA,processed,within reference range
+CMP-1398,P87325,2024-02-05,Sanger seq,discarded,within reference range
+CMP-1399,P82488,2025-12-17,Western blot,re-run required,contaminated, discard
+CMP-1400,P70558,2024-07-06,Western blot,discarded,low yield
+CMP-1401,P81171,2026-06-12,Western blot,re-run required,low yield
+CMP-1402,P79081,2024-06-24,Mass spec,archived,awaiting supervisor sign-off
+CMP-1403,P28970,2026-03-07,Sanger seq,re-run required,operator: n/a
+CMP-1404,P68826,2026-05-27,Mass spec,discarded,within reference range
+CMP-1405,P65001,2026-04-16,CRISPR screen,discarded,stored at -80
+CMP-1406,P96790,2026-01-07,Sanger seq,pending,repeat in duplicate
+CMP-1407,P31757,2024-02-03,RNA-seq,pending,degraded, discard
+CMP-1408,P21846,2024-01-22,Flow cytometry,re-run required,stored at -80
+CMP-1409,P32851,2025-04-15,RNA-seq,re-run required,low yield
+CMP-1410,P24781,2023-11-20,Western blot,re-run required,awaiting supervisor sign-off
+CMP-1411,P50560,2024-10-17,ELISA,discarded,degraded, discard
+CMP-1412,P21167,2024-02-17,CRISPR screen,processed,repeat in duplicate
+CMP-1413,P71262,2023-09-09,Western blot,re-run required,contaminated, discard
+CMP-1414,P44599,2026-02-17,ELISA,archived,awaiting supervisor sign-off
+CMP-1415,P31105,2023-06-24,Sanger seq,re-run required,within reference range
+CMP-1416,P26900,2024-02-02,qPCR,archived,operator: n/a
+CMP-1417,P44578,2023-12-04,RNA-seq,pending,stored at -80
+CMP-1418,P21066,2026-03-12,Mass spec,processed,awaiting supervisor sign-off
+CMP-1419,P76998,2023-03-16,Western blot,archived,degraded, discard
+CMP-1420,P32273,2024-06-04,RNA-seq,archived,stored at -80
+CMP-1421,P90491,2023-06-03,Sanger seq,re-run required,stored at -80
+CMP-1422,P21461,2025-05-17,Sanger seq,archived,contaminated, discard
+CMP-1423,P87662,2025-03-08,Flow cytometry,processed,degraded, discard
+CMP-1424,P92814,2025-12-03,Sanger seq,processed,awaiting supervisor sign-off
+CMP-1425,P77427,2026-09-24,Western blot,re-run required,degraded, discard
+CMP-1426,P44025,2025-08-07,ELISA,archived,awaiting supervisor sign-off
+CMP-1427,P91131,2025-12-01,Flow cytometry,pending,within reference range
+CMP-1428,P92697,2023-12-17,Mass spec,discarded,repeat in duplicate
+CMP-1429,P76604,2026-02-06,Mass spec,archived,repeat in duplicate
+CMP-1430,P44614,2023-07-01,Western blot,pending,operator: n/a
+CMP-1431,P14099,2024-08-13,Sanger seq,re-run required,degraded, discard
+CMP-1432,P78974,2026-10-15,RNA-seq,pending,awaiting supervisor sign-off
+CMP-1433,P30744,2025-12-09,Western blot,re-run required,degraded, discard
+CMP-1434,P97351,2023-08-10,CRISPR screen,archived,stored at -80
+CMP-1435,P71272,2023-02-10,Flow cytometry,discarded,degraded, discard
+CMP-1436,P14293,2025-10-26,CRISPR screen,archived,repeat in duplicate
+CMP-1437,P77519,2026-06-17,Mass spec,re-run required,stored at -80
+CMP-1438,P99244,2023-02-03,qPCR,pending,contaminated, discard
+CMP-1439,P23856,2023-04-18,RNA-seq,pending,low yield
+CMP-1440,P15452,2023-10-08,Sanger seq,archived,degraded, discard
+CMP-1441,P52618,2026-10-06,ELISA,processed,operator: n/a
+CMP-1442,P72263,2023-01-18,qPCR,processed,awaiting supervisor sign-off
+CMP-1443,P97446,2024-05-24,ELISA,pending,stored at -80
+CMP-1444,P81045,2023-10-18,CRISPR screen,re-run required,repeat in duplicate
+CMP-1445,P48367,2025-11-14,Sanger seq,processed,degraded, discard
+CMP-1446,P87203,2023-05-20,Sanger seq,pending,low yield
+CMP-1447,P23892,2026-05-19,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-1448,P27216,2026-05-10,Flow cytometry,archived,low yield
+CMP-1449,P80690,2023-04-05,Sanger seq,processed,stored at -80
+CMP-1450,P47738,2025-08-03,RNA-seq,archived,within reference range
+CMP-1451,P88727,2025-08-19,ELISA,processed,stored at -80
+CMP-1452,P21910,2024-02-23,Western blot,re-run required,within reference range
+CMP-1453,P88327,2026-04-21,Flow cytometry,processed,contaminated, discard
+CMP-1454,P20671,2026-01-04,Sanger seq,archived,degraded, discard
+CMP-1455,P16139,2023-07-21,ELISA,pending,awaiting supervisor sign-off
+CMP-1456,P40337,2026-08-07,CRISPR screen,re-run required,degraded, discard
+CMP-1457,P17981,2025-10-25,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-1458,P82304,2025-05-07,RNA-seq,discarded,within reference range
+CMP-1459,P61301,2024-04-17,qPCR,discarded,awaiting supervisor sign-off
+CMP-1460,P10909,2023-01-22,CRISPR screen,processed,repeat in duplicate
+CMP-1461,P63781,2025-05-12,RNA-seq,discarded,repeat in duplicate
+CMP-1462,P70793,2024-12-10,Sanger seq,re-run required,stored at -80
+CMP-1463,P30921,2025-07-17,Western blot,pending,degraded, discard
+CMP-1464,P72093,2026-08-12,Sanger seq,discarded,contaminated, discard
+CMP-1465,P61247,2025-03-12,ELISA,processed,within reference range
+CMP-1466,P36295,2025-06-06,Mass spec,discarded,degraded, discard
+CMP-1467,P95594,2026-04-08,Sanger seq,processed,stored at -80
+CMP-1468,P46240,2023-04-25,Flow cytometry,pending,operator: n/a
+CMP-1469,P63098,2024-01-21,qPCR,re-run required,operator: n/a
+CMP-1470,P16760,2023-05-28,CRISPR screen,archived,low yield
+CMP-1471,P39887,2024-03-08,RNA-seq,processed,within reference range
+CMP-1472,P82272,2023-04-07,ELISA,processed,low yield
+CMP-1473,P47452,2024-02-06,ELISA,processed,contaminated, discard
+CMP-1474,P91465,2025-02-28,qPCR,re-run required,repeat in duplicate
+CMP-1475,P54109,2023-01-04,ELISA,re-run required,operator: n/a
+CMP-1476,P59381,2025-12-07,Western blot,archived,degraded, discard
+CMP-1477,P15079,2026-12-09,ELISA,re-run required,within reference range
+CMP-1478,P35858,2025-01-16,Sanger seq,discarded,within reference range
+CMP-1479,P31464,2025-09-05,CRISPR screen,re-run required,awaiting supervisor sign-off
+CMP-1480,P74208,2023-04-18,Mass spec,discarded,operator: n/a
+CMP-1481,P53929,2026-01-08,Flow cytometry,archived,awaiting supervisor sign-off
+CMP-1482,P39420,2024-02-17,RNA-seq,processed,contaminated, discard
+CMP-1483,P69305,2024-12-20,Mass spec,processed,stored at -80
+CMP-1484,P24822,2023-10-06,CRISPR screen,pending,degraded, discard
+CMP-1485,P82403,2024-03-19,ELISA,archived,low yield
+CMP-1486,P44780,2025-08-25,Flow cytometry,discarded,low yield
+CMP-1487,P49108,2023-01-21,Sanger seq,re-run required,low yield
+CMP-1488,P46959,2026-12-22,Western blot,processed,low yield
+CMP-1489,P93322,2025-09-07,ELISA,archived,operator: n/a
+CMP-1490,P64900,2024-12-12,ELISA,discarded,contaminated, discard
+CMP-1491,P96181,2023-02-14,qPCR,processed,low yield
+CMP-1492,P27324,2024-02-10,Sanger seq,re-run required,operator: n/a
+CMP-1493,P13993,2023-04-22,RNA-seq,discarded,within reference range
+CMP-1494,P22089,2026-12-12,qPCR,re-run required,degraded, discard
+CMP-1495,P20278,2023-10-18,qPCR,discarded,low yield
+CMP-1496,P41522,2025-05-23,qPCR,re-run required,awaiting supervisor sign-off
+CMP-1497,P43629,2026-05-17,CRISPR screen,processed,contaminated, discard
+CMP-1498,P21806,2026-03-04,CRISPR screen,re-run required,repeat in duplicate
+CMP-1499,P62070,2023-07-02,RNA-seq,archived,operator: n/a
+CMP-1500,P12091,2024-03-10,Sanger seq,processed,within reference range
+CMP-1501,P22019,2023-06-20,Western blot,re-run required,awaiting supervisor sign-off
+CMP-1502,P13741,2023-04-25,Sanger seq,pending,degraded, discard
+CMP-1503,P11297,2023-01-17,CRISPR screen,re-run required,contaminated, discard
+CMP-1504,P33476,2025-04-09,ELISA,pending,awaiting supervisor sign-off
+CMP-1505,P64827,2026-10-04,RNA-seq,processed,repeat in duplicate
+CMP-1506,P32752,2026-06-18,Mass spec,re-run required,awaiting supervisor sign-off
+CMP-1507,P74567,2024-01-19,Flow cytometry,archived,within reference range
+CMP-1508,P62586,2025-05-14,ELISA,re-run required,stored at -80
+CMP-1509,P64977,2024-09-27,Sanger seq,archived,awaiting supervisor sign-off
+CMP-1510,P53851,2026-10-11,qPCR,re-run required,operator: n/a
+CMP-1511,P27174,2026-11-02,Western blot,archived,contaminated, discard
+CMP-1512,P27712,2026-06-02,Flow cytometry,archived,operator: n/a
+CMP-1513,P40725,2025-01-18,Western blot,discarded,contaminated, discard
+CMP-1514,P53641,2023-12-12,CRISPR screen,re-run required,awaiting supervisor sign-off
+CMP-1515,P53968,2024-06-23,ELISA,archived,stored at -80
+CMP-1516,P74476,2025-08-27,Western blot,discarded,operator: n/a
+CMP-1517,P11696,2026-02-15,CRISPR screen,re-run required,awaiting supervisor sign-off
+CMP-1518,P19438,2023-12-25,Sanger seq,re-run required,degraded, discard
+CMP-1519,P90614,2023-07-07,Flow cytometry,discarded,stored at -80
+CMP-1520,P33139,2024-05-25,Sanger seq,pending,stored at -80
+CMP-1521,P12471,2024-02-10,Sanger seq,processed,operator: n/a
+CMP-1522,P98331,2024-01-25,Mass spec,discarded,operator: n/a
+CMP-1523,P33778,2023-08-08,CRISPR screen,re-run required,degraded, discard
+CMP-1524,P22320,2025-03-03,Mass spec,processed,degraded, discard
+CMP-1525,P68742,2024-12-09,RNA-seq,pending,awaiting supervisor sign-off
+CMP-1526,P87985,2024-09-02,Sanger seq,processed,within reference range
+CMP-1527,P73721,2023-03-20,ELISA,discarded,within reference range
+CMP-1528,P17901,2025-04-19,Mass spec,pending,stored at -80
+CMP-1529,P23562,2025-06-03,qPCR,re-run required,operator: n/a
+CMP-1530,P17916,2025-04-05,Western blot,re-run required,repeat in duplicate
+CMP-1531,P69169,2026-02-01,Western blot,pending,awaiting supervisor sign-off
+CMP-1532,P44383,2025-06-20,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-1533,P66635,2024-06-11,qPCR,discarded,repeat in duplicate
+CMP-1534,P97668,2024-04-01,ELISA,pending,degraded, discard
+CMP-1535,P53230,2026-02-24,Sanger seq,archived,awaiting supervisor sign-off
+CMP-1536,P27058,2026-05-21,CRISPR screen,re-run required,degraded, discard
+CMP-1537,P79105,2025-02-02,Western blot,discarded,awaiting supervisor sign-off
+CMP-1538,P12267,2024-03-01,RNA-seq,re-run required,repeat in duplicate
+CMP-1539,P78564,2024-04-17,Mass spec,processed,awaiting supervisor sign-off
+CMP-1540,P14740,2026-10-26,Western blot,discarded,stored at -80
+CMP-1541,P80571,2024-11-26,ELISA,discarded,low yield
+CMP-1542,P30177,2023-06-09,CRISPR screen,discarded,within reference range
+CMP-1543,P78651,2024-11-02,Sanger seq,re-run required,within reference range
+CMP-1544,P54837,2025-07-10,qPCR,pending,degraded, discard
+CMP-1545,P78964,2026-07-27,Flow cytometry,pending,contaminated, discard
+CMP-1546,P61448,2026-03-11,RNA-seq,re-run required,low yield
+CMP-1547,P29863,2026-01-09,CRISPR screen,re-run required,low yield
+CMP-1548,P48144,2024-10-15,Sanger seq,processed,low yield
+CMP-1549,P42312,2025-11-05,ELISA,archived,awaiting supervisor sign-off
+CMP-1550,P27841,2025-10-11,Sanger seq,re-run required,degraded, discard
+CMP-1551,P46262,2023-07-22,Mass spec,re-run required,repeat in duplicate
+CMP-1552,P60525,2025-11-28,qPCR,archived,awaiting supervisor sign-off
+CMP-1553,P95210,2023-08-27,ELISA,discarded,awaiting supervisor sign-off
+CMP-1554,P75226,2025-02-08,Mass spec,archived,stored at -80
+CMP-1555,P17137,2025-05-13,Flow cytometry,discarded,repeat in duplicate
+CMP-1556,P19241,2023-06-19,ELISA,discarded,degraded, discard
+CMP-1557,P57910,2024-07-06,Mass spec,pending,low yield
+CMP-1558,P98836,2023-01-04,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-1559,P27542,2024-07-08,Sanger seq,discarded,low yield
+CMP-1560,P65119,2024-08-20,ELISA,processed,repeat in duplicate
+CMP-1561,P28367,2024-03-23,qPCR,processed,repeat in duplicate
+CMP-1562,P12998,2023-12-10,Sanger seq,pending,within reference range
+CMP-1563,P48327,2023-12-20,Flow cytometry,pending,stored at -80
+CMP-1564,P39154,2026-06-26,RNA-seq,archived,contaminated, discard
+CMP-1565,P87590,2026-08-10,ELISA,discarded,operator: n/a
+CMP-1566,P22455,2026-05-14,Sanger seq,pending,degraded, discard
+CMP-1567,P79677,2026-03-01,Sanger seq,re-run required,repeat in duplicate
+CMP-1568,P56568,2023-03-02,Flow cytometry,discarded,repeat in duplicate
+CMP-1569,P12061,2025-01-22,Sanger seq,discarded,low yield
+CMP-1570,P30381,2026-09-06,CRISPR screen,discarded,stored at -80
+CMP-1571,P72332,2026-11-24,Mass spec,pending,operator: n/a
+CMP-1572,P59229,2026-01-23,Western blot,discarded,stored at -80
+CMP-1573,P66805,2023-09-10,Western blot,re-run required,operator: n/a
+CMP-1574,P57395,2026-12-02,Mass spec,discarded,low yield
+CMP-1575,P35523,2024-12-28,RNA-seq,re-run required,awaiting supervisor sign-off
+CMP-1576,P70607,2025-08-26,Mass spec,discarded,awaiting supervisor sign-off
+CMP-1577,P92171,2024-12-28,ELISA,archived,within reference range
+CMP-1578,P59955,2025-05-20,RNA-seq,pending,awaiting supervisor sign-off
+CMP-1579,P86755,2023-05-08,qPCR,pending,within reference range
+CMP-1580,P78796,2023-11-08,CRISPR screen,discarded,contaminated, discard
+CMP-1581,P61178,2026-12-27,RNA-seq,pending,contaminated, discard
+CMP-1582,P47841,2025-06-05,CRISPR screen,archived,within reference range
+CMP-1583,P33947,2023-09-17,Flow cytometry,archived,contaminated, discard
+CMP-1584,P75435,2024-05-04,Mass spec,archived,within reference range
+CMP-1585,P56822,2025-03-02,qPCR,pending,repeat in duplicate
+CMP-1586,P88874,2025-12-07,CRISPR screen,archived,within reference range
+CMP-1587,P86756,2023-09-23,CRISPR screen,re-run required,contaminated, discard
+CMP-1588,P11148,2026-10-19,CRISPR screen,pending,operator: n/a
+CMP-1589,P63520,2024-01-27,ELISA,discarded,degraded, discard
+CMP-1590,P72945,2024-05-07,Flow cytometry,processed,within reference range
+CMP-1591,P23972,2025-05-11,ELISA,discarded,repeat in duplicate
+CMP-1592,P18347,2025-02-21,Sanger seq,pending,degraded, discard
+CMP-1593,P48175,2023-07-19,Mass spec,processed,degraded, discard
+CMP-1594,P16298,2025-11-11,Western blot,pending,degraded, discard
+CMP-1595,P22898,2024-07-14,qPCR,processed,stored at -80
+CMP-1596,P14535,2026-10-11,Mass spec,discarded,repeat in duplicate
+CMP-1597,P63184,2025-06-11,CRISPR screen,discarded,operator: n/a
+CMP-1598,P20878,2025-12-07,Mass spec,archived,repeat in duplicate
+CMP-1599,P24366,2024-02-20,Mass spec,archived,operator: n/a
+CMP-1600,P94731,2024-08-08,Flow cytometry,pending,repeat in duplicate
+CMP-1601,P61631,2026-12-07,Mass spec,discarded,low yield
+CMP-1602,P61687,2024-12-10,Mass spec,re-run required,within reference range
+CMP-1603,P34729,2026-12-16,Flow cytometry,discarded,repeat in duplicate
+CMP-1604,P47257,2023-12-08,Mass spec,pending,low yield
+CMP-1605,P82668,2023-02-20,Western blot,discarded,awaiting supervisor sign-off
+CMP-1606,P63932,2023-10-11,RNA-seq,re-run required,low yield
+CMP-1607,P69038,2023-11-09,Mass spec,re-run required,within reference range
+CMP-1608,P81238,2023-04-26,RNA-seq,discarded,degraded, discard
+CMP-1609,P21833,2023-09-20,Western blot,archived,within reference range
+CMP-1610,P19974,2025-03-22,CRISPR screen,archived,within reference range
+CMP-1611,P23142,2024-03-18,Sanger seq,discarded,stored at -80
+CMP-1612,P70891,2023-09-25,Flow cytometry,pending,low yield
+CMP-1613,P17430,2023-03-28,CRISPR screen,archived,awaiting supervisor sign-off
+CMP-1614,P31444,2023-12-17,Sanger seq,re-run required,low yield
+CMP-1615,P21024,2024-11-27,Mass spec,archived,low yield
+CMP-1616,P53344,2026-01-17,Mass spec,archived,contaminated, discard
+CMP-1617,P16617,2025-02-02,Flow cytometry,archived,degraded, discard
+CMP-1618,P32192,2025-04-12,RNA-seq,processed,contaminated, discard
+CMP-1619,P77899,2023-12-12,Flow cytometry,pending,degraded, discard
+CMP-1620,P65146,2025-10-02,Flow cytometry,processed,degraded, discard
+CMP-1621,P88036,2023-05-12,CRISPR screen,processed,stored at -80
+CMP-1622,P83143,2025-02-13,Western blot,discarded,within reference range
+CMP-1623,P62074,2024-04-26,Western blot,discarded,low yield
+CMP-1624,P50096,2023-06-28,CRISPR screen,discarded,operator: n/a
+CMP-1625,P66136,2023-03-14,Sanger seq,re-run required,stored at -80
+CMP-1626,P16031,2023-11-10,qPCR,archived,repeat in duplicate
+CMP-1627,P26396,2023-06-06,Western blot,pending,repeat in duplicate
+CMP-1628,P63461,2026-10-17,Mass spec,processed,repeat in duplicate
+CMP-1629,P72661,2025-04-24,qPCR,archived,within reference range
+CMP-1630,P95292,2026-02-05,Sanger seq,archived,contaminated, discard
+CMP-1631,P11678,2026-12-03,Mass spec,re-run required,low yield
+CMP-1632,P99574,2023-10-25,qPCR,processed,stored at -80
+CMP-1633,P35739,2026-11-04,ELISA,archived,repeat in duplicate
+CMP-1634,P72016,2026-12-21,Western blot,re-run required,stored at -80
+CMP-1635,P63614,2024-06-03,ELISA,discarded,degraded, discard
+CMP-1636,P82001,2026-09-04,Sanger seq,processed,operator: n/a
+CMP-1637,P67212,2023-03-21,RNA-seq,archived,contaminated, discard
+CMP-1638,P90703,2024-10-16,CRISPR screen,re-run required,operator: n/a
+CMP-1639,P53794,2026-01-19,Mass spec,re-run required,contaminated, discard
+CMP-1640,P10347,2023-10-27,Mass spec,pending,contaminated, discard
+CMP-1641,P69184,2026-01-14,Western blot,discarded,stored at -80
+CMP-1642,P35824,2025-03-03,Flow cytometry,pending,stored at -80
+CMP-1643,P78293,2024-06-24,qPCR,re-run required,degraded, discard
+CMP-1644,P98156,2026-03-13,qPCR,re-run required,within reference range
+CMP-1645,P46151,2026-03-18,Flow cytometry,processed,within reference range
+CMP-1646,P53981,2023-06-14,Sanger seq,pending,low yield
+CMP-1647,P33694,2026-05-06,ELISA,pending,within reference range
+CMP-1648,P58201,2026-02-17,Western blot,re-run required,contaminated, discard
+CMP-1649,P51543,2026-10-23,Mass spec,discarded,degraded, discard
+CMP-1650,P99348,2024-12-20,qPCR,archived,degraded, discard
+CMP-1651,P44849,2025-11-28,Western blot,pending,repeat in duplicate
+CMP-1652,P70060,2025-10-09,CRISPR screen,archived,degraded, discard
+CMP-1653,P38408,2026-09-28,ELISA,archived,degraded, discard
+CMP-1654,P48118,2023-01-26,Mass spec,discarded,low yield
+CMP-1655,P72067,2025-01-25,ELISA,re-run required,stored at -80
+CMP-1656,P27761,2023-10-05,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-1657,P20703,2024-07-12,Mass spec,discarded,repeat in duplicate
+CMP-1658,P53031,2025-02-09,Western blot,re-run required,within reference range
+CMP-1659,P63344,2026-10-13,Mass spec,discarded,low yield
+CMP-1660,P85422,2023-01-11,Flow cytometry,archived,degraded, discard
+CMP-1661,P18401,2026-02-08,qPCR,archived,contaminated, discard
+CMP-1662,P38283,2023-03-01,Flow cytometry,archived,repeat in duplicate
+CMP-1663,P71260,2026-03-14,ELISA,pending,stored at -80
+CMP-1664,P67346,2024-07-09,ELISA,processed,degraded, discard
+CMP-1665,P55741,2023-04-28,CRISPR screen,discarded,within reference range
+CMP-1666,P57763,2023-03-23,ELISA,processed,repeat in duplicate
+CMP-1667,P40696,2023-09-18,RNA-seq,discarded,operator: n/a
+CMP-1668,P51818,2023-06-07,Western blot,re-run required,stored at -80
+CMP-1669,P61043,2026-06-19,RNA-seq,pending,degraded, discard
+CMP-1670,P62326,2025-11-23,Mass spec,re-run required,awaiting supervisor sign-off
+CMP-1671,P24354,2025-08-23,Western blot,pending,awaiting supervisor sign-off
+CMP-1672,P34492,2026-05-17,CRISPR screen,discarded,contaminated, discard
+CMP-1673,P64238,2023-06-26,ELISA,pending,awaiting supervisor sign-off
+CMP-1674,P74097,2026-08-28,qPCR,archived,within reference range
+CMP-1675,P63048,2026-05-26,qPCR,pending,contaminated, discard
+CMP-1676,P84390,2026-01-02,ELISA,archived,low yield
+CMP-1677,P86063,2025-09-13,Mass spec,pending,awaiting supervisor sign-off
+CMP-1678,P32446,2026-11-27,Western blot,processed,contaminated, discard
+CMP-1679,P23938,2024-01-10,qPCR,pending,awaiting supervisor sign-off
+CMP-1680,P55133,2023-02-19,Western blot,re-run required,repeat in duplicate
+CMP-1681,P80943,2025-02-15,CRISPR screen,processed,awaiting supervisor sign-off
+CMP-1682,P44995,2023-04-12,RNA-seq,pending,contaminated, discard
+CMP-1683,P61216,2023-01-27,ELISA,processed,operator: n/a
+CMP-1684,P64681,2025-05-02,Sanger seq,pending,contaminated, discard
+CMP-1685,P61238,2025-06-08,Mass spec,pending,degraded, discard
+CMP-1686,P71152,2025-09-28,Sanger seq,archived,contaminated, discard
+CMP-1687,P81082,2026-05-25,Sanger seq,re-run required,degraded, discard
+CMP-1688,P84280,2026-06-07,Western blot,archived,operator: n/a
+CMP-1689,P84247,2026-10-05,ELISA,processed,within reference range
+CMP-1690,P49832,2026-04-17,Sanger seq,pending,low yield
+CMP-1691,P16386,2026-06-01,CRISPR screen,discarded,repeat in duplicate
+CMP-1692,P15986,2025-04-27,Sanger seq,re-run required,awaiting supervisor sign-off
+CMP-1693,P65526,2024-01-16,CRISPR screen,pending,contaminated, discard
+CMP-1694,P89689,2025-05-20,CRISPR screen,discarded,within reference range
+CMP-1695,P25067,2024-01-15,Mass spec,discarded,awaiting supervisor sign-off
+CMP-1696,P48307,2023-02-23,qPCR,discarded,within reference range
+CMP-1697,P74226,2025-12-16,qPCR,re-run required,operator: n/a
+CMP-1698,P94639,2025-11-08,CRISPR screen,processed,repeat in duplicate
+CMP-1699,P23471,2026-05-08,RNA-seq,processed,repeat in duplicate
+CMP-1700,P46095,2026-03-26,qPCR,re-run required,within reference range
+CMP-1701,P70764,2026-02-27,Western blot,re-run required,low yield
+CMP-1702,P56119,2025-08-25,Mass spec,re-run required,degraded, discard
+CMP-1703,P98170,2023-08-21,qPCR,processed,degraded, discard
+CMP-1704,P63087,2026-08-05,Mass spec,re-run required,contaminated, discard
+CMP-1705,P53314,2024-01-28,ELISA,archived,within reference range
+CMP-1706,P78733,2025-12-21,Western blot,re-run required,within reference range
+CMP-1707,P53508,2024-12-18,CRISPR screen,archived,low yield
+CMP-1708,P39942,2026-08-04,Mass spec,processed,degraded, discard
+CMP-1709,P57427,2025-12-08,ELISA,pending,low yield
+CMP-1710,P87401,2026-04-07,Mass spec,processed,operator: n/a
+CMP-1711,P99938,2023-03-08,qPCR,processed,low yield
+CMP-1712,P28349,2025-09-14,qPCR,discarded,operator: n/a
+CMP-1713,P48113,2023-08-23,Western blot,discarded,stored at -80
+CMP-1714,P59335,2023-03-26,Flow cytometry,re-run required,contaminated, discard
+CMP-1715,P77624,2024-11-16,ELISA,discarded,contaminated, discard
+CMP-1716,P47631,2025-07-07,RNA-seq,pending,contaminated, discard
+CMP-1717,P92069,2024-05-24,Flow cytometry,re-run required,contaminated, discard
+CMP-1718,P56961,2026-04-11,Sanger seq,pending,degraded, discard
+CMP-1719,P67554,2023-11-15,RNA-seq,pending,contaminated, discard
+CMP-1720,P41348,2023-07-14,Sanger seq,pending,degraded, discard
+CMP-1721,P80614,2026-11-04,CRISPR screen,pending,operator: n/a
+CMP-1722,P30321,2026-09-15,ELISA,pending,awaiting supervisor sign-off
+CMP-1723,P24008,2025-09-18,qPCR,pending,degraded, discard
+CMP-1724,P92441,2025-07-11,CRISPR screen,re-run required,contaminated, discard
+CMP-1725,P35262,2024-06-12,Mass spec,pending,within reference range
+CMP-1726,P70143,2026-09-16,RNA-seq,processed,low yield
+CMP-1727,P82659,2024-10-23,qPCR,discarded,contaminated, discard
+CMP-1728,P51492,2024-07-14,Sanger seq,re-run required,contaminated, discard
+CMP-1729,P57762,2024-08-21,qPCR,pending,stored at -80
+CMP-1730,P80426,2026-10-08,CRISPR screen,discarded,low yield
+CMP-1731,P84118,2024-04-09,Flow cytometry,pending,within reference range
+CMP-1732,P12947,2024-09-20,RNA-seq,pending,repeat in duplicate
+CMP-1733,P82678,2024-12-17,ELISA,discarded,low yield
+CMP-1734,P33045,2024-11-12,CRISPR screen,processed,repeat in duplicate
+CMP-1735,P58207,2024-03-14,RNA-seq,pending,operator: n/a
+CMP-1736,P97351,2024-03-01,ELISA,re-run required,awaiting supervisor sign-off
+CMP-1737,P38127,2024-12-07,CRISPR screen,processed,operator: n/a
+CMP-1738,P52326,2026-02-08,Sanger seq,discarded,operator: n/a
+CMP-1739,P79640,2024-03-16,Mass spec,archived,repeat in duplicate
+CMP-1740,P41100,2023-12-23,qPCR,discarded,operator: n/a
+CMP-1741,P63464,2026-05-13,Mass spec,discarded,operator: n/a
+CMP-1742,P28692,2023-02-28,Sanger seq,pending,repeat in duplicate
+CMP-1743,P66052,2025-07-18,RNA-seq,archived,low yield
+CMP-1744,P63965,2025-07-08,RNA-seq,processed,operator: n/a
+CMP-1745,P27059,2026-11-24,Sanger seq,archived,within reference range
+CMP-1746,P38827,2026-07-02,ELISA,archived,degraded, discard
+CMP-1747,P96211,2024-09-14,Mass spec,processed,operator: n/a
+CMP-1748,P88156,2024-06-23,Mass spec,pending,within reference range
+CMP-1749,P83761,2023-06-28,Flow cytometry,discarded,degraded, discard
+CMP-1750,P25698,2026-07-21,ELISA,processed,degraded, discard
+CMP-1751,P55313,2024-04-06,Mass spec,archived,within reference range
+CMP-1752,P34381,2026-07-24,CRISPR screen,pending,low yield
+CMP-1753,P32209,2025-11-28,RNA-seq,pending,repeat in duplicate
+CMP-1754,P17858,2024-07-06,Flow cytometry,pending,operator: n/a
+CMP-1755,P75566,2023-09-18,Western blot,archived,contaminated, discard
+CMP-1756,P43950,2025-03-02,Mass spec,pending,contaminated, discard
+CMP-1757,P27070,2026-10-23,Flow cytometry,processed,low yield
+CMP-1758,P97395,2026-05-15,RNA-seq,discarded,low yield
+CMP-1759,P56098,2024-08-19,qPCR,pending,low yield
+CMP-1760,P81036,2023-02-13,CRISPR screen,archived,awaiting supervisor sign-off
+CMP-1761,P87750,2025-06-20,CRISPR screen,processed,low yield
+CMP-1762,P85959,2026-05-18,Flow cytometry,discarded,degraded, discard
+CMP-1763,P89013,2026-02-23,CRISPR screen,re-run required,stored at -80
+CMP-1764,P58760,2023-10-14,CRISPR screen,archived,within reference range
+CMP-1765,P66573,2024-11-28,ELISA,re-run required,stored at -80
+CMP-1766,P27803,2025-09-18,RNA-seq,discarded,within reference range
+CMP-1767,P64859,2024-04-20,CRISPR screen,re-run required,degraded, discard
+CMP-1768,P36390,2023-06-18,Sanger seq,discarded,contaminated, discard
+CMP-1769,P56864,2025-10-23,Sanger seq,pending,awaiting supervisor sign-off
+CMP-1770,P43495,2026-05-01,RNA-seq,discarded,within reference range
+CMP-1771,P57854,2023-02-20,Sanger seq,re-run required,within reference range
+CMP-1772,P95924,2023-02-02,Sanger seq,pending,low yield
+CMP-1773,P39235,2026-08-27,Western blot,pending,awaiting supervisor sign-off
+CMP-1774,P21908,2023-01-20,Mass spec,re-run required,stored at -80
+CMP-1775,P56056,2024-10-04,Flow cytometry,archived,operator: n/a
+CMP-1776,P61318,2026-10-11,CRISPR screen,pending,awaiting supervisor sign-off
+CMP-1777,P45411,2024-06-09,Flow cytometry,pending,degraded, discard
+CMP-1778,P19485,2026-05-11,qPCR,re-run required,low yield
+CMP-1779,P88485,2026-05-01,Flow cytometry,re-run required,awaiting supervisor sign-off
+CMP-1780,P78277,2025-11-10,Flow cytometry,pending,low yield
+CMP-1781,P54394,2024-02-09,RNA-seq,re-run required,contaminated, discard
+CMP-1782,P51236,2024-06-18,qPCR,processed,within reference range
+CMP-1783,P33963,2026-01-07,Mass spec,pending,within reference range
+CMP-1784,P80770,2026-04-16,Mass spec,archived,within reference range
+CMP-1785,P71679,2025-02-18,RNA-seq,discarded,low yield
+CMP-1786,P32032,2024-06-15,RNA-seq,pending,stored at -80
+CMP-1787,P10512,2026-12-04,RNA-seq,re-run required,repeat in duplicate
+CMP-1788,P52889,2026-03-19,CRISPR screen,pending,stored at -80
+CMP-1789,P57128,2026-11-07,CRISPR screen,processed,contaminated, discard
+CMP-1790,P56092,2025-04-17,Western blot,processed,within reference range
+CMP-1791,P32307,2025-05-09,Flow cytometry,processed,stored at -80
+CMP-1792,P79772,2026-08-17,CRISPR screen,processed,awaiting supervisor sign-off
+CMP-1793,P96527,2025-02-06,RNA-seq,archived,low yield
+CMP-1794,P19009,2025-01-02,CRISPR screen,processed,low yield
+CMP-1795,P41639,2026-05-20,qPCR,discarded,repeat in duplicate
+CMP-1796,P99084,2023-09-25,Flow cytometry,archived,contaminated, discard
+CMP-1797,P58573,2024-06-02,Mass spec,processed,repeat in duplicate
+CMP-1798,P97268,2026-01-28,CRISPR screen,pending,contaminated, discard
+CMP-1799,P51612,2024-08-11,Western blot,archived,operator: n/a
+CMP-1800,P52916,2023-09-09,ELISA,archived,low yield
+CMP-1801,P42628,2025-06-26,CRISPR screen,discarded,low yield
+CMP-1802,P31665,2023-12-07,qPCR,re-run required,within reference range
+CMP-1803,P47391,2025-01-14,Sanger seq,discarded,contaminated, discard
+CMP-1804,P38600,2025-02-21,Flow cytometry,discarded,low yield
+CMP-1805,P86750,2026-11-12,Mass spec,discarded,operator: n/a
+CMP-1806,P50010,2025-08-21,RNA-seq,re-run required,repeat in duplicate
+CMP-1807,P48861,2024-11-14,CRISPR screen,archived,contaminated, discard
+CMP-1808,P26624,2025-08-18,Western blot,processed,operator: n/a
+CMP-1809,P42609,2023-01-06,Mass spec,processed,contaminated, discard
+CMP-1810,P12807,2023-10-02,ELISA,processed,stored at -80
+CMP-1811,P84816,2026-12-09,Sanger seq,archived,contaminated, discard
+CMP-1812,P53880,2023-06-09,RNA-seq,discarded,within reference range
+CMP-1813,P62468,2024-05-13,ELISA,processed,low yield
+CMP-1814,P36824,2026-09-23,RNA-seq,processed,contaminated, discard
+CMP-1815,P47534,2026-08-11,qPCR,processed,degraded, discard
+CMP-1816,P79614,2026-05-06,qPCR,archived,within reference range
+CMP-1817,P33500,2025-04-19,CRISPR screen,re-run required,operator: n/a
+CMP-1818,P56408,2023-03-28,Sanger seq,pending,repeat in duplicate
+CMP-1819,P71610,2024-01-21,Western blot,archived,low yield
+CMP-1820,P50953,2026-09-07,Sanger seq,discarded,stored at -80
+CMP-1821,P67335,2026-09-22,CRISPR screen,processed,repeat in duplicate
+CMP-1822,P47225,2025-12-06,RNA-seq,pending,operator: n/a
+CMP-1823,P19086,2023-11-10,Sanger seq,re-run required,degraded, discard
+CMP-1824,P93517,2026-08-17,ELISA,pending,operator: n/a
+CMP-1825,P55064,2024-06-22,Flow cytometry,archived,degraded, discard
+CMP-1826,P41152,2026-10-26,Western blot,archived,operator: n/a
+CMP-1827,P38504,2026-02-26,Western blot,archived,awaiting supervisor sign-off
+CMP-1828,P87221,2023-09-08,CRISPR screen,re-run required,awaiting supervisor sign-off
+CMP-1829,P46210,2024-09-12,RNA-seq,processed,within reference range
+CMP-1830,P64978,2025-07-17,ELISA,discarded,stored at -80
+CMP-1831,P39920,2023-04-26,Mass spec,re-run required,low yield
+CMP-1832,P86872,2023-12-24,Sanger seq,pending,operator: n/a
+CMP-1833,P59346,2026-05-24,Sanger seq,pending,contaminated, discard
+CMP-1834,P34293,2023-05-20,Flow cytometry,discarded,awaiting supervisor sign-off
+CMP-1835,P67860,2025-03-10,Western blot,pending,contaminated, discard
+CMP-1836,P61767,2024-01-24,Flow cytometry,discarded,repeat in duplicate
+CMP-1837,P15891,2025-07-01,CRISPR screen,archived,within reference range
+CMP-1838,P79340,2026-01-09,Western blot,pending,contaminated, discard
+CMP-1839,P88112,2024-04-05,Mass spec,pending,operator: n/a
+CMP-1840,P24825,2023-06-04,CRISPR screen,archived,low yield
+CMP-1841,P34732,2026-11-26,RNA-seq,discarded,operator: n/a
+CMP-1842,P64745,2026-11-13,RNA-seq,discarded,operator: n/a
+CMP-1843,P47575,2024-05-08,Western blot,re-run required,contaminated, discard
+CMP-1844,P99735,2026-05-13,CRISPR screen,re-run required,contaminated, discard
+CMP-1845,P96435,2026-12-11,Mass spec,discarded,operator: n/a
+CMP-1846,P39528,2024-08-16,RNA-seq,re-run required,low yield
+CMP-1847,P72446,2023-03-18,Sanger seq,pending,low yield
+CMP-1848,P90620,2026-06-13,Western blot,discarded,operator: n/a
+CMP-1849,P91476,2025-11-05,CRISPR screen,discarded,stored at -80
+CMP-1850,P65595,2025-11-12,Mass spec,discarded,contaminated, discard
+CMP-1851,P63019,2026-02-01,Mass spec,discarded,repeat in duplicate
+CMP-1852,P84275,2024-02-17,Mass spec,discarded,contaminated, discard
+CMP-1853,P38057,2024-01-24,CRISPR screen,pending,contaminated, discard
+CMP-1854,P70995,2025-04-08,Western blot,pending,within reference range
+CMP-1855,P46583,2026-10-14,Mass spec,processed,degraded, discard
+CMP-1856,P80370,2025-06-13,Flow cytometry,pending,low yield
+CMP-1857,P52697,2023-02-26,ELISA,discarded,repeat in duplicate
+CMP-1858,P17051,2023-02-28,Flow cytometry,re-run required,operator: n/a
+CMP-1859,P69048,2024-03-23,Western blot,discarded,low yield
+CMP-1860,P70807,2025-04-12,Flow cytometry,pending,repeat in duplicate
+CMP-1861,P34758,2025-05-13,qPCR,re-run required,degraded, discard
+CMP-1862,P78263,2026-06-20,ELISA,processed,within reference range
+CMP-1863,P59482,2024-09-22,qPCR,processed,stored at -80
+CMP-1864,P54961,2025-10-01,ELISA,processed,low yield
+CMP-1865,P75482,2026-11-03,Mass spec,discarded,operator: n/a
+CMP-1866,P16606,2024-10-25,CRISPR screen,processed,repeat in duplicate
+CMP-1867,P40621,2025-03-10,Flow cytometry,discarded,awaiting supervisor sign-off
+CMP-1868,P60469,2025-11-18,qPCR,processed,stored at -80
+CMP-1869,P93108,2026-03-02,ELISA,pending,within reference range
+CMP-1870,P32213,2023-04-03,Flow cytometry,re-run required,repeat in duplicate
+CMP-1871,P96043,2025-05-27,Sanger seq,pending,operator: n/a
+CMP-1872,P86000,2026-02-20,qPCR,archived,contaminated, discard
+CMP-1873,P82663,2025-04-17,Mass spec,processed,repeat in duplicate
+CMP-1874,P94011,2024-02-28,Western blot,discarded,contaminated, discard
+CMP-1875,P56061,2025-09-14,qPCR,re-run required,contaminated, discard
+CMP-1876,P52317,2024-10-15,Flow cytometry,processed,awaiting supervisor sign-off
+CMP-1877,P50644,2024-08-21,qPCR,processed,low yield
+CMP-1878,P40964,2023-07-22,qPCR,processed,operator: n/a
+CMP-1879,P54652,2026-10-19,CRISPR screen,re-run required,degraded, discard
+CMP-1880,P21662,2025-12-24,ELISA,archived,contaminated, discard
+CMP-1881,P40441,2023-01-25,Western blot,processed,low yield
+CMP-1882,P45001,2025-03-22,Western blot,re-run required,repeat in duplicate
+CMP-1883,P71212,2023-07-04,RNA-seq,discarded,contaminated, discard
+CMP-1884,P99049,2024-11-09,ELISA,re-run required,contaminated, discard
+CMP-1885,P58944,2023-12-24,ELISA,discarded,operator: n/a
+CMP-1886,P39719,2025-06-03,Western blot,archived,stored at -80
+CMP-1887,P13198,2024-03-11,Flow cytometry,pending,degraded, discard
+CMP-1888,P66850,2024-04-08,CRISPR screen,archived,degraded, discard
+CMP-1889,P65977,2024-04-14,ELISA,pending,stored at -80
+CMP-1890,P38093,2025-09-17,RNA-seq,processed,repeat in duplicate
+CMP-1891,P48625,2026-03-24,qPCR,processed,within reference range
+CMP-1892,P28110,2024-10-05,Mass spec,re-run required,degraded, discard
+CMP-1893,P11501,2025-06-23,Western blot,processed,repeat in duplicate
+CMP-1894,P27328,2024-05-16,Mass spec,re-run required,repeat in duplicate
+CMP-1895,P72264,2024-04-24,Mass spec,re-run required,low yield
+CMP-1896,P54033,2026-08-27,Flow cytometry,pending,operator: n/a
+CMP-1897,P74160,2023-02-25,CRISPR screen,discarded,operator: n/a
+CMP-1898,P61761,2026-04-05,qPCR,archived,contaminated, discard
+CMP-1899,P98358,2024-12-14,Flow cytometry,processed,stored at -80
+CMP-1900,P91208,2024-06-06,Mass spec,pending,awaiting supervisor sign-off
+CMP-1901,P18824,2025-04-14,Mass spec,archived,low yield
+CMP-1902,P93261,2024-06-15,Flow cytometry,processed,stored at -80
+CMP-1903,P56553,2024-02-01,CRISPR screen,discarded,degraded, discard
+CMP-1904,P88953,2026-02-03,ELISA,processed,repeat in duplicate
+CMP-1905,P79525,2026-03-12,Flow cytometry,processed,operator: n/a
+CMP-1906,P29031,2024-11-06,Mass spec,archived,low yield
+CMP-1907,P53676,2023-06-22,Western blot,processed,degraded, discard
+CMP-1908,P73045,2025-03-24,Mass spec,re-run required,stored at -80
+CMP-1909,P21905,2023-01-15,Flow cytometry,re-run required,contaminated, discard
+CMP-1910,P30102,2024-02-24,Mass spec,archived,operator: n/a
+CMP-1911,P44688,2025-03-01,Western blot,re-run required,awaiting supervisor sign-off
+CMP-1912,P76368,2025-07-25,ELISA,re-run required,degraded, discard
+CMP-1913,P17931,2023-12-01,Flow cytometry,re-run required,within reference range
+CMP-1914,P93178,2023-01-01,Western blot,re-run required,contaminated, discard
+CMP-1915,P15379,2024-08-08,Sanger seq,pending,degraded, discard
+CMP-1916,P20814,2024-11-07,Mass spec,discarded,repeat in duplicate
+CMP-1917,P25821,2026-06-07,CRISPR screen,discarded,degraded, discard
+CMP-1918,P64179,2023-09-14,Western blot,discarded,awaiting supervisor sign-off
+CMP-1919,P15035,2024-10-24,Flow cytometry,discarded,within reference range
+CMP-1920,P39076,2024-10-24,qPCR,re-run required,degraded, discard
+CMP-1921,P36817,2026-04-28,Flow cytometry,discarded,contaminated, discard
+CMP-1922,P75876,2025-04-06,CRISPR screen,re-run required,degraded, discard
+CMP-1923,P49316,2024-11-21,Sanger seq,processed,within reference range
+CMP-1924,P93104,2024-09-11,Flow cytometry,pending,within reference range
+CMP-1925,P58082,2025-01-08,ELISA,discarded,contaminated, discard
+CMP-1926,P35717,2025-06-05,Flow cytometry,archived,contaminated, discard
+CMP-1927,P18789,2024-11-09,Sanger seq,re-run required,within reference range
+CMP-1928,P40744,2025-12-22,qPCR,re-run required,awaiting supervisor sign-off
+CMP-1929,P59914,2024-01-22,qPCR,pending,degraded, discard
+CMP-1930,P19424,2026-01-28,RNA-seq,pending,within reference range
+CMP-1931,P32571,2024-12-18,Flow cytometry,archived,repeat in duplicate
+CMP-1932,P46593,2025-11-24,ELISA,discarded,stored at -80
+CMP-1933,P28335,2024-05-03,RNA-seq,pending,within reference range
+CMP-1934,P51574,2025-09-02,Sanger seq,pending,awaiting supervisor sign-off
+CMP-1935,P13907,2026-07-26,CRISPR screen,archived,awaiting supervisor sign-off
+CMP-1936,P23081,2023-01-23,ELISA,pending,within reference range
+CMP-1937,P13650,2024-07-26,Mass spec,processed,operator: n/a
+CMP-1938,P95845,2023-03-19,ELISA,re-run required,awaiting supervisor sign-off
+CMP-1939,P17420,2024-04-12,Mass spec,archived,stored at -80
+CMP-1940,P19408,2025-12-21,ELISA,pending,within reference range
+CMP-1941,P27943,2025-07-20,Western blot,archived,degraded, discard
+CMP-1942,P37791,2023-04-16,qPCR,pending,repeat in duplicate
+CMP-1943,P98380,2025-04-15,Mass spec,pending,within reference range
+CMP-1944,P39058,2026-01-26,Western blot,archived,low yield
+CMP-1945,P25608,2023-11-25,Flow cytometry,re-run required,degraded, discard
+CMP-1946,P52518,2024-10-03,Western blot,re-run required,contaminated, discard
+CMP-1947,P84497,2025-10-14,Flow cytometry,pending,repeat in duplicate
+CMP-1948,P35177,2023-04-15,Western blot,pending,operator: n/a
+CMP-1949,P36767,2023-08-01,Sanger seq,processed,within reference range
+CMP-1950,P13083,2023-04-12,Sanger seq,processed,operator: n/a
+CMP-1951,P79556,2023-06-02,ELISA,pending,low yield
+CMP-1952,P42250,2023-03-08,Sanger seq,pending,within reference range
+CMP-1953,P74120,2025-09-15,Flow cytometry,processed,contaminated, discard
+CMP-1954,P33721,2024-09-18,Sanger seq,processed,repeat in duplicate
+CMP-1955,P76443,2025-05-16,Mass spec,re-run required,stored at -80
+CMP-1956,P91232,2024-09-12,Mass spec,archived,awaiting supervisor sign-off
+CMP-1957,P33101,2024-12-04,CRISPR screen,re-run required,repeat in duplicate
+CMP-1958,P60046,2026-09-06,RNA-seq,processed,contaminated, discard
+CMP-1959,P78459,2026-03-24,qPCR,discarded,contaminated, discard
+CMP-1960,P85434,2026-04-10,Mass spec,processed,repeat in duplicate
+CMP-1961,P43752,2024-10-12,RNA-seq,pending,low yield
+CMP-1962,P24966,2024-02-23,qPCR,re-run required,degraded, discard
+CMP-1963,P41818,2023-06-26,ELISA,discarded,within reference range
+CMP-1964,P30009,2023-05-09,ELISA,discarded,repeat in duplicate
+CMP-1965,P42489,2023-05-11,RNA-seq,re-run required,low yield
+CMP-1966,P63166,2025-02-04,qPCR,re-run required,degraded, discard
+CMP-1967,P74364,2024-01-12,Flow cytometry,archived,operator: n/a
+CMP-1968,P36831,2025-05-05,Sanger seq,re-run required,repeat in duplicate
+CMP-1969,P47257,2025-12-28,RNA-seq,discarded,degraded, discard
+CMP-1970,P33780,2026-08-12,ELISA,re-run required,low yield
+CMP-1971,P13913,2023-04-04,Mass spec,discarded,repeat in duplicate
+CMP-1972,P31809,2026-09-13,Mass spec,processed,low yield
+CMP-1973,P88532,2023-05-01,RNA-seq,discarded,repeat in duplicate
+CMP-1974,P14083,2026-11-13,CRISPR screen,processed,degraded, discard
+CMP-1975,P10305,2026-09-13,Flow cytometry,archived,low yield
+CMP-1976,P62267,2024-12-22,qPCR,pending,repeat in duplicate
+CMP-1977,P72064,2025-02-14,RNA-seq,discarded,operator: n/a
+CMP-1978,P28723,2024-04-06,Flow cytometry,pending,contaminated, discard
+CMP-1979,P64742,2026-08-02,Sanger seq,pending,low yield
+CMP-1980,P17095,2026-08-22,Mass spec,discarded,awaiting supervisor sign-off
+CMP-1981,P88376,2023-01-22,Sanger seq,pending,repeat in duplicate
+CMP-1982,P27251,2026-11-18,Flow cytometry,discarded,degraded, discard
+CMP-1983,P89507,2024-10-21,qPCR,re-run required,low yield
+CMP-1984,P73973,2025-07-26,Sanger seq,pending,awaiting supervisor sign-off
+CMP-1985,P69489,2023-08-03,ELISA,archived,within reference range
+CMP-1986,P79309,2023-10-13,Western blot,discarded,within reference range
+CMP-1987,P27928,2025-11-18,qPCR,pending,contaminated, discard
+CMP-1988,P16575,2023-03-26,Flow cytometry,archived,degraded, discard
+CMP-1989,P61759,2025-04-08,RNA-seq,archived,degraded, discard
+CMP-1990,P79532,2024-04-18,ELISA,archived,operator: n/a
+CMP-1991,P39567,2026-01-08,Mass spec,archived,operator: n/a
+CMP-1992,P72758,2025-07-14,RNA-seq,archived,stored at -80
+CMP-1993,P16704,2025-02-16,qPCR,archived,repeat in duplicate
+CMP-1994,P16442,2025-08-07,Flow cytometry,discarded,contaminated, discard
+CMP-1995,P87662,2025-09-02,Sanger seq,archived,degraded, discard
+CMP-1996,P28756,2024-07-11,CRISPR screen,processed,degraded, discard
+CMP-1997,P36171,2023-09-16,Mass spec,re-run required,repeat in duplicate
+CMP-1998,P68672,2025-04-09,qPCR,archived,stored at -80
+CMP-1999,P58186,2025-05-03,RNA-seq,archived,repeat in duplicate
+CMP-2000,P71874,2024-01-28,Mass spec,archived,degraded, discard

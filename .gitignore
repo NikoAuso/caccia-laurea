@@ -1,0 +1,15 @@
+# artefatti rigenerabili da build.sh
+output/
+build_tmp/
+
+# worktree dedicati per-task (convenzione di progetto)
+worktrees/
+
+# junk di sistema
+.DS_Store
+
+# materiale grezzo ricevuto (foto, video, originali): non fa parte della caccia
+docs/media/
+
+# stato di sessione per /handoff e /riprendi: locale, mai versionato
+docs/HANDOFF.md

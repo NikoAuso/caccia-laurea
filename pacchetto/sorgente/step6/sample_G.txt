@@ -1,0 +1,11 @@
+CAMPIONE G
+----------
+Raccolto:  stamattina
+Operatore: tu
+Esito:     VUOTO
+
+Nota del tecnico: "La provetta è qui. Quello che c'era dentro no."
+
+Nessuna chiave qui.
+
+BEVI UN SORSO

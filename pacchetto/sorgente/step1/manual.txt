@@ -1,0 +1,105 @@
+========================================================================
+                   MANUALE DA CAMPO  -  il necessario
+========================================================================
+
+Non ti servirà mai un comando che non sia in questa pagina. Leggila una
+volta adesso. Torna qui ogni volta che ti blocchi:
+
+  cat manual.txt         (una copia è in ogni sezione)
+
+
+APRIRE UNA SEZIONE SIGILLATA
+----------------------------
+
+  unzip step2.zip        apre la sezione sigillata step2.zip, proprio
+                         qui dove sei.
+
+                         Ti chiederà una password. Scrivi la chiave che
+                         hai trovato e premi Invio.
+
+                         LE LETTERE NON COMPAIONO MENTRE DIGITI. Non è
+                         rotto niente. Scrivi la chiave e premi INVIO lo
+                         stesso.
+
+                         Le chiavi sono SEMPRE MAIUSCOLE. Se dice
+                         "incorrect password", cerca una lettera
+                         minuscola e riprova.
+
+Si apre in una cartella con lo stesso nome. Entra e leggi prima il suo
+README:
+
+  cd step2
+  ls
+  cat README.txt
+
+Dentro ogni sezione trovi la successiva sigillata. Aprila allo stesso
+modo ed entra: ogni sezione sta dentro quella prima. Ognuna ha un
+README, e ti dice sempre cosa scrivere dopo.
+
+
+MUOVERSI
+--------
+
+  ls                     elenca cosa c'è in questa cartella
+  ls -a                  elenca TUTTO, anche i file nascosti (un file
+                         col nome che inizia per punto è invisibile a ls
+                         normale)
+
+  cd step2               entra nella cartella chiamata step2
+  cd ..                  torna su di un livello
+  pwd                    dimmi dove sono adesso
+
+
+LEGGERE
+-------
+
+  cat appunti.txt        stampa tutto il file sullo schermo
+  head appunti.txt       stampa solo le PRIME righe
+  head -n 31 appunti.txt stampa le prime 31 righe (cambia il numero per
+                         vederne di più o di meno)
+  tail appunti.txt       stampa solo le ULTIME righe
+  tail -n 26 appunti.txt stampa le ultime 26 righe
+  grep parola file.txt   stampa solo le righe che contengono "parola"
+                         (comodo quando un file ha 2000 righe e te ne
+                         serve una)
+
+
+SPOSTARE
+--------
+
+  mv ../a.txt .          porta qui il file a.txt (il punto vuol dire
+                         "questa cartella, dove sono adesso")
+  cp ../a.txt .          uguale, ma lascia l'originale dov'era
+
+
+ESEGUIRE
+--------
+
+  bash nome.sh           esegui il programma chiamato nome.sh
+
+
+APRIRE UNA PAGINA
+-----------------
+
+Alcune sezioni hanno un file che finisce in .html: una pagina per il
+browser. Aprila con un doppio clic nella finestra dei file. Si apre nel
+browser. Leggila, poi torna qui.
+
+
+TRE COSE CHE FANNO RISPARMIARE TEMPO
+------------------------------------
+
+  TAB          inizia a scrivere il nome di un file e premi Tab. Il
+               terminale lo completa per te. Usalo sempre.
+
+  FRECCIA SU   richiama l'ultimo comando che hai scritto.
+
+  clear        pulisce lo schermo quando si ingarbuglia.
+
+
+SE QUALCOSA VA STORTO
+---------------------
+
+Se non ne esci proprio, chiedi al tuo informatico di fiducia.
+
+========================================================================

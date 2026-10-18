@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discussione della tesi — verifica della commissione</title>
+<style>
+  :root{
+    --paper:#DDE3E6;
+    --ink:#10222B;
+    --muted:#5E727C;
+    --uv:#5B3FD1;
+    --ok:#0E7A5F;
+    --bad:#A8402F;
+    --card:#F6F8F9;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0 20px 90px; background:var(--paper); color:var(--ink);
+    font-family:var(--sans); line-height:1.55;
+  }
+  .wrap{max-width:680px; margin:0 auto}
+  header{padding:48px 0 26px; border-bottom:2px solid var(--ink)}
+  .facility{font-size:13px; color:var(--muted); margin:0 0 10px; letter-spacing:.05em}
+  h1{font-family:var(--serif); font-weight:400; font-size:clamp(28px,5vw,42px); line-height:1.1; margin:0 0 14px}
+  .lede{font-family:var(--serif); font-size:17px; margin:0; max-width:58ch}
+
+  .q{background:var(--card); border:1px solid #C3CDD2; padding:20px 22px; margin:20px 0}
+  .qnum{font-size:12px; color:var(--muted); margin:0 0 6px}
+  .qtext{font-family:var(--serif); font-size:19px; margin:0 0 14px}
+  label{
+    display:block; padding:10px 13px; margin:7px 0; background:#fff;
+    border:1px solid #C9D3D8; cursor:pointer; font-size:15px;
+  }
+  label:hover{border-color:var(--uv)}
+  label:focus-within{outline:2px solid var(--uv); outline-offset:2px}
+  input[type=radio]{margin-right:10px; accent-color:var(--uv)}
+  label.picked{border-color:var(--uv); background:#EFECFB}
+  /* esito dopo l'invio: la domanda giusta si blocca in verde, la sbagliata
+     resta rossa e ancora modificabile */
+  .q.correct{border-color:var(--ok); background:#E7F3EF}
+  .q.correct label{cursor:default}
+  .q.correct label.picked{border-color:var(--ok); background:#D9EDE6}
+  .q.wrong{border-color:var(--bad); background:#F7E9E6}
+  .q.wrong label.picked{border-color:var(--bad); background:#F3DAD5}
+
+  .actions{margin-top:26px; display:flex; align-items:center; gap:18px; flex-wrap:wrap}
+  button{
+    font-family:var(--sans); font-size:16px; padding:13px 26px; border:0;
+    background:var(--ink); color:#fff; cursor:pointer;
+  }
+  button:hover{background:var(--uv)}
+  .verdict{font-family:var(--serif); font-size:16px; margin:0}
+  .verdict .ok{color:var(--ok)}
+  .verdict .bad{color:var(--bad)}
+
+  /* domanda + pulsante foto affiancati sulla stessa riga */
+  .qhead{display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin:0 0 14px}
+  .qhead .qtext{margin:0}
+  /* pulsante che apre la foto di una domanda */
+  .shot{
+    flex:none; white-space:nowrap;
+    font-family:var(--sans); font-size:14px; margin:0;
+    padding:7px 14px; border:1px solid var(--uv); background:#fff;
+    color:var(--uv); cursor:pointer;
+  }
+  .shot:hover{background:var(--uv); color:#fff}
+
+  /* ingrandimento foto (stesso stile dello step 2) */
+  .lightbox{
+    position:fixed; inset:0; background:rgba(8,18,23,.93); z-index:100;
+    display:none; align-items:center; justify-content:center; padding:30px; cursor:zoom-out;
+  }
+  .lightbox.on{display:flex}
+  .lightbox img{max-width:100%; max-height:82vh; object-fit:contain}
+  .lightbox .miss{
+    display:none; text-align:center; color:#A9BDC6; border:2px dashed #6B7D85;
+    padding:44px 34px; font-family:var(--sans); font-size:14px; background:rgba(255,255,255,.04);
+  }
+  .lightbox .cap{
+    position:absolute; bottom:22px; left:0; right:0; text-align:center;
+    color:#fff; font-family:var(--serif); font-size:17px; padding:0 20px;
+  }
+  .lightbox .cap small{display:block; font-family:var(--sans); font-size:13px; color:#A9BDC6; margin-top:4px}
+
+  .key{
+    margin-top:26px; padding:26px; background:var(--ink); color:#fff; display:none;
+  }
+  .key.show{display:block}
+  .key p{margin:0 0 10px; font-size:14px; color:#B6C6CE}
+  .key .word{font-family:var(--serif); font-size:42px; letter-spacing:.14em; margin:0}
+  .key .after{margin-top:16px; font-size:14px; color:#B6C6CE}
+
+  /* avviso "bevi un sorso" quando restano risposte sbagliate: schermo
+     oscurato come un modal, col cartello al centro. intercetta i click e
+     si chiude col click o da solo dopo pochi secondi, quindi non blocca mai */
+  .toast{
+    position:fixed; inset:0; z-index:200;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(8,18,23,.72);
+    opacity:0; pointer-events:none; transition:opacity .2s ease;
+  }
+  .toast.on{opacity:1; pointer-events:auto; cursor:pointer}
+  .toast .box{
+    background:var(--bad); color:#fff; text-align:center;
+    padding:36px 52px; max-width:90vw;
+    box-shadow:0 24px 70px rgba(8,18,23,.5);
+    transform:scale(.85); transition:transform .2s ease;
+  }
+  .toast.on .box{transform:scale(1)}
+  .toast .small{
+    font-family:var(--sans); font-size:14px; letter-spacing:.18em;
+    text-transform:uppercase; color:rgba(255,255,255,.85); margin:0 0 12px;
+  }
+  .toast .big{
+    font-family:var(--serif); font-weight:700; line-height:1; margin:0;
+    font-size:clamp(36px,8vw,64px);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="facility">Università degli Studi · Laurea magistrale in Bioinformatica · Pratica GR-2026 · commissione di laurea</p>
+  <h1>Verifica della commissione</h1>
+  <p class="lede">Le domande della commissione prima che l'archivio rilasci
+  l'ultima sezione. La letteratura qui non ti aiuta.</p>
+</header>
+
+<!-- Le domande stanno nell'array QUIZ in fondo alla pagina: la lista si
+     modifica solo lì; i blocchi qui sotto li costruisce lo script. -->
+<form id="quiz">
+
+  <div class="actions">
+    <button type="submit">Invia alla commissione</button>
+    <p class="verdict" id="verdict"></p>
+  </div>
+</form>
+
+<div class="key" id="key">
+  <p>Decisione della commissione: unanime. La tua chiave d'accesso è</p>
+  <p class="word">PASSWORD-7</p>
+  <p class="after">Torna al terminale: unzip step8.zip</p>
+</div>
+
+</div>
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" alt="">
+  <div class="miss" id="lightbox-miss"></div>
+  <div class="cap" id="lightbox-cap"></div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+  /* ===========================================================
+     LE DOMANDE DEL QUIZ
+
+     Una voce per domanda, nell'ordine in cui compaiono. Puoi
+     aggiungerne o toglierne quante vuoi: numerazione, punteggio
+     e sblocco della chiave si adeguano da soli.
+
+       q     il testo della domanda
+       a     le tre opzioni, in ordine
+       ok    l'indice della risposta giusta (0 = prima, 1, 2)
+       fig   (facoltativo) foto della domanda, file in step7/img/;
+             fa comparire il pulsante "Guarda la foto"
+       cap   (facoltativo) didascalia della foto
+     =========================================================== */
+
+  var QUIZ = [
+    { q:"Qual è stato il tuo primo disastro in laboratorio?",
+      a:["Una beuta in frantumi", "Una piastra contaminata", "Il ghiaccio secco chiuso in una provetta"], ok:2,
+      fig:"img/quiz_provetta.jpg" },
+    { q:"Quante volte hai riscritto l'introduzione della tesi?",
+      a:["Una sola: era perfetta subito", "Sette", "La sto ancora riscrivendo"], ok:1 },
+    { q:"Qual è il tuo strumento preferito del laboratorio?",
+      a:["La centrifuga", "Il vortex", "Il pHmetro"], ok:1 },
+    { q:"Cosa hai fatto quando è suonato l'allarme del freezer a -80?",
+      a:["Hai chiamato i tecnici con calma",
+         "Hai salvato i campioni a mani nude",
+         "Hai pianto, poi hai salvato i campioni"], ok:2 },
+    { q:"Quale reagente finiva sempre proprio quando serviva a te?",
+      a:["L'etanolo", "Il tampone di corsa", "I puntali"], ok:1 },
+    { q:"Che voto hai preso all'esame più temuto?",
+      a:["30 e lode", "18, ma con gioia", "Non ricordo, ho rimosso"], ok:0 },
+    { q:"Dove ti è venuta l'idea per l'ultimo capitolo della tesi?",
+      a:["In biblioteca", "Sotto la doccia", "Alla scrivania, come una persona normale"], ok:1,
+      fig:"img/quiz_doccia.jpg" },
+    { q:"Come si chiamava il file della versione giusta della tesi?",
+      a:["tesi_finale.docx", "tesi_finale_v2_DAVVERO.docx", "tesi.docx"], ok:1 },
+    { q:"Cosa ha scritto il relatore a margine della bozza finale?",
+      a:["«Bene»", "«Rivedere»", "«Ne riparliamo»"], ok:0 },
+    { q:"Qual è la prima cosa che farai dopo la laurea?",
+      a:["Dormire dodici ore", "Iscriverti al dottorato", "Festeggiare con questa caccia al tesoro"], ok:2 },
+  ];
+
+  /* =========================================================== */
+
+  var form = document.getElementById('quiz');
+  var actions = form.querySelector('.actions');
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lightbox-img');
+  var lbMiss = document.getElementById('lightbox-miss');
+  var lbCap = document.getElementById('lightbox-cap');
+  var toast = document.getElementById('toast');
+  var toastTimer;
+
+  lbImg.addEventListener('error', function(){
+    lbImg.style.display = 'none';
+    lbMiss.style.display = 'block';
+  });
+
+  function openShot(src, cap){
+    lbImg.style.display = '';
+    lbMiss.style.display = 'none';
+    lbMiss.innerHTML = 'foto segnaposto<br>' + src;
+    lbImg.src = src;
+    lbCap.innerHTML = cap || '';
+    lb.classList.add('on');
+  }
+
+  // costruisce le domande dall'array, prima del blocco dei pulsanti
+  QUIZ.forEach(function(item, i){
+    var q = document.createElement('div');
+    q.className = 'q';
+    q.setAttribute('data-i', i);
+
+    var num = document.createElement('p');
+    num.className = 'qnum';
+    num.textContent = 'Domanda ' + (i + 1) + ' di ' + QUIZ.length;
+    q.appendChild(num);
+
+    var text = document.createElement('p');
+    text.className = 'qtext';
+    text.textContent = item.q;
+
+    // con foto: domanda e pulsante affiancati sulla stessa riga
+    if (item.fig){
+      var head = document.createElement('div');
+      head.className = 'qhead';
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'shot';
+      btn.textContent = 'Guarda la foto';
+      btn.addEventListener('click', function(){ openShot(item.fig, item.cap); });
+      head.appendChild(text);
+      head.appendChild(btn);
+      q.appendChild(head);
+    } else {
+      q.appendChild(text);
+    }
+
+    item.a.forEach(function(opt, v){
+      var label = document.createElement('label');
+      var input = document.createElement('input');
+      input.type = 'radio';
+      input.name = 'q' + i;
+      input.value = v;
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(' ' + opt));
+      label.addEventListener('click', function(){
+        if (q.classList.contains('correct')) return;
+        q.querySelectorAll('label').forEach(function(o){ o.classList.remove('picked'); });
+        label.classList.add('picked');
+      });
+      q.appendChild(label);
+    });
+
+    form.insertBefore(q, actions);
+  });
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var verdict = document.getElementById('verdict');
+    var correct = 0, wrong = 0, missing = 0;
+
+    QUIZ.forEach(function(item, i){
+      var qEl = form.querySelector('.q[data-i="' + i + '"]');
+      var picked = form.querySelector('input[name=q' + i + ']:checked');
+      qEl.classList.remove('correct', 'wrong');
+      if (!picked) { missing++; return; }
+      if (Number(picked.value) === item.ok) {
+        correct++;
+        qEl.classList.add('correct');
+        // risposta giusta: si blocca, non si tocca più
+        qEl.querySelectorAll('input').forEach(function(inp){ inp.disabled = true; });
+      } else {
+        wrong++;
+        qEl.classList.add('wrong');
+      }
+    });
+
+    verdict.className = 'verdict';
+    verdict.innerHTML =
+      '<span class="ok">Corrette: ' + correct + '</span> · ' +
+      '<span class="bad">Errate: ' + wrong + '</span>' +
+      (missing ? ' · Da rispondere: ' + missing : '');
+
+    if (wrong) { sip(); return; }
+    if (missing) { return; }
+
+    verdict.textContent = 'Discussione superata.';
+    document.getElementById('key').classList.add('show');
+    document.getElementById('key').scrollIntoView({behavior:'smooth', block:'center'});
+  });
+
+  function sip(){
+    toast.innerHTML = '<div class="box"><p class="small">Risposte da rivedere</p><p class="big">Bevi un sorso</p></div>';
+    toast.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('on'); }, 2400);
+  }
+  function closeToast(){ clearTimeout(toastTimer); toast.classList.remove('on'); }
+  toast.addEventListener('click', closeToast);
+
+  lb.addEventListener('click', function(){ lb.classList.remove('on'); });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') { lb.classList.remove('on'); closeToast(); }
+  });
+</script>
+</body>
+</html>

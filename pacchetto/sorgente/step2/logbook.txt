@@ -1,0 +1,1248 @@
+REGISTRO DI LABORATORIO - campione GR-2026 - magistrale 2024-2026
+-----------------------------------------------------------------
+
+- Velit tincidunt lacus ut nisi. Curabitur deserunt ex lorem eiusmod
+  labore irure incididunt. Curabitur velit ullamco.
+
+- Pariatur occaecat lacus do fugiat tempor praesent. Anim aliqua
+  voluptate sit sint excepteur id. Proident.
+
+- Curabitur non vehicula consequat culpa laborum lacus nunc
+  sit. Nunc ut qui est aliqua. Aliquip et anim est suscipit
+  commodo proident voluptate. Tincidunt laborum.
+
+- Anim nunc curabitur excepteur exercitation consequat curabitur
+  id lacus pretium. Amet in velit anim incididunt.
+
+- Laborum sed duis pretium sint incididunt nostrud sunt.
+  PASSWORD-3. Tempor lorem mollit suscipit eiusmod. Exercitation ea
+  et consectetur suscipit duis pariatur enim.
+
+- Curabitur magna suscipit nisi est dolore tincidunt in
+  eiusmod culpa. Voluptate tincidunt.
+
+- Cupidatat do adipiscing nulla pariatur. Lacus est esse
+  reprehenderit mollit. Pretium id minim enim.
+
+- Officia fugiat anim aliquip sed proident. Veniam
+  consectetur suscipit adipiscing mollit nostrud.
+
+- Praesent culpa eiusmod cupidatat voluptate quis nulla veniam.
+  Pretium culpa irure id veniam esse nunc laborum.
+
+- Repeated yesterday's blot with a longer transfer. Everything
+  worked and I do not trust it. Bands were clean for once. Logged
+  everything in the shared folder.
+
+- Extracted RNA from the knockdown clones. Everything worked and I
+  do not trust it. Stayed late to finish the washes.
+
+- Loaded an agarose gel with sample set 3. Fragments at the expected
+  size.
+
+- Ran a flow cytometry panel on the treated and untreated lysates.
+  Compensation took longer than the acquisition. Results matched the
+  previous run, which is reassuring. Booked the imager for tomorrow
+  at 9.
+
+- Loaded an agarose gel with the treated and untreated lysates. The
+  ladder ran crooked, everything else looked fine. Lab meeting moved
+  to Thursday.
+
+- Counted HeLa cells and froze down 6 vials. Viability above ninety
+  percent.
+
+- Did a BCA assay on the 5-hour time course. Standards came out
+  linear, samples did not. Results matched the previous run, which
+  is reassuring.
+
+- Ran the cDNA synthesis for the patient-derived samples. Ratios
+  looked good on the NanoDrop. Ran out of gloves in size S.
+
+- Did a BCA assay on the treated and untreated lysates. Results
+  matched the previous run, which is reassuring. Two wells
+  evaporated. Sealed the next plate properly. Left the plate at 4C
+  overnight.
+
+- Passaged primary keratinocytes at 1:8. Results matched the
+  previous run, which is reassuring. Confluence was around 75% at
+  the end of the day. Booked the imager for tomorrow at 9.
+
+- Ran a western blot on the serum samples. Bands were clean for
+  once. Discussed the results with the supervisor, we keep going.
+
+- Set up a qPCR plate for IL-6 and TNF. Two wells evaporated. Sealed
+  the next plate properly. Melt curves looked clean, single peak
+  everywhere.
+
+- Extracted RNA from the serum samples. Ratios looked good on the
+  NanoDrop. Logged everything in the shared folder.
+
+- Set up a qPCR plate for IL-6 and TNF. Replicates agreed within ten
+  percent. Ct values were all over the place, probably a pipetting
+  issue on row C.
+
+- Did a BCA assay on the control batch. Two wells evaporated. Sealed
+  the next plate properly.
+
+- Ran a western blot on the 7-hour time course. Signal was too weak
+  to quantify. Will increase the exposure next time. Everything
+  worked and I do not trust it. Coffee machine broken. Morale low.
+
+- Loaded an agarose gel with the serum samples. Yield was low but
+  usable. Lab meeting moved to Thursday.
+
+- Ran a flow cytometry panel on the 7-hour time course. Everything
+  worked and I do not trust it. Results matched the previous run,
+  which is reassuring.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes.
+  Replicates agreed within ten percent. Need to recalculate the
+  dilutions before the next run.
+
+- Set up a qPCR plate for the inflammatory panel. Ct values were all
+  over the place, probably a pipetting issue on row C. Labelled
+  every tube twice this time.
+
+- Ran an ELISA on the 2-hour time course. Two wells evaporated.
+  Sealed the next plate properly. The centrifuge is making the noise
+  again.
+
+- Stained the control batch for immunofluorescence. Got usable
+  images from 2 fields out of ten. Background was high, need a
+  better blocking step. Repeat on Monday.
+
+- Set up a qPCR plate for the inflammatory panel. Replicates agreed
+  within ten percent.
+
+- Ran a flow cytometry panel on replicate 9. Populations separated
+  nicely.
+
+- Extracted RNA from replicate 6. Yield was low but usable. One tube
+  came out with almost nothing. Redo. Logged everything in the
+  shared folder.
+
+- Stained the control batch for immunofluorescence. Everything
+  worked and I do not trust it. Labelled every tube twice this time.
+
+- Spent the morning on the confocal with the 7-hour time course.
+  Background was high, need a better blocking step. Need to
+  recalculate the dilutions before the next run.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes. Melt
+  curves looked clean, single peak everywhere.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes.
+  Results matched the previous run, which is reassuring. The
+  centrifuge is making the noise again.
+
+- Repeated yesterday's blot with a longer transfer. Background was
+  high across the whole membrane. Results matched the previous run,
+  which is reassuring. Left the plate at 4C overnight.
+
+- Loaded an agarose gel with the serum samples. Everything worked
+  and I do not trust it. The ladder ran crooked, everything else
+  looked fine.
+
+- Repeated yesterday's blot with a longer transfer. Signal was too
+  weak to quantify. Will increase the exposure next time. Need to
+  recalculate the dilutions before the next run.
+
+- Waiting for reagents. Read papers and reorganised the freezer.
+
+- Spent the morning on the confocal with the knockdown clones.
+  Background was high, need a better blocking step. Results matched
+  the previous run, which is reassuring. Lab meeting moved to
+  Thursday.
+
+- Spent the morning on the confocal with the knockdown clones.
+  Nuclei looked fine, the secondary did not. Cleaned the hood and
+  restocked the bench before leaving.
+
+- Spent the morning on the confocal with the day 5 time point.
+  Results matched the previous run, which is reassuring. Nuclei
+  looked fine, the secondary did not. Booked the imager for tomorrow
+  at 9.
+
+- Set up a qPCR plate for the housekeeping panel. Results matched
+  the previous run, which is reassuring. Cleaned the hood and
+  restocked the bench before leaving.
+
+- Digested the GFP reporter and ran the fragments on a 1% gel.
+  Results matched the previous run, which is reassuring. Fragments
+  at the expected size. Ordered more tips, we are down to the last
+  box.
+
+- Repeated yesterday's blot with a longer transfer. Everything
+  worked and I do not trust it. Logged everything in the shared
+  folder.
+
+- Repeated yesterday's blot with a longer transfer. Results matched
+  the previous run, which is reassuring. Background was high across
+  the whole membrane. Booked the imager for tomorrow at 9.
+
+- Stained the serum samples for immunofluorescence. Results matched
+  the previous run, which is reassuring. Lab meeting moved to
+  Thursday.
+
+- Ran an ELISA on the serum samples. Everything worked and I do not
+  trust it.
+
+- Ran a western blot on replicate 4. Results matched the previous
+  run, which is reassuring. Lab meeting moved to Thursday.
+
+- Spent the morning on the confocal with sample set 6. Background
+  was high, need a better blocking step. Cleaned the hood and
+  restocked the bench before leaving.
+
+- Set up a qPCR plate for IL-6 and TNF. Replicates agreed within ten
+  percent. Discussed the results with the supervisor, we keep going.
+
+- Ran an ELISA on the control batch. Replicates agreed within ten
+  percent. The centrifuge is making the noise again.
+
+- Ran the cDNA synthesis for the serum samples. One tube came out
+  with almost nothing. Redo.
+
+- Thawed a new vial of HEK293T cells. Cells looked stressed under
+  the microscope, maybe the medium.
+
+- Stained the patient-derived samples for immunofluorescence. Nuclei
+  looked fine, the secondary did not.
+
+- Ran an ELISA on sample set 3. Replicates agreed within ten
+  percent. Standards came out linear, samples did not. Booked the
+  imager for tomorrow at 9.
+
+- Digested the shRNA construct and ran the fragments on a 1% gel.
+  Everything worked and I do not trust it. The ladder ran crooked,
+  everything else looked fine. Stayed late to finish the washes.
+
+- Set up a qPCR plate for the siRNA targets. Results matched the
+  previous run, which is reassuring. Melt curves looked clean,
+  single peak everywhere. Ordered more tips, we are down to the last
+  box.
+
+- Repeated yesterday's blot with a longer transfer. Signal was too
+  weak to quantify. Will increase the exposure next time. Logged
+  everything in the shared folder.
+
+- Repeated yesterday's blot with a longer transfer. Results matched
+  the previous run, which is reassuring. Logged everything in the
+  shared folder.
+
+- Ran a flow cytometry panel on the serum samples. Compensation took
+  longer than the acquisition. Populations separated nicely.
+
+- Ran a flow cytometry panel on the treated and untreated lysates.
+  Too few events in the last tube. Need to recalculate the dilutions
+  before the next run.
+
+- Ran an ELISA on the treated and untreated lysates. Standards came
+  out linear, samples did not. Ran out of gloves in size S.
+
+- Seminar all day, no bench work.
+
+- Ran the cDNA synthesis for the control batch. Results matched the
+  previous run, which is reassuring. Yield was low but usable.
+  Booked the imager for tomorrow at 9.
+
+- Repeated yesterday's blot with a longer transfer. Results matched
+  the previous run, which is reassuring. Signal was too weak to
+  quantify. Will increase the exposure next time. Logged everything
+  in the shared folder.
+
+- Set up a qPCR plate for the housekeeping panel. Everything worked
+  and I do not trust it. Ct values were all over the place, probably
+  a pipetting issue on row C.
+
+- Thawed a new vial of THP-1 cells. No contamination, checked twice.
+  Stayed late to finish the washes.
+
+- Set up a qPCR plate for IL-6 and TNF. Ct values were all over the
+  place, probably a pipetting issue on row C. Need to recalculate
+  the dilutions before the next run.
+
+- Ran a flow cytometry panel on the 9-hour time course. Populations
+  separated nicely. Compensation took longer than the acquisition.
+  Stayed late to finish the washes.
+
+- Seeded HeLa cells in 6-well plates for tomorrow's transfection.
+  Results matched the previous run, which is reassuring.
+
+- Ran an ELISA on replicate 9. Replicates agreed within ten percent.
+  Freezer alarm at 6 pm, false alarm.
+
+- Ran an ELISA on the control batch. Two wells evaporated. Sealed
+  the next plate properly.
+
+- Extracted RNA from sample set 7. Ratios looked good on the
+  NanoDrop. Booked the imager for tomorrow at 9.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes.
+  Replicates agreed within ten percent. The centrifuge is making the
+  noise again.
+
+- Transfected HEK293T cells with the GFP reporter. Results matched
+  the previous run, which is reassuring. Everything worked and I do
+  not trust it. Left the plate at 4C overnight.
+
+- Spent the morning on the confocal with the treated and untreated
+  lysates. Got usable images from 7 fields out of ten.
+
+- Set up a qPCR plate for IL-6 and TNF. Ct values were all over the
+  place, probably a pipetting issue on row C. Stayed late to finish
+  the washes.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes.
+  Everything worked and I do not trust it. Ct values were all over
+  the place, probably a pipetting issue on row C.
+
+- Spent the morning on the confocal with the 6-hour time course.
+  Nuclei looked fine, the secondary did not.
+
+- Transfected HeLa cells with the empty vector control. No
+  contamination, checked twice. Everything worked and I do not trust
+  it. Cleaned the hood and restocked the bench before leaving.
+
+- Stained the serum samples for immunofluorescence. Got usable
+  images from 7 fields out of ten. Logged everything in the shared
+  folder.
+
+- Spent the morning on the confocal with the knockdown clones.
+  Everything worked and I do not trust it. Ordered more tips, we are
+  down to the last box.
+
+- Ran a flow cytometry panel on sample set 3. Populations separated
+  nicely.
+
+- Repeated yesterday's blot with a longer transfer. Results matched
+  the previous run, which is reassuring. Left the plate at 4C
+  overnight.
+
+- Stained sample set 7 for immunofluorescence. Results matched the
+  previous run, which is reassuring. Everything worked and I do not
+  trust it. Lab meeting moved to Thursday.
+
+- Purified plasmid from 7 minipreps. Everything worked and I do not
+  trust it. Results matched the previous run, which is reassuring.
+
+- Ran a western blot on the control batch. Signal was too weak to
+  quantify. Will increase the exposure next time. Lab meeting moved
+  to Thursday.
+
+- Set up a qPCR plate for IL-6 and TNF. Melt curves looked clean,
+  single peak everywhere. Ct values were all over the place,
+  probably a pipetting issue on row C. Need to recalculate the
+  dilutions before the next run.
+
+- Digested plasmid 2 and ran the fragments on a 1% gel. Fragments at
+  the expected size. Everything worked and I do not trust it. Repeat
+  on Friday.
+
+- Counted HEK293T cells and froze down 9 vials. No contamination,
+  checked twice. The centrifuge is making the noise again.
+
+- Transfected Caco-2 cells with the shRNA construct. Everything
+  worked and I do not trust it. Logged everything in the shared
+  folder.
+
+- Spent the morning on the confocal with the control batch. Nuclei
+  looked fine, the secondary did not. Got usable images from 3
+  fields out of ten.
+
+- Counted HEK293T cells and froze down 8 vials. Results matched the
+  previous run, which is reassuring. Everything worked and I do not
+  trust it.
+
+- Ran the cDNA synthesis for the patient-derived samples. One tube
+  came out with almost nothing. Redo. Freezer alarm at 6 pm, false
+  alarm.
+
+- Passaged the fibroblasts at 1:3. Results matched the previous run,
+  which is reassuring. No contamination, checked twice. The
+  centrifuge is making the noise again.
+
+- Ran an ELISA on the treated and untreated lysates. Results matched
+  the previous run, which is reassuring. Need to recalculate the
+  dilutions before the next run.
+
+- Spent the morning on the confocal with the day 5 time point.
+  Nuclei looked fine, the secondary did not.
+
+- Spent the morning on the confocal with the serum samples.
+  Everything worked and I do not trust it. Got usable images from 7
+  fields out of ten. Ran out of gloves in size S.
+
+- Set up a qPCR plate for the siRNA targets. Ct values were all over
+  the place, probably a pipetting issue on row C.
+
+- Set up a qPCR plate for the siRNA targets. Melt curves looked
+  clean, single peak everywhere.
+
+- Repeated yesterday's blot with a longer transfer. Results matched
+  the previous run, which is reassuring. Bands were clean for once.
+
+- Spent the morning on the confocal with the patient-derived
+  samples. Everything worked and I do not trust it. Coffee machine
+  broken. Morale low.
+
+- Ran a western blot on the knockdown clones. Negative control
+  showed a faint band. Not ideal.
+
+- Set up a qPCR plate for the housekeeping panel. Results matched
+  the previous run, which is reassuring. Labelled every tube twice
+  this time.
+
+- Did a BCA assay on the knockdown clones. Standards came out
+  linear, samples did not. Cleaned the hood and restocked the bench
+  before leaving.
+
+- Set up a qPCR plate for the inflammatory panel. Everything worked
+  and I do not trust it. Results matched the previous run, which is
+  reassuring. Freezer alarm at 6 pm, false alarm.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes. Ct
+  values were all over the place, probably a pipetting issue on row
+  C.
+
+- Digested the empty vector control and ran the fragments on a 1%
+  gel. The ladder ran crooked, everything else looked fine.
+
+- Spent the morning on the confocal with the patient-derived
+  samples. Background was high, need a better blocking step.
+
+- Set up a qPCR plate for the siRNA targets. Ct values were all over
+  the place, probably a pipetting issue on row C.
+
+- Ran a flow cytometry panel on sample set 9. Everything worked and
+  I do not trust it. Need to recalculate the dilutions before the
+  next run.
+
+- Ran an ELISA on sample set 3. Replicates agreed within ten
+  percent. Stayed late to finish the washes.
+
+- Ran the cDNA synthesis for the day 4 time point. One tube came out
+  with almost nothing. Redo. Repeat on Monday.
+
+- Repeated yesterday's blot with a longer transfer. Signal was too
+  weak to quantify. Will increase the exposure next time. Background
+  was high across the whole membrane.
+
+- Seeded the fibroblasts in 6-well plates for tomorrow's
+  transfection. No contamination, checked twice. Viability above
+  ninety percent. Need to recalculate the dilutions before the next
+  run.
+
+- Ran the cDNA synthesis for the 7-hour time course. One tube came
+  out with almost nothing. Redo. Yield was low but usable. Freezer
+  alarm at 6 pm, false alarm.
+
+- Counted HeLa cells and froze down 9 vials. No contamination,
+  checked twice.
+
+- Extracted RNA from the control batch. Everything worked and I do
+  not trust it. Ordered more tips, we are down to the last box.
+
+- Ran a flow cytometry panel on replicate 8. Results matched the
+  previous run, which is reassuring. Compensation took longer than
+  the acquisition.
+
+- Digested the empty vector control and ran the fragments on a 1%
+  gel. The ladder ran crooked, everything else looked fine. Labelled
+  every tube twice this time.
+
+- Waiting for reagents. Read papers and reorganised the freezer.
+
+- Ran a flow cytometry panel on replicate 9. Populations separated
+  nicely. Cleaned the hood and restocked the bench before leaving.
+
+- Repeated yesterday's blot with a longer transfer. Background was
+  high across the whole membrane.
+
+- Loaded an agarose gel with the control batch. Fragments at the
+  expected size. Ran out of gloves in size S.
+
+- Ran a flow cytometry panel on the serum samples. Everything worked
+  and I do not trust it.
+
+- Loaded an agarose gel with the control batch. Results matched the
+  previous run, which is reassuring. The ladder ran crooked,
+  everything else looked fine. Logged everything in the shared
+  folder.
+
+- Ran an ELISA on replicate 6. Two wells evaporated. Sealed the next
+  plate properly. Logged everything in the shared folder.
+
+- Purified plasmid from 8 minipreps. Fragments at the expected size.
+  Repeat on Friday.
+
+- Stained sample set 7 for immunofluorescence. Everything worked and
+  I do not trust it. Freezer alarm at 6 pm, false alarm.
+
+- Ran a flow cytometry panel on the control batch. Compensation took
+  longer than the acquisition.
+
+- Spent the morning on the confocal with the patient-derived
+  samples. Nuclei looked fine, the secondary did not. Discussed the
+  results with the supervisor, we keep going.
+
+- Ran a flow cytometry panel on the treated and untreated lysates.
+  Too few events in the last tube.
+
+- Repeated yesterday's blot with a longer transfer. Background was
+  high across the whole membrane. Labelled every tube twice this
+  time.
+
+- Loaded an agarose gel with the knockdown clones. Yield was low but
+  usable. The gel smiled. I did not.
+
+- Loaded an agarose gel with the 2-hour time course. Fragments at
+  the expected size. Freezer alarm at 6 pm, false alarm.
+
+- Transfected the fibroblasts with plasmid 3. Results matched the
+  previous run, which is reassuring. Cleaned the hood and restocked
+  the bench before leaving.
+
+- Repeated yesterday's blot with a longer transfer. Results matched
+  the previous run, which is reassuring. Ran out of gloves in size
+  S.
+
+- Ran the cDNA synthesis for the day 6 time point. Results matched
+  the previous run, which is reassuring. Labelled every tube twice
+  this time.
+
+- Ran a western blot on the treated and untreated lysates.
+  Everything worked and I do not trust it.
+
+- Stained the 7-hour time course for immunofluorescence. Background
+  was high, need a better blocking step. Nuclei looked fine, the
+  secondary did not. Discussed the results with the supervisor, we
+  keep going.
+
+- Set up a qPCR plate for the housekeeping panel. Results matched
+  the previous run, which is reassuring. Ct values were all over the
+  place, probably a pipetting issue on row C.
+
+- Journal club. Presented a paper nobody had read.
+
+- Did a BCA assay on the serum samples. Two wells evaporated. Sealed
+  the next plate properly. Results matched the previous run, which
+  is reassuring.
+
+- Seeded THP-1 cells in 6-well plates for tomorrow's transfection.
+  Confluence was around 50% at the end of the day. Cleaned the hood
+  and restocked the bench before leaving.
+
+- Ran a flow cytometry panel on sample set 2. Compensation took
+  longer than the acquisition. The centrifuge is making the noise
+  again.
+
+- Did a BCA assay on replicate 9. Results matched the previous run,
+  which is reassuring. Standards came out linear, samples did not.
+  Stayed late to finish the washes.
+
+- Ran a flow cytometry panel on the day 6 time point. Compensation
+  took longer than the acquisition.
+
+- Loaded an agarose gel with the patient-derived samples. The gel
+  smiled. I did not. The ladder ran crooked, everything else looked
+  fine.
+
+- Counted HEK293T cells and froze down 8 vials. Viability above
+  ninety percent. Confluence was around 85% at the end of the day.
+
+- Safety training in the morning, cleaning in the afternoon.
+
+- Journal club. Presented a paper nobody had read.
+
+- Transfected THP-1 cells with the GFP reporter. Cells looked
+  stressed under the microscope, maybe the medium. Confluence was
+  around 60% at the end of the day.
+
+- Repeated yesterday's blot with a longer transfer. Signal was too
+  weak to quantify. Will increase the exposure next time. Results
+  matched the previous run, which is reassuring.
+
+- Spent the morning on the confocal with the knockdown clones.
+  Background was high, need a better blocking step. Got usable
+  images from 3 fields out of ten. Labelled every tube twice this
+  time.
+
+- Thawed a new vial of the fibroblasts. No contamination, checked
+  twice. The centrifuge is making the noise again.
+
+- Purified plasmid from 9 minipreps. The gel smiled. I did not.
+  Cleaned the hood and restocked the bench before leaving.
+
+- Ran a western blot on the knockdown clones. Bands were clean for
+  once. Lab meeting moved to Thursday.
+
+- Digested the GFP reporter and ran the fragments on a 1% gel.
+  Everything worked and I do not trust it.
+
+- Extracted RNA from the 9-hour time course. Results matched the
+  previous run, which is reassuring. Yield was low but usable.
+
+- Seminar all day, no bench work.
+
+- Ran a western blot on the day 9 time point. Background was high
+  across the whole membrane.
+
+- Repeated yesterday's blot with a longer transfer. Background was
+  high across the whole membrane. The ladder ran crooked, everything
+  else looked fine. Ordered more tips, we are down to the last box.
+
+- Extracted RNA from the patient-derived samples. Everything worked
+  and I do not trust it. Left the plate at 4C overnight.
+
+- Repeated yesterday's blot with a longer transfer. Background was
+  high across the whole membrane. Logged everything in the shared
+  folder.
+
+- Ran an ELISA on the treated and untreated lysates. Results matched
+  the previous run, which is reassuring. Replicates agreed within
+  ten percent. Cleaned the hood and restocked the bench before
+  leaving.
+
+- Spent the morning on the confocal with the patient-derived
+  samples. Everything worked and I do not trust it. Need to
+  recalculate the dilutions before the next run.
+
+- Ran a flow cytometry panel on the day 9 time point. Too few events
+  in the last tube. Need to recalculate the dilutions before the
+  next run.
+
+- Loaded an agarose gel with the day 4 time point. Results matched
+  the previous run, which is reassuring. Left the plate at 4C
+  overnight.
+
+- Ran a flow cytometry panel on the treated and untreated lysates.
+  Too few events in the last tube. Repeat on Thursday.
+
+- Repeated yesterday's blot with a longer transfer. The ladder ran
+  crooked, everything else looked fine. Signal was too weak to
+  quantify. Will increase the exposure next time.
+
+- Ran an ELISA on the 8-hour time course. Two wells evaporated.
+  Sealed the next plate properly. Left the plate at 4C overnight.
+
+- Ran the cDNA synthesis for the 5-hour time course. One tube came
+  out with almost nothing. Redo.
+
+- Transfected HeLa cells with the empty vector control. Results
+  matched the previous run, which is reassuring. Cells looked
+  stressed under the microscope, maybe the medium.
+
+- Ran a flow cytometry panel on the day 7 time point. Compensation
+  took longer than the acquisition. Ran out of gloves in size S.
+
+- Ran a flow cytometry panel on the treated and untreated lysates.
+  Populations separated nicely. Ordered more tips, we are down to
+  the last box.
+
+- Extracted RNA from the day 2 time point. Results matched the
+  previous run, which is reassuring. Stayed late to finish the
+  washes.
+
+- Ran the cDNA synthesis for sample set 5. Results matched the
+  previous run, which is reassuring. Need to recalculate the
+  dilutions before the next run.
+
+- Spent the morning on the confocal with the control batch. Got
+  usable images from 6 fields out of ten.
+
+- Ran an ELISA on the patient-derived samples. Replicates agreed
+  within ten percent. Two wells evaporated. Sealed the next plate
+  properly. Lab meeting moved to Thursday.
+
+- Ran the cDNA synthesis for the serum samples. One tube came out
+  with almost nothing. Redo. Freezer alarm at 6 pm, false alarm.
+
+- Repeated yesterday's blot with a longer transfer. The ladder ran
+  crooked, everything else looked fine. Logged everything in the
+  shared folder.
+
+- Set up a qPCR plate for IL-6 and TNF. Replicates agreed within ten
+  percent.
+
+- Set up a qPCR plate for the siRNA targets. Melt curves looked
+  clean, single peak everywhere. Results matched the previous run,
+  which is reassuring. Cleaned the hood and restocked the bench
+  before leaving.
+
+- Did a BCA assay on the serum samples. Results matched the previous
+  run, which is reassuring. Everything worked and I do not trust it.
+
+- Repeated yesterday's blot with a longer transfer. Results matched
+  the previous run, which is reassuring.
+
+- Ran the cDNA synthesis for replicate 6. Ratios looked good on the
+  NanoDrop. Yield was low but usable.
+
+- Ran the cDNA synthesis for the control batch. Yield was low but
+  usable. Lab meeting moved to Thursday.
+
+- Ran an ELISA on the patient-derived samples. Two wells evaporated.
+  Sealed the next plate properly.
+
+- Ran a flow cytometry panel on the treated and untreated lysates.
+  Too few events in the last tube.
+
+- Stained sample set 8 for immunofluorescence. Everything worked and
+  I do not trust it. Freezer alarm at 6 pm, false alarm.
+
+- Loaded an agarose gel with the day 5 time point. Fragments at the
+  expected size. Everything worked and I do not trust it.
+
+- Purified plasmid from 7 minipreps. Fragments at the expected size.
+  Labelled every tube twice this time.
+
+- Inventory day. Counted every box of tips in the building.
+
+- Ran the cDNA synthesis for the treated and untreated lysates.
+  Everything worked and I do not trust it. One tube came out with
+  almost nothing. Redo. Logged everything in the shared folder.
+
+- Digested plasmid 5 and ran the fragments on a 1% gel. The gel
+  smiled. I did not.
+
+- Extracted RNA from the treated and untreated lysates. Ratios
+  looked good on the NanoDrop.
+
+- Ran a flow cytometry panel on replicate 8. Populations separated
+  nicely.
+
+- Ran a western blot on the day 2 time point. Negative control
+  showed a faint band. Not ideal.
+
+- Ran the cDNA synthesis for the patient-derived samples. Ratios
+  looked good on the NanoDrop. Lab meeting moved to Thursday.
+
+- Set up a qPCR plate for the siRNA targets. Ct values were all over
+  the place, probably a pipetting issue on row C. Lab meeting moved
+  to Thursday.
+
+- Spent the morning on the confocal with the day 8 time point. Got
+  usable images from 5 fields out of ten. Background was high, need
+  a better blocking step. Ordered more tips, we are down to the last
+  box.
+
+- Thawed a new vial of THP-1 cells. Results matched the previous
+  run, which is reassuring. Cells looked stressed under the
+  microscope, maybe the medium. Logged everything in the shared
+  folder.
+
+- Inventory day. Counted every box of tips in the building.
+
+- Did a BCA assay on the serum samples. Everything worked and I do
+  not trust it. Ran out of gloves in size S.
+
+- Journal club. Presented a paper nobody had read.
+
+- Ran an ELISA on the day 9 time point. Standards came out linear,
+  samples did not. Ordered more tips, we are down to the last box.
+
+- Ran an ELISA on sample set 2. Standards came out linear, samples
+  did not. Two wells evaporated. Sealed the next plate properly.
+
+- Loaded an agarose gel with sample set 5. Results matched the
+  previous run, which is reassuring.
+
+- Ran a flow cytometry panel on sample set 2. Everything worked and
+  I do not trust it. Freezer alarm at 6 pm, false alarm.
+
+- Safety training in the morning, cleaning in the afternoon.
+
+- Ran an ELISA on the treated and untreated lysates. Two wells
+  evaporated. Sealed the next plate properly. Results matched the
+  previous run, which is reassuring. Repeat on Thursday.
+
+- Spent the morning on the confocal with the 6-hour time course. Got
+  usable images from 8 fields out of ten. Background was high, need
+  a better blocking step. Coffee machine broken. Morale low.
+
+- Extracted RNA from the day 8 time point. Ratios looked good on the
+  NanoDrop. One tube came out with almost nothing. Redo. Coffee
+  machine broken. Morale low.
+
+- Did a BCA assay on the control batch. Results matched the previous
+  run, which is reassuring.
+
+- Stained the treated and untreated lysates for immunofluorescence.
+  Everything worked and I do not trust it. Got usable images from 2
+  fields out of ten. Repeat on Tuesday.
+
+- Safety training in the morning, cleaning in the afternoon.
+
+- Loaded an agarose gel with the control batch. Yield was low but
+  usable. Stayed late to finish the washes.
+
+- Stained the knockdown clones for immunofluorescence. Results
+  matched the previous run, which is reassuring.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes. Two
+  wells evaporated. Sealed the next plate properly. Discussed the
+  results with the supervisor, we keep going.
+
+- Spent the morning on the confocal with the knockdown clones.
+  Background was high, need a better blocking step. Repeat on
+  Wednesday.
+
+- Set up a qPCR plate for the inflammatory panel. Replicates agreed
+  within ten percent. Labelled every tube twice this time.
+
+- Ran a flow cytometry panel on the knockdown clones. Results
+  matched the previous run, which is reassuring. Populations
+  separated nicely.
+
+- Did a BCA assay on the treated and untreated lysates. Everything
+  worked and I do not trust it.
+
+- Ran the cDNA synthesis for the 2-hour time course. One tube came
+  out with almost nothing. Redo. Ratios looked good on the NanoDrop.
+
+- Spent the morning on the confocal with the serum samples.
+  Everything worked and I do not trust it.
+
+- Set up a qPCR plate for the inflammatory panel. Two wells
+  evaporated. Sealed the next plate properly. Melt curves looked
+  clean, single peak everywhere. Coffee machine broken. Morale low.
+
+- Stained the 6-hour time course for immunofluorescence. Results
+  matched the previous run, which is reassuring. Left the plate at
+  4C overnight.
+
+- Ran a flow cytometry panel on the control batch. Populations
+  separated nicely. Compensation took longer than the acquisition.
+
+- Safety training in the morning, cleaning in the afternoon.
+
+- Ran a western blot on the 6-hour time course. Signal was too weak
+  to quantify. Will increase the exposure next time.
+
+- Ran a flow cytometry panel on replicate 8. Everything worked and I
+  do not trust it.
+
+- Repeated yesterday's blot with a longer transfer. Bands were clean
+  for once. Labelled every tube twice this time.
+
+- Safety training in the morning, cleaning in the afternoon.
+
+- Purified plasmid from 9 minipreps. Fragments at the expected size.
+  Stayed late to finish the washes.
+
+- Extracted RNA from the day 7 time point. Ratios looked good on the
+  NanoDrop. Need to recalculate the dilutions before the next run.
+
+- Set up a qPCR plate for the inflammatory panel. Results matched
+  the previous run, which is reassuring. Two wells evaporated.
+  Sealed the next plate properly.
+
+- Purified plasmid from 3 minipreps. Results matched the previous
+  run, which is reassuring. Yield was low but usable. Logged
+  everything in the shared folder.
+
+- Ran an ELISA on the knockdown clones. Replicates agreed within ten
+  percent. Everything worked and I do not trust it. Lab meeting
+  moved to Thursday.
+
+- Extracted RNA from the treated and untreated lysates. One tube
+  came out with almost nothing. Redo. Ratios looked good on the
+  NanoDrop. Left the plate at 4C overnight.
+
+- Purified plasmid from 9 minipreps. Results matched the previous
+  run, which is reassuring. Discussed the results with the
+  supervisor, we keep going.
+
+- Ran a flow cytometry panel on the patient-derived samples. Too few
+  events in the last tube. Freezer alarm at 6 pm, false alarm.
+
+- Waiting for reagents. Read papers and reorganised the freezer.
+
+- Digested the empty vector control and ran the fragments on a 1%
+  gel. Yield was low but usable. Cleaned the hood and restocked the
+  bench before leaving.
+
+- Loaded an agarose gel with the control batch. The gel smiled. I
+  did not. Everything worked and I do not trust it. Repeat on
+  Monday.
+
+- Seeded primary keratinocytes in 6-well plates for tomorrow's
+  transfection. Cells looked stressed under the microscope, maybe
+  the medium. Freezer alarm at 6 pm, false alarm.
+
+- Stained the patient-derived samples for immunofluorescence.
+  Background was high, need a better blocking step.
+
+- Ran an ELISA on replicate 9. Results matched the previous run,
+  which is reassuring. Replicates agreed within ten percent. Stayed
+  late to finish the washes.
+
+- Extracted RNA from the day 2 time point. Everything worked and I
+  do not trust it. Results matched the previous run, which is
+  reassuring.
+
+- Counted THP-1 cells and froze down 4 vials. Viability above ninety
+  percent.
+
+- Passaged THP-1 cells at 1:4. Everything worked and I do not trust
+  it. Ordered more tips, we are down to the last box.
+
+- Ran an ELISA on the knockdown clones. Results matched the previous
+  run, which is reassuring. Two wells evaporated. Sealed the next
+  plate properly. Logged everything in the shared folder.
+
+- Ran the cDNA synthesis for the treated and untreated lysates.
+  Results matched the previous run, which is reassuring. Booked the
+  imager for tomorrow at 9.
+
+- Safety training in the morning, cleaning in the afternoon.
+
+- Counted Caco-2 cells and froze down 8 vials. Everything worked and
+  I do not trust it. Cells looked stressed under the microscope,
+  maybe the medium. Left the plate at 4C overnight.
+
+- Spent the morning on the confocal with sample set 2. Results
+  matched the previous run, which is reassuring. Nuclei looked fine,
+  the secondary did not.
+
+- Extracted RNA from the knockdown clones. Yield was low but usable.
+
+- Did a BCA assay on the knockdown clones. Standards came out
+  linear, samples did not. Two wells evaporated. Sealed the next
+  plate properly. Freezer alarm at 6 pm, false alarm.
+
+- Stained sample set 5 for immunofluorescence. Everything worked and
+  I do not trust it. Logged everything in the shared folder.
+
+- Seeded HEK293T cells in 6-well plates for tomorrow's transfection.
+  Everything worked and I do not trust it. No contamination, checked
+  twice. Freezer alarm at 6 pm, false alarm.
+
+- Ran a flow cytometry panel on replicate 5. Everything worked and I
+  do not trust it. Coffee machine broken. Morale low.
+
+- Ran the cDNA synthesis for sample set 2. Yield was low but usable.
+  Ratios looked good on the NanoDrop.
+
+- Ran a flow cytometry panel on the serum samples. Compensation took
+  longer than the acquisition. Ordered more tips, we are down to the
+  last box.
+
+- Set up a qPCR plate for the siRNA targets. Two wells evaporated.
+  Sealed the next plate properly. Labelled every tube twice this
+  time.
+
+- Spent the morning on the confocal with the knockdown clones.
+  Background was high, need a better blocking step.
+
+- Ran a flow cytometry panel on sample set 8. Results matched the
+  previous run, which is reassuring. Compensation took longer than
+  the acquisition. Ran out of gloves in size S.
+
+- Ran the cDNA synthesis for the patient-derived samples. Yield was
+  low but usable.
+
+- Set up a qPCR plate for the inflammatory panel. Results matched
+  the previous run, which is reassuring. Melt curves looked clean,
+  single peak everywhere. Need to recalculate the dilutions before
+  the next run.
+
+- Set up a qPCR plate for the housekeeping panel. Results matched
+  the previous run, which is reassuring.
+
+- Ran a flow cytometry panel on replicate 5. Too few events in the
+  last tube. Populations separated nicely. Coffee machine broken.
+  Morale low.
+
+- Set up a qPCR plate for the housekeeping panel. Everything worked
+  and I do not trust it.
+
+- Stained the treated and untreated lysates for immunofluorescence.
+  Everything worked and I do not trust it. Nuclei looked fine, the
+  secondary did not. Coffee machine broken. Morale low.
+
+- Loaded an agarose gel with the day 7 time point. Everything worked
+  and I do not trust it. Yield was low but usable. Ran out of gloves
+  in size S.
+
+- Ran a western blot on the control batch. The ladder ran crooked,
+  everything else looked fine.
+
+- Spent the morning on the confocal with replicate 2. Got usable
+  images from 9 fields out of ten.
+
+- Stained the serum samples for immunofluorescence. Got usable
+  images from 3 fields out of ten. Everything worked and I do not
+  trust it.
+
+- Ran a western blot on the serum samples. The ladder ran crooked,
+  everything else looked fine.
+
+- Ran an ELISA on the treated and untreated lysates. Results matched
+  the previous run, which is reassuring. Repeat on Friday.
+
+- Seeded HeLa cells in 6-well plates for tomorrow's transfection.
+  Everything worked and I do not trust it. Labelled every tube twice
+  this time.
+
+- Did a BCA assay on the 9-hour time course. Replicates agreed
+  within ten percent. Cleaned the hood and restocked the bench
+  before leaving.
+
+- Made the figures for chapter 5.
+
+- Rewrote the introduction. Again.
+
+- Rewrote the introduction. Again. Repeat on Monday.
+
+- Ran a flow cytometry panel on the patient-derived samples.
+  Everything worked and I do not trust it. Populations separated
+  nicely.
+
+- Wrote the methods section for the western blot experiments. Ran
+  out of gloves in size S.
+
+- Rewrote the introduction. Again.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes.
+  Everything worked and I do not trust it. Lab meeting moved to
+  Thursday.
+
+- Ran a western blot on the day 6 time point. Background was high
+  across the whole membrane. Negative control showed a faint band.
+  Not ideal. Discussed the results with the supervisor, we keep
+  going.
+
+- Digested plasmid 7 and ran the fragments on a 1% gel. Results
+  matched the previous run, which is reassuring.
+
+- Safety training in the morning, cleaning in the afternoon.
+
+- Wrote the methods section for the qPCR experiments.
+
+- Rewrote the introduction. Again.
+
+- Stained the patient-derived samples for immunofluorescence.
+  Results matched the previous run, which is reassuring. Background
+  was high, need a better blocking step. Repeat on Tuesday.
+
+- Extracted RNA from the serum samples. Ratios looked good on the
+  NanoDrop.
+
+- Re-ran the statistics for figure 4 and updated the legend.
+
+- Set up a qPCR plate for the inflammatory panel. Melt curves looked
+  clean, single peak everywhere.
+
+- Rewrote the introduction. Again. Logged everything in the shared
+  folder.
+
+- Spent the morning on the confocal with the treated and untreated
+  lysates. Results matched the previous run, which is reassuring.
+  Got usable images from 6 fields out of ten. Left the plate at 4C
+  overnight.
+
+- Wrote the methods section for the western blot experiments.
+
+- Made the figures for chapter 3.
+
+- Purified plasmid from 5 minipreps. Everything worked and I do not
+  trust it.
+
+- Stained the treated and untreated lysates for immunofluorescence.
+  Results matched the previous run, which is reassuring. Nuclei
+  looked fine, the secondary did not. Booked the imager for tomorrow
+  at 9.
+
+- Ran a flow cytometry panel on replicate 9. Results matched the
+  previous run, which is reassuring. Repeat on Thursday.
+
+- Waiting for reagents. Read papers and reorganised the freezer.
+
+- Wrote the methods section for the immunofluorescence experiments.
+
+- Digested plasmid 3 and ran the fragments on a 1% gel. The ladder
+  ran crooked, everything else looked fine. Freezer alarm at 6 pm,
+  false alarm.
+
+- Checked every reference in chapter 7.
+
+- Made the figures for chapter 8.
+
+- Spent the morning on the confocal with the knockdown clones.
+  Nuclei looked fine, the secondary did not. The centrifuge is
+  making the noise again.
+
+- Ran a flow cytometry panel on the patient-derived samples.
+  Compensation took longer than the acquisition.
+
+- Ran a flow cytometry panel on sample set 8. Compensation took
+  longer than the acquisition.
+
+- Made the figures for chapter 9.
+
+- Ran an ELISA on replicate 7. Replicates agreed within ten percent.
+
+- Seminar all day, no bench work.
+
+- Ran a flow cytometry panel on the day 7 time point. Results
+  matched the previous run, which is reassuring. Everything worked
+  and I do not trust it. Stayed late to finish the washes.
+
+- Formatted the tables for chapter 6. Lost an hour to the margins.
+  Ordered more tips, we are down to the last box.
+
+- Re-ran the statistics for figure 6 and updated the legend.
+
+- Wrote the methods section for the western blot experiments.
+
+- Ran a flow cytometry panel on sample set 7. Everything worked and
+  I do not trust it. Populations separated nicely. Stayed late to
+  finish the washes.
+
+- Formatted the tables for chapter 5. Lost an hour to the margins.
+  Left the plate at 4C overnight.
+
+- Rewrote the introduction. Again.
+
+- Ran an ELISA on the control batch. Results matched the previous
+  run, which is reassuring. Logged everything in the shared folder.
+
+- Digested the empty vector control and ran the fragments on a 1%
+  gel. Fragments at the expected size. The ladder ran crooked,
+  everything else looked fine.
+
+- Rewrote the introduction. Again.
+
+- Loaded an agarose gel with the patient-derived samples. The gel
+  smiled. I did not.
+
+- Wrote the methods section for the flow cytometry experiments.
+  Repeat on Tuesday.
+
+- Extracted RNA from the knockdown clones. Ratios looked good on the
+  NanoDrop. Yield was low but usable. Freezer alarm at 6 pm, false
+  alarm.
+
+- Ran an ELISA on the knockdown clones. Standards came out linear,
+  samples did not.
+
+- Set up a qPCR plate for GAPDH and the three candidate genes.
+  Everything worked and I do not trust it. Ct values were all over
+  the place, probably a pipetting issue on row C.
+
+- Checked every reference in chapter 9. Discussed the results with
+  the supervisor, we keep going.
+
+- Ran the cDNA synthesis for the patient-derived samples. Results
+  matched the previous run, which is reassuring. Coffee machine
+  broken. Morale low.
+
+- Ran a flow cytometry panel on the knockdown clones. Populations
+  separated nicely. Results matched the previous run, which is
+  reassuring.
+
+- Transfected HeLa cells with the empty vector control. Cells looked
+  stressed under the microscope, maybe the medium.
+
+- Re-ran the statistics for figure 7 and updated the legend.
+  Labelled every tube twice this time.
+
+- Made the figures for chapter 8. Left the plate at 4C overnight.
+
+- Ran the cDNA synthesis for the knockdown clones. Yield was low but
+  usable.
+
+- Rewrote the introduction. Again.
+
+- Checked every reference in chapter 6.
+
+- Wrote the methods section for the western blot experiments.
+
+- Ran a flow cytometry panel on the patient-derived samples.
+  Everything worked and I do not trust it. Ran out of gloves in size
+  S.
+
+- Rewrote the introduction. Again.
+
+- Extracted RNA from the day 9 time point. Ratios looked good on the
+  NanoDrop. Yield was low but usable.
+
+- Formatted the tables for chapter 2. Lost an hour to the margins.
+  The centrifuge is making the noise again.
+
+- Rewrote the introduction. Again. Cleaned the hood and restocked
+  the bench before leaving.
+
+- Checked every reference in chapter 9. Ordered more tips, we are
+  down to the last box.
+
+- Made the figures for chapter 7.
+
+- Checked every reference in chapter 7. Discussed the results with
+  the supervisor, we keep going.
+
+- Counted primary keratinocytes and froze down 2 vials. Cells looked
+  stressed under the microscope, maybe the medium.
+
+- Wrote the methods section for the western blot experiments.
+
+- Wrote the methods section for the immunofluorescence experiments.
+
+- Checked every reference in chapter 6.
+
+- Seminar all day, no bench work.
+
+- Wrote the methods section for the western blot experiments.
+
+- Purified plasmid from 7 minipreps. The gel smiled. I did not.
+  Labelled every tube twice this time.
+
+- Thawed a new vial of THP-1 cells. Everything worked and I do not
+  trust it. Results matched the previous run, which is reassuring.
+  Stayed late to finish the washes.
+
+- Ran a flow cytometry panel on replicate 3. Everything worked and I
+  do not trust it. Discussed the results with the supervisor, we
+  keep going.
+
+- Rewrote the introduction. Again. Freezer alarm at 6 pm, false
+  alarm.
+
+- Re-ran the statistics for figure 9 and updated the legend.
+
+- Counted HEK293T cells and froze down 6 vials. Viability above
+  ninety percent. Everything worked and I do not trust it. Freezer
+  alarm at 6 pm, false alarm.
+
+- Rewrote the introduction. Again. Discussed the results with the
+  supervisor, we keep going.
+
+- Lorem tempor anim cillum sunt suscipit. Pariatur ad pariatur
+  praesent laboris. Aute laboris in.
+
+- Ut elit pariatur quis ut tincidunt. Sed in.
+
+- Sunt commodo culpa ipsum elit. Dolor voluptate et
+  incididunt nulla velit. Amet proident velit.
+
+- Commodo cupidatat in pariatur elit officia sit irure cillum
+  in. Velit dolor suscipit fugiat.
+
+- Et et amet dolore nunc pariatur reprehenderit sit qui. Culpa
+  cupidatat occaecat ex culpa nisi.
+
+- «Sit suscipit non commodo aliqua aliquip dolor dolor aute. Culpa
+  consequat velit magna tempor veniam amet.»
+
+- «Nunc velit elit ipsum ea est elit. Lacus.»
+
+- «Anim est voluptate nostrud ad sunt enim curabitur. Nunc
+  sunt amet veniam eiusmod reprehenderit sint.»
+
+- VOCE CHIUSA. Discussione superata, pratica archiviata.
+  Due anni. Una tesi. Basta bozze.
+  La password è in cima, dentro uno dei ricordi, scritta tutta
+  in maiuscolo.
